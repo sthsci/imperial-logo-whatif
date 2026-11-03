@@ -1,0 +1,148 @@
+# Design of the "Did the brand work?" analysis (src/logowhatif/impact.py).
+# Imperial says the new brand will help it attract students, staff, funding and partners.
+# Each outcome below is a yearly or monthly count for Imperial and the other 23 Russell Group
+# universities. Imperial is compared with them before and after the launch on 27 Feb 2024.
+
+launch = "2024-02-27"
+launch_label = "27 February 2024"
+
+# Donors: the other Russell Group members. To keep the placebo comparison fair, a donor needs a
+# pre-launch average of at least this share of Imperial's and no zero values in the window.
+min_donor_scale = 0.25
+
+# The outcomes combined in the overall ("pooled") estimate: one per claim, chosen before the
+# pooled result was computed. International applicants are a subset of all applicants, so
+# they are shown but not pooled.
+pooled = ["attention", "applicants", "wellcome", "innovate"]
+
+# Uncertainty levels.
+interval = 0.95
+power = 0.80
+
+# Pooled model: how much the brand effect may differ between outcomes (half-normal SD, log points).
+omega_sd = 0.10
+
+# Something else that happened to Imperial alone after the launch (a confounder, not an input).
+[context.qs]
+fact = "Imperial rose from sixth in the QS World University Rankings 2024 to second in the 2025 edition, published on 4 June 2024."
+source = "Imperial College London news, 'Imperial ranks second in the world in major university ranking', 4 June 2024"
+source_url = "https://www.imperial.ac.uk/news/253793/imperial-ranks-second-world-major-university/"
+
+[fee]
+# Break-even for students: what extra international undergraduates are worth in fees.
+overseas_ug_fee_gbp = 43300
+years = 4
+label = "2025 entry, overseas, per year"
+source = "Imperial College London, undergraduate tuition fees 2025-26 (Faculty of Engineering; Faculty of Natural Sciences, same fee). Read 3 Nov 2026."
+source_url = "https://www.imperial.ac.uk/students/fees-and-funding/tuition-fees/undergraduate-tuition-fees/2025-26/faculty-of-engineering/"
+
+# Three starting beliefs about the brand effect (log points, ≈ % change), for the Bayesian page
+# panel. They are stances to compare, not estimates from the literature.
+[priors.sceptic]
+label = "Sceptic"
+m = 0.0
+s = 0.02
+note = "A new logo rarely moves hard numbers: 95% sure the effect is between −4% and +4%."
+
+[priors.open]
+label = "Open mind"
+m = 0.0
+s = 0.10
+note = "Anything from about −20% to +20% is plausible."
+
+[priors.believer]
+label = "Brand agency"
+m = 0.05
+s = 0.025
+note = "The brand works: probably between 0% and +10%."
+
+[[outcomes]]
+key = "attention"
+claim = "Attention"
+label = "Wikipedia page views"
+short = "Page views"
+noun = "page views"
+question = "Do more people look Imperial up?"
+file = "wikipedia_pageviews_monthly.csv"
+period = "month"
+value = "views"
+pre = ["2015-07", "2024-01"]
+post = ["2024-03", "2026-10"]
+period_label = "month"
+note = "Monthly English Wikipedia views of each university's article, by people (not bots). The launch month, February 2024, is left out."
+source = "Wikimedia Pageviews API"
+source_url = "https://wikimedia.org/api/rest_v1/"
+
+[[outcomes]]
+key = "applicants"
+claim = "Students"
+label = "Undergraduate applicants"
+short = "Applicants"
+noun = "applicants"
+question = "Do more students apply?"
+file = "ucas_applications.csv"
+period = "cycle"
+value = "applicants"
+domicile = "all"
+pre = ["2016", "2024"]
+post = ["2025", "2025"]
+period_label = "UCAS cycle"
+note = "Main-scheme undergraduate applicants per UCAS cycle. The 2024 cycle's main deadline (31 Jan 2024) came before the launch, so 2025 is the first cycle after it. 2026 figures are not out until December 2026."
+source = "UCAS end of cycle 2025, provider-level data"
+source_url = "https://www.ucas.com/data-and-analysis/undergraduate-statistics-and-reports/ucas-undergraduate-end-of-cycle-data-resources-2025"
+
+[[outcomes]]
+key = "intl_applicants"
+claim = "Students"
+label = "International undergraduate applicants"
+short = "International applicants"
+noun = "international applicants"
+question = "Do more students from abroad apply?"
+file = "ucas_applications.csv"
+period = "cycle"
+value = "applicants"
+domicile = "international"
+pre = ["2016", "2024"]
+post = ["2025", "2025"]
+period_label = "UCAS cycle"
+note = "As above, applicants from outside the UK only: the audience a stronger global brand should reach first."
+source = "UCAS end of cycle 2025, provider-level data"
+source_url = "https://www.ucas.com/data-and-analysis/undergraduate-statistics-and-reports/ucas-undergraduate-end-of-cycle-data-resources-2025"
+breakeven = "students"
+
+[[outcomes]]
+key = "wellcome"
+claim = "Funding"
+label = "Wellcome grant money"
+short = "Wellcome funding"
+noun = "Wellcome funding"
+question = "Does Imperial win more research money?"
+file = "wellcome_grants_monthly.csv"
+period = "march_year"
+value = "amount_gbp"
+pre = ["2014", "2023"]
+post = ["2024", "2025"]
+period_label = "year from March"
+note = "Money awarded by Wellcome, the UK's largest charitable research funder, in years running March to February, so the first year after the launch is March 2024 to February 2025."
+source = "Wellcome grants awarded, 1 Oct 2000 to 9 Sep 2026 (360Giving)"
+source_url = "https://wellcome.org/research-funding/funding-portfolio"
+breakeven = "money"
+
+[[outcomes]]
+key = "innovate"
+claim = "Partners"
+label = "Innovate UK projects with industry"
+short = "Industry projects"
+noun = "industry projects"
+question = "Do more companies team up with Imperial?"
+file = "innovate_uk_projects.csv"
+period = "competition_year"
+value = "projects"
+award = "award_gbp"
+pre = ["2017/18", "2023/24"]
+post = ["2024/25", "2025/26"]
+period_label = "competition year"
+note = "Innovate UK projects (business-led collaborative R&D) that each university joined, by the year of the funding competition (April to March). 2026/27 is still open and left out."
+source = "UKRI, Innovate UK funded projects since 2004 (updated 12 Oct 2026)"
+source_url = "https://www.ukri.org/publications/innovate-uk-funded-projects-since-2004/"
+breakeven = "money"

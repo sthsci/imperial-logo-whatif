@@ -1,7 +1,7 @@
 PYTHON ?= python3
 export PYTHONPATH := src
 
-.PHONY: all analysis test site clean
+.PHONY: all analysis test site fetch clean
 
 all: analysis test
 
@@ -11,6 +11,10 @@ analysis:
 
 test:
 	$(PYTHON) -m pytest -q
+
+## Re-download the open data behind "Did it work?" (needs internet; raw files go to data/impact/raw/)
+fetch:
+	$(PYTHON) scripts/fetch_impact_data.py pageviews ucas innovate_uk wellcome
 
 ## Serve the interactive page at http://localhost:8766
 site:

@@ -162,3 +162,147 @@ Price: Imperial research associate, one year = £50,733 each. Source: Imperial r
 | `lab_cost_per_m2` | 4,500 | Savills (18 May 2026): wet-lab shell and core ≈ £420/sq ft ≈ £4,521/m², fit-out extra (https://www.savills.co.uk/research_articles/229130/390425-0); AECOM cost model for a mostly CL2 university lab, £4,442/m² at Q4 2015 prices, excl. equipment, fees and VAT (https://www.building.co.uk/cost-model-laboratories/5078736.article). A lower bound for a working lab. |
 | `lab_m2_per_workplace` | 7.5 | Imperial space norms: 7.5 m² per laboratory workplace (https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/estates-projects/public/space/sm02spacenorms.pdf) |
 | `pi_startup_gbp` | 40,000 | Acton et al. 2019, 'A survey of new PIs in the UK', eLife 8:e46827: average start-up funds £45.6k (men), £31k (women), 2012–18 appointments (https://elifesciences.org/articles/46827) |
+
+## 7. Did the brand work?
+
+Imperial says the brand launched on 27 February 2024 will help it attract students, staff, funding and partners. We compare Imperial with the other 23 Russell Group universities before and after the launch. Every outcome is analysed on the log scale, so an effect of 0.05 log points is about +5%. A comparison university is used if it has no zero values and a pre-launch average of at least 25% of Imperial's. Inputs and their sources are in `data/impact/`; the design is in `data/impact/design.toml`; the code is `src/logowhatif/impact.py`. Staff are not tested: HESA's staff record is the only comparable source and its site blocks automated downloads.
+
+### Outcomes
+
+| Outcome | Claim | Periods before → after | Comparison universities | Source |
+|---|---|---|---:|---|
+| Wikipedia page views | Attention | 2015-07 to 2024-01 → 2024-03 to 2026-10 (month) | 23 | [Wikimedia Pageviews API](https://wikimedia.org/api/rest_v1/) |
+| Undergraduate applicants | Students | 2016 to 2024 → 2025 (UCAS cycle) | 23 | [UCAS end of cycle 2025, provider-level data](https://www.ucas.com/data-and-analysis/undergraduate-statistics-and-reports/ucas-undergraduate-end-of-cycle-data-resources-2025) |
+| International undergraduate applicants | Students | 2016 to 2024 → 2025 (UCAS cycle) | 23 | [UCAS end of cycle 2025, provider-level data](https://www.ucas.com/data-and-analysis/undergraduate-statistics-and-reports/ucas-undergraduate-end-of-cycle-data-resources-2025) |
+| Wellcome grant money | Funding | 2014 to 2023 → 2024 to 2025 (year from March) | 13 | [Wellcome grants awarded, 1 Oct 2000 to 9 Sep 2026 (360Giving)](https://wellcome.org/research-funding/funding-portfolio) |
+| Innovate UK projects with industry | Partners | 2017/18 to 2023/24 → 2024/25 to 2025/26 (competition year) | 20 | [UKRI, Innovate UK funded projects since 2004 (updated 12 Oct 2026)](https://www.ukri.org/publications/innovate-uk-funded-projects-since-2004/) |
+
+### Methods
+
+- **Imperial's own trend (interrupted time series).** Fit log(y) = a + b·t (plus month effects for monthly data) to Imperial before the launch, extend it, and average the gap after. Standard error from the regression, widened for first-order autocorrelation; t-test.
+- **Difference-in-differences.** Imperial's change in mean log value (after minus before) minus the average change at the comparison universities. Each comparison university is then treated as if it had rebranded (a placebo) and compared with the rest. The 95% interval is estimate ± t × SD(placebos) × √(1 + 1/J); the p-value is the share of placebos at least as large (counting Imperial).
+- **Synthetic control.** Weights w ≥ 0 with Σw = 1 that make a blend of comparison universities track Imperial's pre-launch path (logs minus each university's pre-launch mean). The effect is the average gap after the launch; placebos as above.
+- **Bayesian synthetic control.** Conjugate regression of Imperial on the comparison universities before the launch: y = α + Σ βⱼ yⱼ + ε, βⱼ ~ N(1/J, σ²/λ), α ~ N(0, 100σ²), p(σ²) ∝ 1/σ². λ (between 0.1 and 10,000) maximises the marginal likelihood. The posterior predictive gives the counterfactual and its credible band. Its interval assumes the regression is right, so it is narrower than the placebo-based ones.
+- **Placebo-calibrated Bayesian model (used for the verdicts).** Treat the synthetic-control gaps of the J placebo universities as draws eⱼ ~ N(μ, σ²) and Imperial's as e₀ ~ N(μ + δ, σ²). With p(μ, σ²) ∝ 1/σ², the likelihood for the brand effect δ is Student-t with J − 1 degrees of freedom, centre e₀ − ē and scale SD(e)·√(1 + 1/J). Combined with a normal prior on a grid; the Bayes factor for 'any effect' is the Savage–Dickey ratio prior(0) / posterior(0).
+- **Pooled.** One outcome per claim (attention, applicants, wellcome, innovate): dₖ ~ N(Δ, vₖ + ω²), ω ~ half-normal(0.1), vₖ the variance of each calibrated likelihood. Δ is the average brand effect.
+- **Smallest detectable effect** = (t₀.₉₇₅ + t₀.₈₀) × scale of the calibrated likelihood: the effect this test would catch 80% of the time.
+- **Break-even** = the bill ÷ what a 100% rise in one year of the outcome would be worth: for international applicants, one year's international intake (UCAS accepted applicants) × the overseas fee (£43,300 a year, 4 years); for money, Imperial's average yearly amount over the last three years before the launch.
+
+### Wikipedia page views
+
+Monthly English Wikipedia views of each university's article, by people (not bots). The launch month, February 2024, is left out. Imperial: 27,187 a month before the launch (geometric mean), 21,805 after.
+Synthetic-control blend: Nottingham 49%, Sheffield 17%, King's College London 15%, Bristol 10%, Oxford 6%.
+
+| Method | Effect | 95% interval | p |
+|---|---:|---:|---:|
+| Imperial's own trend (interrupted time series) | -12.3% | -28.7% to +7.7% | 0.21 |
+| Difference-in-differences | +4.9% | -14.5% to +28.6% | 0.58 |
+| Synthetic control | +14.4% | -6.8% to +40.5% | 0.21 |
+| Bayesian synthetic control | +23.9% | +6.6% to +44.1% | P(effect > 0) = 1.00 |
+
+Imperial's synthetic-control gap ranks 5 of 24 in size (1 = largest); post/pre fit ratio p = 0.33. Calibrated likelihood: centre +14.6%, scale 0.099, 22 df. Smallest detectable effect: 34%.
+
+| Prior | Posterior median | 95% credible interval | P(effect > 0) | Bayes factor for an effect |
+|---|---:|---:|---:|---:|
+| Sceptic: N(+0.00, 0.020) | +0.5% | -3.3% to +4.5% | 0.60 | 1.02 |
+| Open mind: N(+0.00, 0.100) | +7.1% | -7.3% to +22.9% | 0.83 | 1.14 |
+| Brand agency: N(+0.05, 0.025) | +5.7% | +0.8% to +10.8% | 0.99 | 1.74 |
+
+### Undergraduate applicants
+
+Main-scheme undergraduate applicants per UCAS cycle. The 2024 cycle's main deadline (31 Jan 2024) came before the launch, so 2025 is the first cycle after it. 2026 figures are not out until December 2026. Imperial: 23,161 a UCAS cycle before the launch (geometric mean), 30,020 after.
+Synthetic-control blend: LSE 59%, UCL 33%.
+
+| Method | Effect | 95% interval | p |
+|---|---:|---:|---:|
+| Imperial's own trend (interrupted time series) | -7.9% | -14.9% to -0.5% | 0.04 |
+| Difference-in-differences | +11.9% | -7.0% to +34.6% | 0.21 |
+| Synthetic control | -2.5% | -14.1% to +10.6% | 0.67 |
+| Bayesian synthetic control | -3.8% | -14.3% to +8.1% | P(effect > 0) = 0.24 |
+
+Imperial's synthetic-control gap ranks 16 of 24 in size (1 = largest); post/pre fit ratio p = 0.75. Calibrated likelihood: centre -1.8%, scale 0.061, 22 df. Smallest detectable effect: 20%.
+
+| Prior | Posterior median | 95% credible interval | P(effect > 0) | Bayes factor for an effect |
+|---|---:|---:|---:|---:|
+| Sceptic: N(+0.00, 0.020) | -0.2% | -3.8% to +3.6% | 0.46 | 0.95 |
+| Open mind: N(+0.00, 0.100) | -1.3% | -11.1% to +9.6% | 0.40 | 0.54 |
+| Brand agency: N(+0.05, 0.025) | +4.1% | -0.5% to +9.0% | 0.96 | 0.56 |
+
+### International undergraduate applicants
+
+As above, applicants from outside the UK only: the audience a stronger global brand should reach first. Imperial: 13,153 a UCAS cycle before the launch (geometric mean), 16,885 after.
+Synthetic-control blend: Bristol 38%, Leeds 34%, UCL 16%, Manchester 11%.
+
+| Method | Effect | 95% interval | p |
+|---|---:|---:|---:|
+| Imperial's own trend (interrupted time series) | -11.4% | -21.3% to -0.3% | 0.05 |
+| Difference-in-differences | +9.4% | -21.1% to +51.6% | 0.67 |
+| Synthetic control | -4.4% | -20.1% to +14.4% | 0.79 |
+| Bayesian synthetic control | -2.7% | -14.9% to +11.2% | P(effect > 0) = 0.33 |
+
+Imperial's synthetic-control gap ranks 19 of 24 in size (1 = largest); post/pre fit ratio p = 0.71. Calibrated likelihood: centre -3.8%, scale 0.087, 22 df. Smallest detectable effect: 29%.
+Break-even: 0.16% (one year's international intake, at the overseas fee for a four-year degree).
+
+| Prior | Posterior median | 95% credible interval | P(effect > 0) | Bayes factor for an effect | P(pays for itself) |
+|---|---:|---:|---:|---:|---:|
+| Sceptic: N(+0.00, 0.020) | -0.2% | -3.9% to +3.7% | 0.46 | 0.98 | 0.43 |
+| Open mind: N(+0.00, 0.100) | -2.2% | -14.0% to +11.5% | 0.37 | 0.69 | 0.36 |
+| Brand agency: N(+0.05, 0.025) | +4.4% | -0.4% to +9.5% | 0.96 | 0.65 | 0.96 |
+
+### Wellcome grant money
+
+Money awarded by Wellcome, the UK's largest charitable research funder, in years running March to February, so the first year after the launch is March 2024 to February 2025. Imperial: 25,893,985 a year from March before the launch (geometric mean), 24,133,112 after.
+Synthetic-control blend: Cambridge 44%, Cardiff 24%, Newcastle 16%, Glasgow 13%.
+
+| Method | Effect | 95% interval | p |
+|---|---:|---:|---:|
+| Imperial's own trend (interrupted time series) | +18.4% | -42.4% to +143.6% | 0.60 |
+| Difference-in-differences | -17.4% | -68.5% to +116.8% | 0.64 |
+| Synthetic control | +2.3% | -60.8% to +167.0% | 1.00 |
+| Bayesian synthetic control | -3.3% | -42.8% to +63.6% | P(effect > 0) = 0.45 |
+
+Imperial's synthetic-control gap ranks 14 of 14 in size (1 = largest); post/pre fit ratio p = 0.43. Calibrated likelihood: centre +2.2%, scale 0.441, 12 df. Smallest detectable effect: 284%.
+Break-even: 1.68% (Imperial's average yearly amount over the last three years before the launch).
+
+| Prior | Posterior median | 95% credible interval | P(effect > 0) | Bayes factor for an effect | P(pays for itself) |
+|---|---:|---:|---:|---:|---:|
+| Sceptic: N(+0.00, 0.020) | +0.0% | -3.8% to +4.0% | 0.50 | 1.00 | 0.20 |
+| Open mind: N(+0.00, 0.100) | +0.1% | -17.3% to +21.2% | 0.50 | 0.97 | 0.44 |
+| Brand agency: N(+0.05, 0.025) | +5.1% | +0.1% to +10.4% | 0.98 | 1.00 | 0.91 |
+
+### Innovate UK projects with industry
+
+Innovate UK projects (business-led collaborative R&D) that each university joined, by the year of the funding competition (April to March). 2026/27 is still open and left out. Imperial: 33 a competition year before the launch (geometric mean), 13 after.
+Synthetic-control blend: Exeter 39%, Leeds 27%, Glasgow 19%, UCL 15%.
+
+| Method | Effect | 95% interval | p |
+|---|---:|---:|---:|
+| Imperial's own trend (interrupted time series) | -81.1% | -94.5% to -34.9% | 0.02 |
+| Difference-in-differences | -39.2% | -69.3% to +20.3% | 0.19 |
+| Synthetic control | -35.6% | -71.1% to +43.2% | 0.19 |
+| Bayesian synthetic control | -38.6% | -55.7% to -14.8% | P(effect > 0) = 0.00 |
+
+Imperial's synthetic-control gap ranks 4 of 21 in size (1 = largest); post/pre fit ratio p = 0.38. Calibrated likelihood: centre -34.5%, scale 0.382, 19 df. Smallest detectable effect: 209%.
+Break-even: 2.22% (Imperial's average yearly amount over the last three years before the launch).
+
+| Prior | Posterior median | 95% credible interval | P(effect > 0) | Bayes factor for an effect | P(pays for itself) |
+|---|---:|---:|---:|---:|---:|
+| Sceptic: N(+0.00, 0.020) | -0.1% | -4.0% to +3.9% | 0.48 | 1.00 | 0.12 |
+| Open mind: N(+0.00, 0.100) | -2.7% | -19.5% to +17.8% | 0.39 | 1.01 | 0.31 |
+| Brand agency: N(+0.05, 0.025) | +4.9% | -0.1% to +10.2% | 0.97 | 0.86 | 0.85 |
+
+### Read with care
+
+- **Other things happened to Imperial too.** Imperial rose from sixth in the QS World University Rankings 2024 to second in the 2025 edition, published on 4 June 2024. Source: Imperial College London news, 'Imperial ranks second in the world in major university ranking', 4 June 2024 (https://www.imperial.ac.uk/news/253793/imperial-ranks-second-world-major-university/). Anything that changed for Imperial alone after the launch is mixed in with the brand's effect.
+- **It is early.** One UCAS cycle and one or two years of grants after the launch; the previous logo lasted 22 years.
+- **Proxies.** Applicants are not students; Wellcome is one funder; Innovate UK projects are one kind of industry partnership; page views measure attention.
+- **Innovate UK 2025/26 is still being filled in** (the sector total is half the previous year's).
+
+### All outcomes together
+
+| Prior | Average brand effect | 95% credible interval | P(effect > 0) |
+|---|---:|---:|---:|
+| Sceptic | +0.2% | -3.5% to +4.0% | 0.53 |
+| Open mind | +1.3% | -10.0% to +13.7% | 0.59 |
+| Brand agency | +4.7% | +0.0% to +9.7% | 0.98 |
+| Flat (data only) | +1.9% | -13.6% to +19.9% | 0.61 |

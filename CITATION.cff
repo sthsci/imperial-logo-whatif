@@ -5,7 +5,7 @@ authors:
   - family-names: Marsian
     given-names: Jiggle
     affiliation: Imperial College London
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-11-03
 license: MIT
 repository-code: "https://github.com/sthsci/imperial-logo-whatif"
@@ -16,4 +16,7 @@ keywords:
   - freedom of information
   - PhD funding
   - laboratory costs
+  - causal inference
+  - synthetic control
+  - Bayesian inference
   - Imperial College London

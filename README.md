@@ -2,7 +2,7 @@
 
 **An open, sourced "what if" about Imperial College London's 2024 logo and brand refresh**
 
-In February 2024 Imperial College London replaced its "Imperial College London" logo with a new "Imperial" wordmark. The College's own Freedom of Information disclosure puts the cost at **£434,801.47**. This repository works out what else that money could have bought, from beef and cows to PhD studentships, centrifuges, cell lines, culture medium, GPT tokens and new labs, and puts it all on one interactive page.
+In February 2024 Imperial College London replaced its "Imperial College London" logo with a new "Imperial" wordmark. The College's own Freedom of Information disclosure puts the cost at **£434,801.47**. This repository works out what else that money could have bought, from beef and cows to PhD studentships, centrifuges, cell lines, culture medium, GPT tokens and new labs, and puts it all on one interactive page. It then tests the College's claim that the brand will help it attract students, staff, funding and partners, using four statistical methods and Bayesian inference.
 
 🌐 **Interactive page:** <https://sthsci.github.io/imperial-logo-whatif/> (pick a budget, change the prices, fill your own basket)
 
@@ -53,6 +53,29 @@ Default price first; the alternatives are selectable on the page. Every price li
 - Imperial's 2024/25 income (£1.49 bn) covers the bill in **2 h 33 min**: 0.03% of a year.
 - 🍺 112,935 pints at the Union's £3.85 value price.
 
+## Did the brand work?
+
+Imperial says the new brand will help it attract students, staff, funding and partners. We compare Imperial with the other 23 Russell Group universities before and after the launch on 27 February 2024.
+
+![Imperial against its synthetic twin, and every method's estimate](figures/impact.png)
+
+| Claim | Outcome (open data) | Own trend | Diff-in-diff | Synthetic control | Bayesian synthetic control | **Bayesian, placebo-calibrated** (open-minded prior) | P(effect > 0) |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Attention | Wikipedia page views, monthly 2015–2026 | −12% | +4.9% | +14% | +24% | **+7.1%** (−7.3% to +23%) | 0.83 |
+| Students | UCAS undergraduate applicants, 2016–2025 cycles | −7.9% | +12% | −2.5% | −3.8% | **−1.3%** (−11% to +9.6%) | 0.40 |
+| Students | International applicants only | −11% | +9.4% | −4.4% | −2.7% | **−2.2%** (−14% to +11%) | 0.37 |
+| Funding | Wellcome grant money, 2014–2026 | +18% | −17% | +2.3% | −3.3% | **+0.1%** (−17% to +21%) | 0.50 |
+| Partners | Innovate UK projects with industry, 2017/18–2025/26 | −81% | −39% | −36% | −39% | **−2.7%** (−20% to +18%) | 0.39 |
+| Staff | not tested (no open, comparable, recent source that scripts can download) | | | | | | |
+| **All four claims** | random-effects average | | | | | **+1.3%** (−10% to +14%) | 0.59 |
+
+- **No measurable effect.** Under the placebo test, none of the gaps is unusual: other universities drift as far over the same period (placebo p = 0.19 to 1.0). With an open-minded prior every Bayes factor is between 0.5 and 1.2, which is no real evidence either way.
+- **The methods disagree, and that is informative.** In the 2025 cycle Imperial's applicants were flat (30,020) while the other 23 Russell Group universities grew by 5%. Imperial's own trend (growth of about 7% a year) then makes 2025 look like a shortfall of 8%. Difference-in-differences instead credits Imperial's faster growth before the launch and finds +12%. The synthetic twin, a blend of mostly LSE and UCL that tracked Imperial's fast pre-launch growth, puts the gap at −2.5%, a size that is routine (placebo p = 0.67). The model-based Bayesian synthetic control is confident about attention (+24%) and industry projects (−39%), but gaps that size are common at the other universities. The verdicts therefore use the placebo-calibrated model.
+- **The one hopeful sign is attention.** Imperial's Wikipedia page has had about 14% more readers than its synthetic twin since 2024. Four other universities drifted further, though, and Imperial rose from sixth to second in the [QS World University Rankings](https://www.imperial.ac.uk/news/253793/imperial-ranks-second-world-major-university/) four months after the launch.
+- **The data could never settle it.** The brand pays for itself if it lifts the international intake by 0.16% (about 10 student-years at £43,300) or Wellcome funding by 1.7% for one year. The smallest effects these data can reliably detect are 29% and 284%. With a sceptic's prior the posterior average effect is +0.2%; with a brand agency's prior it is +4.7%. The data barely move either.
+
+Every estimate, prior and posterior is in [`docs/CALCULATIONS.md`](docs/CALCULATIONS.md#7-did-the-brand-work) and `results/impact_estimates.csv`. On the page you can pick your own prior and watch the posterior update.
+
 ## Reproduce
 
 ```bash
@@ -60,6 +83,7 @@ pip install -r requirements.txt
 make analysis   # results/, figures/, docs/data/site.json, docs/CALCULATIONS.md
 make test       # pytest suite
 make site       # serve the page at http://localhost:8766
+make fetch      # optional: re-download the open data in data/impact/ (about 450 MB of raw files)
 ```
 
 ## Repository layout
@@ -67,17 +91,19 @@ make site       # serve the page at http://localhost:8766
 | Path | Contents |
 |---|---|
 | `data/` | Every input with its source: `brand_costs.csv` (official figures), `parameters.toml` (unit prices, the estimated split, fixed assumptions), `imperial_facts.csv`, `cpi_d7bt.csv` (ONS CPI), `landmarks.csv` |
-| `src/logowhatif/` | `model.py` (inflation, split, conversions), `report.py` (results, page data, CALCULATIONS.md, figure) |
-| `scripts/run_all.py` | Runs everything |
-| `results/` | `key_numbers.json`, `conversions.csv` (every price option) |
+| `data/impact/` | The brand test: `design.toml` (outcomes, windows, priors, break-even inputs) and one CSV per source: Wikipedia page views, UCAS applicants, Wellcome grants, Innovate UK projects, each for all 24 Russell Group universities |
+| `src/logowhatif/` | `model.py` (inflation, split, conversions), `impact.py` (interrupted time series, difference-in-differences, synthetic control, Bayesian synthetic control, placebo-calibrated Bayesian model, pooling), `report.py` (results, page data, CALCULATIONS.md, figures) |
+| `scripts/` | `run_all.py` runs everything; `fetch_impact_data.py` downloads the open data |
+| `results/` | `key_numbers.json`, `conversions.csv` (every price option), `impact_estimates.csv` (every method and prior) |
 | `docs/` | The GitHub Pages site (`index.html`, `assets/`, `data/site.json`) and `CALCULATIONS.md` |
-| `tests/` | `pytest` suite: the split adds up, prices have sources, USD prices use one exchange rate, page data matches the model |
+| `tests/` | `pytest` suite: the split adds up, prices have sources, USD prices use one exchange rate, each statistical method recovers a known effect, the data cover every university, page data matches the model |
 
 ## Method in brief
 
 - **The bill.** The total is Imperial's own figure. The split is an estimate. Signage is sized bottom-up (identification signs, lettering and banners at the main campuses). The typeface and promotional items are sized from typical commission costs. The agencies get the remainder.
 - **Today's money.** ONS CPI (D7BT): 2024 average 133.9; 2002–03 average 75.0; September 2026 144.1.
 - **Conversions.** Budget ÷ unit price. Prices are UK list or average prices from 2026 where one exists. US list prices (ATCC, the ultracentrifuge, OpenAI) are converted at the ECB rate of 30 October 2026 ($1 = £0.74633).
+- **The brand test.** Log outcomes for Imperial and the 23 other Russell Group universities. Four estimators: Imperial's own trend (interrupted time series); difference-in-differences; synthetic control; Bayesian synthetic control (conjugate regression shrunk towards the plain average, λ by marginal likelihood). With a single treated university, intervals and p-values come from placebo "rebrands" at every other university. The verdicts use a Bayesian model calibrated on those placebos: a Student-t likelihood for the effect, any normal prior, and a Savage–Dickey Bayes factor. A random-effects model pools one outcome per claim.
 
 ## Limitations
 
@@ -86,6 +112,7 @@ make site       # serve the page at http://localhost:8766
 - The lab cost is a build cost (shell and core). It leaves out fit-out and equipment, so a working lab costs more.
 - No public UK price was found for ECACC cell lines or for an ultracentrifuge. The ATCC price is the list price, not the non-profit one.
 - Prices move, especially cattle, beef and AI tokens. Each input says when it was read.
+- The brand test is early: one UCAS cycle and one or two years of grants since the launch. It uses proxies (applicants, one funder, one kind of industry partnership, page views). Anything that happened to Imperial alone after the launch, such as its rise to second in the QS ranking, is mixed in with the brand's effect. Staff are not tested, because HESA's staff record blocks automated downloads.
 
 ## Citation and licence
 

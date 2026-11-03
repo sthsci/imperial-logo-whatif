@@ -11,3 +11,4 @@ venv/
 .idea/
 .vscode/
 .claude/
+data/impact/raw/

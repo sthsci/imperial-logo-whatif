@@ -103,7 +103,7 @@ def test_phd_preset_fits_the_budget(inp):
 
 def test_pipeline_writes_consistent_site_json(tmp_path):
     # run on a copy so the test never overwrites the published outputs
-    shutil.copytree(ROOT / "data", tmp_path / "data")
+    shutil.copytree(ROOT / "data", tmp_path / "data", ignore=shutil.ignore_patterns("raw"))
     kn = report.run(root=tmp_path, generated="2000-01-01")
     site = json.loads((tmp_path / "docs" / "data" / "site.json").read_text(encoding="utf-8"))
     assert site["meta"]["generated"] == "2000-01-01"
@@ -115,6 +115,9 @@ def test_pipeline_writes_consistent_site_json(tmp_path):
     assert all(math.isfinite(r["n"]) and r["n"] > 0 for r in kn["conversions_official"].values())
     assert (tmp_path / "docs" / "CALCULATIONS.md").read_text(encoding="utf-8").startswith("# Every calculation")
     assert (tmp_path / "figures" / "overview.png").stat().st_size > 10_000
+    assert (tmp_path / "figures" / "impact.png").stat().st_size > 10_000
+    assert "## 7. Did the brand work?" in (tmp_path / "docs" / "CALCULATIONS.md").read_text(encoding="utf-8")
+    assert {o["key"] for o in site["impact"]["outcomes"]} == set(kn["impact"]["outcomes"])
 
 
 def test_published_site_json_matches_the_model():

@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "logowhatif"
-version = "1.0.0"
-description = "What else could Imperial College London's 2024 logo and brand refresh (£434,801.47) have bought? An open, sourced what-if."
+version = "1.1.0"
+description = "What else could Imperial College London's 2024 logo and brand refresh (£434,801.47) have bought, and did it work? An open, sourced what-if."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-dependencies = ["matplotlib>=3.7"]
+dependencies = ["matplotlib>=3.7", "numpy>=1.24", "scipy>=1.10"]
 
 [project.optional-dependencies]
 test = ["pytest>=7"]

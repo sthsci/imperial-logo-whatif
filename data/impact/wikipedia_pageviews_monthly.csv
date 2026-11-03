@@ -1,0 +1,3267 @@
+# Monthly English Wikipedia page views (agent=user, all-access) of each Russell Group university's article. Downloaded 2026-11-03.
+# Wikimedia Pageviews REST API: https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/user/<title>/monthly/<start>/<end>
+month,university,article,views
+2015-07,Imperial,Imperial_College_London,29707
+2015-08,Imperial,Imperial_College_London,28823
+2015-09,Imperial,Imperial_College_London,28762
+2015-10,Imperial,Imperial_College_London,29675
+2015-11,Imperial,Imperial_College_London,27222
+2015-12,Imperial,Imperial_College_London,25671
+2016-01,Imperial,Imperial_College_London,27379
+2016-02,Imperial,Imperial_College_London,26213
+2016-03,Imperial,Imperial_College_London,29103
+2016-04,Imperial,Imperial_College_London,26769
+2016-05,Imperial,Imperial_College_London,28373
+2016-06,Imperial,Imperial_College_London,25637
+2016-07,Imperial,Imperial_College_London,25762
+2016-08,Imperial,Imperial_College_London,27406
+2016-09,Imperial,Imperial_College_London,29473
+2016-10,Imperial,Imperial_College_London,28892
+2016-11,Imperial,Imperial_College_London,26145
+2016-12,Imperial,Imperial_College_London,26247
+2017-01,Imperial,Imperial_College_London,28800
+2017-02,Imperial,Imperial_College_London,26489
+2017-03,Imperial,Imperial_College_London,28822
+2017-04,Imperial,Imperial_College_London,25022
+2017-05,Imperial,Imperial_College_London,25305
+2017-06,Imperial,Imperial_College_London,23227
+2017-07,Imperial,Imperial_College_London,23775
+2017-08,Imperial,Imperial_College_London,25001
+2017-09,Imperial,Imperial_College_London,27912
+2017-10,Imperial,Imperial_College_London,27710
+2017-11,Imperial,Imperial_College_London,26095
+2017-12,Imperial,Imperial_College_London,24097
+2018-01,Imperial,Imperial_College_London,27686
+2018-02,Imperial,Imperial_College_London,25003
+2018-03,Imperial,Imperial_College_London,32397
+2018-04,Imperial,Imperial_College_London,27485
+2018-05,Imperial,Imperial_College_London,28360
+2018-06,Imperial,Imperial_College_London,24568
+2018-07,Imperial,Imperial_College_London,26861
+2018-08,Imperial,Imperial_College_London,28830
+2018-09,Imperial,Imperial_College_London,30106
+2018-10,Imperial,Imperial_College_London,31648
+2018-11,Imperial,Imperial_College_London,34437
+2018-12,Imperial,Imperial_College_London,32641
+2019-01,Imperial,Imperial_College_London,33711
+2019-02,Imperial,Imperial_College_London,28984
+2019-03,Imperial,Imperial_College_London,33597
+2019-04,Imperial,Imperial_College_London,28080
+2019-05,Imperial,Imperial_College_London,28472
+2019-06,Imperial,Imperial_College_London,25433
+2019-07,Imperial,Imperial_College_London,27420
+2019-08,Imperial,Imperial_College_London,29718
+2019-09,Imperial,Imperial_College_London,32668
+2019-10,Imperial,Imperial_College_London,34589
+2019-11,Imperial,Imperial_College_London,30149
+2019-12,Imperial,Imperial_College_London,30537
+2020-01,Imperial,Imperial_College_London,33567
+2020-02,Imperial,Imperial_College_London,32095
+2020-03,Imperial,Imperial_College_London,47025
+2020-04,Imperial,Imperial_College_London,44838
+2020-05,Imperial,Imperial_College_London,36357
+2020-06,Imperial,Imperial_College_London,31308
+2020-07,Imperial,Imperial_College_London,25453
+2020-08,Imperial,Imperial_College_London,27207
+2020-09,Imperial,Imperial_College_London,24901
+2020-10,Imperial,Imperial_College_London,27303
+2020-11,Imperial,Imperial_College_London,26323
+2020-12,Imperial,Imperial_College_London,26478
+2021-01,Imperial,Imperial_College_London,26083
+2021-02,Imperial,Imperial_College_London,24070
+2021-03,Imperial,Imperial_College_London,28271
+2021-04,Imperial,Imperial_College_London,24104
+2021-05,Imperial,Imperial_College_London,22732
+2021-06,Imperial,Imperial_College_London,20788
+2021-07,Imperial,Imperial_College_London,23482
+2021-08,Imperial,Imperial_College_London,25883
+2021-09,Imperial,Imperial_College_London,27114
+2021-10,Imperial,Imperial_College_London,27741
+2021-11,Imperial,Imperial_College_London,24962
+2021-12,Imperial,Imperial_College_London,25516
+2022-01,Imperial,Imperial_College_London,27915
+2022-02,Imperial,Imperial_College_London,29002
+2022-03,Imperial,Imperial_College_London,26421
+2022-04,Imperial,Imperial_College_London,24821
+2022-05,Imperial,Imperial_College_London,23807
+2022-06,Imperial,Imperial_College_London,23398
+2022-07,Imperial,Imperial_College_London,22437
+2022-08,Imperial,Imperial_College_London,25478
+2022-09,Imperial,Imperial_College_London,29129
+2022-10,Imperial,Imperial_College_London,26908
+2022-11,Imperial,Imperial_College_London,23390
+2022-12,Imperial,Imperial_College_London,20628
+2023-01,Imperial,Imperial_College_London,23028
+2023-02,Imperial,Imperial_College_London,22042
+2023-03,Imperial,Imperial_College_London,27852
+2023-04,Imperial,Imperial_College_London,21405
+2023-05,Imperial,Imperial_College_London,24124
+2023-06,Imperial,Imperial_College_London,22388
+2023-07,Imperial,Imperial_College_London,23755
+2023-08,Imperial,Imperial_College_London,24791
+2023-09,Imperial,Imperial_College_London,26126
+2023-10,Imperial,Imperial_College_London,24290
+2023-11,Imperial,Imperial_College_London,21420
+2023-12,Imperial,Imperial_College_London,23075
+2024-01,Imperial,Imperial_College_London,35279
+2024-02,Imperial,Imperial_College_London,27776
+2024-03,Imperial,Imperial_College_London,30251
+2024-04,Imperial,Imperial_College_London,26453
+2024-05,Imperial,Imperial_College_London,21647
+2024-06,Imperial,Imperial_College_London,27118
+2024-07,Imperial,Imperial_College_London,22384
+2024-08,Imperial,Imperial_College_London,22771
+2024-09,Imperial,Imperial_College_London,24286
+2024-10,Imperial,Imperial_College_London,24507
+2024-11,Imperial,Imperial_College_London,21136
+2024-12,Imperial,Imperial_College_London,21897
+2025-01,Imperial,Imperial_College_London,24639
+2025-02,Imperial,Imperial_College_London,22124
+2025-03,Imperial,Imperial_College_London,23734
+2025-04,Imperial,Imperial_College_London,21120
+2025-05,Imperial,Imperial_College_London,21508
+2025-06,Imperial,Imperial_College_London,22608
+2025-07,Imperial,Imperial_College_London,21185
+2025-08,Imperial,Imperial_College_London,23722
+2025-09,Imperial,Imperial_College_London,24184
+2025-10,Imperial,Imperial_College_London,23959
+2025-11,Imperial,Imperial_College_London,20471
+2025-12,Imperial,Imperial_College_London,23631
+2026-01,Imperial,Imperial_College_London,24943
+2026-02,Imperial,Imperial_College_London,18867
+2026-03,Imperial,Imperial_College_London,19491
+2026-04,Imperial,Imperial_College_London,19174
+2026-05,Imperial,Imperial_College_London,18663
+2026-06,Imperial,Imperial_College_London,17987
+2026-07,Imperial,Imperial_College_London,16859
+2026-08,Imperial,Imperial_College_London,18015
+2026-09,Imperial,Imperial_College_London,18220
+2026-10,Imperial,Imperial_College_London,16909
+2015-07,Birmingham,University_of_Birmingham,17704
+2015-08,Birmingham,University_of_Birmingham,15854
+2015-09,Birmingham,University_of_Birmingham,16990
+2015-10,Birmingham,University_of_Birmingham,16732
+2015-11,Birmingham,University_of_Birmingham,15364
+2015-12,Birmingham,University_of_Birmingham,14534
+2016-01,Birmingham,University_of_Birmingham,15700
+2016-02,Birmingham,University_of_Birmingham,14453
+2016-03,Birmingham,University_of_Birmingham,15369
+2016-04,Birmingham,University_of_Birmingham,14930
+2016-05,Birmingham,University_of_Birmingham,19654
+2016-06,Birmingham,University_of_Birmingham,15698
+2016-07,Birmingham,University_of_Birmingham,13932
+2016-08,Birmingham,University_of_Birmingham,16104
+2016-09,Birmingham,University_of_Birmingham,18740
+2016-10,Birmingham,University_of_Birmingham,20497
+2016-11,Birmingham,University_of_Birmingham,16659
+2016-12,Birmingham,University_of_Birmingham,15308
+2017-01,Birmingham,University_of_Birmingham,17600
+2017-02,Birmingham,University_of_Birmingham,15969
+2017-03,Birmingham,University_of_Birmingham,17626
+2017-04,Birmingham,University_of_Birmingham,14853
+2017-05,Birmingham,University_of_Birmingham,14801
+2017-06,Birmingham,University_of_Birmingham,13728
+2017-07,Birmingham,University_of_Birmingham,14822
+2017-08,Birmingham,University_of_Birmingham,15726
+2017-09,Birmingham,University_of_Birmingham,20672
+2017-10,Birmingham,University_of_Birmingham,18154
+2017-11,Birmingham,University_of_Birmingham,16770
+2017-12,Birmingham,University_of_Birmingham,15160
+2018-01,Birmingham,University_of_Birmingham,17182
+2018-02,Birmingham,University_of_Birmingham,15770
+2018-03,Birmingham,University_of_Birmingham,17316
+2018-04,Birmingham,University_of_Birmingham,16716
+2018-05,Birmingham,University_of_Birmingham,15600
+2018-06,Birmingham,University_of_Birmingham,14518
+2018-07,Birmingham,University_of_Birmingham,15210
+2018-08,Birmingham,University_of_Birmingham,15476
+2018-09,Birmingham,University_of_Birmingham,17907
+2018-10,Birmingham,University_of_Birmingham,21967
+2018-11,Birmingham,University_of_Birmingham,18273
+2018-12,Birmingham,University_of_Birmingham,16040
+2019-01,Birmingham,University_of_Birmingham,18174
+2019-02,Birmingham,University_of_Birmingham,16266
+2019-03,Birmingham,University_of_Birmingham,17072
+2019-04,Birmingham,University_of_Birmingham,18741
+2019-05,Birmingham,University_of_Birmingham,18409
+2019-06,Birmingham,University_of_Birmingham,15989
+2019-07,Birmingham,University_of_Birmingham,17481
+2019-08,Birmingham,University_of_Birmingham,18934
+2019-09,Birmingham,University_of_Birmingham,21876
+2019-10,Birmingham,University_of_Birmingham,22559
+2019-11,Birmingham,University_of_Birmingham,20252
+2019-12,Birmingham,University_of_Birmingham,18642
+2020-01,Birmingham,University_of_Birmingham,19762
+2020-02,Birmingham,University_of_Birmingham,17900
+2020-03,Birmingham,University_of_Birmingham,17552
+2020-04,Birmingham,University_of_Birmingham,19275
+2020-05,Birmingham,University_of_Birmingham,17103
+2020-06,Birmingham,University_of_Birmingham,14055
+2020-07,Birmingham,University_of_Birmingham,13736
+2020-08,Birmingham,University_of_Birmingham,18071
+2020-09,Birmingham,University_of_Birmingham,15291
+2020-10,Birmingham,University_of_Birmingham,16899
+2020-11,Birmingham,University_of_Birmingham,16337
+2020-12,Birmingham,University_of_Birmingham,15036
+2021-01,Birmingham,University_of_Birmingham,15295
+2021-02,Birmingham,University_of_Birmingham,14319
+2021-03,Birmingham,University_of_Birmingham,15962
+2021-04,Birmingham,University_of_Birmingham,14379
+2021-05,Birmingham,University_of_Birmingham,14237
+2021-06,Birmingham,University_of_Birmingham,12513
+2021-07,Birmingham,University_of_Birmingham,15563
+2021-08,Birmingham,University_of_Birmingham,17798
+2021-09,Birmingham,University_of_Birmingham,17843
+2021-10,Birmingham,University_of_Birmingham,17430
+2021-11,Birmingham,University_of_Birmingham,14871
+2021-12,Birmingham,University_of_Birmingham,14467
+2022-01,Birmingham,University_of_Birmingham,16866
+2022-02,Birmingham,University_of_Birmingham,15549
+2022-03,Birmingham,University_of_Birmingham,15391
+2022-04,Birmingham,University_of_Birmingham,15036
+2022-05,Birmingham,University_of_Birmingham,15712
+2022-06,Birmingham,University_of_Birmingham,15146
+2022-07,Birmingham,University_of_Birmingham,18278
+2022-08,Birmingham,University_of_Birmingham,19901
+2022-09,Birmingham,University_of_Birmingham,16022
+2022-10,Birmingham,University_of_Birmingham,17136
+2022-11,Birmingham,University_of_Birmingham,15203
+2022-12,Birmingham,University_of_Birmingham,14499
+2023-01,Birmingham,University_of_Birmingham,16425
+2023-02,Birmingham,University_of_Birmingham,15979
+2023-03,Birmingham,University_of_Birmingham,15963
+2023-04,Birmingham,University_of_Birmingham,13934
+2023-05,Birmingham,University_of_Birmingham,16296
+2023-06,Birmingham,University_of_Birmingham,15660
+2023-07,Birmingham,University_of_Birmingham,17661
+2023-08,Birmingham,University_of_Birmingham,17894
+2023-09,Birmingham,University_of_Birmingham,18636
+2023-10,Birmingham,University_of_Birmingham,17313
+2023-11,Birmingham,University_of_Birmingham,14799
+2023-12,Birmingham,University_of_Birmingham,16095
+2024-01,Birmingham,University_of_Birmingham,20307
+2024-02,Birmingham,University_of_Birmingham,15389
+2024-03,Birmingham,University_of_Birmingham,16259
+2024-04,Birmingham,University_of_Birmingham,15662
+2024-05,Birmingham,University_of_Birmingham,14681
+2024-06,Birmingham,University_of_Birmingham,13955
+2024-07,Birmingham,University_of_Birmingham,13478
+2024-08,Birmingham,University_of_Birmingham,13497
+2024-09,Birmingham,University_of_Birmingham,14031
+2024-10,Birmingham,University_of_Birmingham,15054
+2024-11,Birmingham,University_of_Birmingham,13202
+2024-12,Birmingham,University_of_Birmingham,13202
+2025-01,Birmingham,University_of_Birmingham,13659
+2025-02,Birmingham,University_of_Birmingham,12166
+2025-03,Birmingham,University_of_Birmingham,12660
+2025-04,Birmingham,University_of_Birmingham,11476
+2025-05,Birmingham,University_of_Birmingham,11055
+2025-06,Birmingham,University_of_Birmingham,12388
+2025-07,Birmingham,University_of_Birmingham,12150
+2025-08,Birmingham,University_of_Birmingham,13134
+2025-09,Birmingham,University_of_Birmingham,14969
+2025-10,Birmingham,University_of_Birmingham,13625
+2025-11,Birmingham,University_of_Birmingham,11844
+2025-12,Birmingham,University_of_Birmingham,12184
+2026-01,Birmingham,University_of_Birmingham,10997
+2026-02,Birmingham,University_of_Birmingham,9907
+2026-03,Birmingham,University_of_Birmingham,12002
+2026-04,Birmingham,University_of_Birmingham,11841
+2026-05,Birmingham,University_of_Birmingham,10736
+2026-06,Birmingham,University_of_Birmingham,11523
+2026-07,Birmingham,University_of_Birmingham,13685
+2026-08,Birmingham,University_of_Birmingham,25652
+2026-09,Birmingham,University_of_Birmingham,11747
+2026-10,Birmingham,University_of_Birmingham,10260
+2015-07,Bristol,University_of_Bristol,13517
+2015-08,Bristol,University_of_Bristol,13209
+2015-09,Bristol,University_of_Bristol,13195
+2015-10,Bristol,University_of_Bristol,16529
+2015-11,Bristol,University_of_Bristol,13522
+2015-12,Bristol,University_of_Bristol,11576
+2016-01,Bristol,University_of_Bristol,14553
+2016-02,Bristol,University_of_Bristol,16494
+2016-03,Bristol,University_of_Bristol,18174
+2016-04,Bristol,University_of_Bristol,15806
+2016-05,Bristol,University_of_Bristol,17005
+2016-06,Bristol,University_of_Bristol,16830
+2016-07,Bristol,University_of_Bristol,13869
+2016-08,Bristol,University_of_Bristol,12272
+2016-09,Bristol,University_of_Bristol,13349
+2016-10,Bristol,University_of_Bristol,12866
+2016-11,Bristol,University_of_Bristol,12473
+2016-12,Bristol,University_of_Bristol,11868
+2017-01,Bristol,University_of_Bristol,13227
+2017-02,Bristol,University_of_Bristol,12740
+2017-03,Bristol,University_of_Bristol,13311
+2017-04,Bristol,University_of_Bristol,12251
+2017-05,Bristol,University_of_Bristol,12349
+2017-06,Bristol,University_of_Bristol,11506
+2017-07,Bristol,University_of_Bristol,11013
+2017-08,Bristol,University_of_Bristol,12606
+2017-09,Bristol,University_of_Bristol,14800
+2017-10,Bristol,University_of_Bristol,14016
+2017-11,Bristol,University_of_Bristol,13181
+2017-12,Bristol,University_of_Bristol,12403
+2018-01,Bristol,University_of_Bristol,15259
+2018-02,Bristol,University_of_Bristol,12766
+2018-03,Bristol,University_of_Bristol,14314
+2018-04,Bristol,University_of_Bristol,13350
+2018-05,Bristol,University_of_Bristol,14644
+2018-06,Bristol,University_of_Bristol,12056
+2018-07,Bristol,University_of_Bristol,13444
+2018-08,Bristol,University_of_Bristol,14497
+2018-09,Bristol,University_of_Bristol,15412
+2018-10,Bristol,University_of_Bristol,15309
+2018-11,Bristol,University_of_Bristol,14582
+2018-12,Bristol,University_of_Bristol,14833
+2019-01,Bristol,University_of_Bristol,16889
+2019-02,Bristol,University_of_Bristol,13906
+2019-03,Bristol,University_of_Bristol,16813
+2019-04,Bristol,University_of_Bristol,14557
+2019-05,Bristol,University_of_Bristol,14876
+2019-06,Bristol,University_of_Bristol,14560
+2019-07,Bristol,University_of_Bristol,14411
+2019-08,Bristol,University_of_Bristol,18334
+2019-09,Bristol,University_of_Bristol,17439
+2019-10,Bristol,University_of_Bristol,19249
+2019-11,Bristol,University_of_Bristol,16507
+2019-12,Bristol,University_of_Bristol,16489
+2020-01,Bristol,University_of_Bristol,17535
+2020-02,Bristol,University_of_Bristol,15489
+2020-03,Bristol,University_of_Bristol,15527
+2020-04,Bristol,University_of_Bristol,16394
+2020-05,Bristol,University_of_Bristol,16055
+2020-06,Bristol,University_of_Bristol,16843
+2020-07,Bristol,University_of_Bristol,12774
+2020-08,Bristol,University_of_Bristol,15440
+2020-09,Bristol,University_of_Bristol,14178
+2020-10,Bristol,University_of_Bristol,15471
+2020-11,Bristol,University_of_Bristol,14820
+2020-12,Bristol,University_of_Bristol,14138
+2021-01,Bristol,University_of_Bristol,13920
+2021-02,Bristol,University_of_Bristol,12630
+2021-03,Bristol,University_of_Bristol,15742
+2021-04,Bristol,University_of_Bristol,13507
+2021-05,Bristol,University_of_Bristol,12384
+2021-06,Bristol,University_of_Bristol,11288
+2021-07,Bristol,University_of_Bristol,14855
+2021-08,Bristol,University_of_Bristol,17569
+2021-09,Bristol,University_of_Bristol,17451
+2021-10,Bristol,University_of_Bristol,17325
+2021-11,Bristol,University_of_Bristol,17040
+2021-12,Bristol,University_of_Bristol,14242
+2022-01,Bristol,University_of_Bristol,18034
+2022-02,Bristol,University_of_Bristol,15474
+2022-03,Bristol,University_of_Bristol,15511
+2022-04,Bristol,University_of_Bristol,15906
+2022-05,Bristol,University_of_Bristol,15861
+2022-06,Bristol,University_of_Bristol,15147
+2022-07,Bristol,University_of_Bristol,16252
+2022-08,Bristol,University_of_Bristol,15586
+2022-09,Bristol,University_of_Bristol,17620
+2022-10,Bristol,University_of_Bristol,16294
+2022-11,Bristol,University_of_Bristol,15425
+2022-12,Bristol,University_of_Bristol,13903
+2023-01,Bristol,University_of_Bristol,15278
+2023-02,Bristol,University_of_Bristol,14517
+2023-03,Bristol,University_of_Bristol,16687
+2023-04,Bristol,University_of_Bristol,14285
+2023-05,Bristol,University_of_Bristol,15879
+2023-06,Bristol,University_of_Bristol,13706
+2023-07,Bristol,University_of_Bristol,14909
+2023-08,Bristol,University_of_Bristol,15538
+2023-09,Bristol,University_of_Bristol,15029
+2023-10,Bristol,University_of_Bristol,15135
+2023-11,Bristol,University_of_Bristol,14556
+2023-12,Bristol,University_of_Bristol,15318
+2024-01,Bristol,University_of_Bristol,19622
+2024-02,Bristol,University_of_Bristol,14983
+2024-03,Bristol,University_of_Bristol,14267
+2024-04,Bristol,University_of_Bristol,13223
+2024-05,Bristol,University_of_Bristol,12688
+2024-06,Bristol,University_of_Bristol,11052
+2024-07,Bristol,University_of_Bristol,11754
+2024-08,Bristol,University_of_Bristol,11991
+2024-09,Bristol,University_of_Bristol,12269
+2024-10,Bristol,University_of_Bristol,12553
+2024-11,Bristol,University_of_Bristol,10822
+2024-12,Bristol,University_of_Bristol,10890
+2025-01,Bristol,University_of_Bristol,14897
+2025-02,Bristol,University_of_Bristol,10802
+2025-03,Bristol,University_of_Bristol,12293
+2025-04,Bristol,University_of_Bristol,12022
+2025-05,Bristol,University_of_Bristol,10862
+2025-06,Bristol,University_of_Bristol,9755
+2025-07,Bristol,University_of_Bristol,10052
+2025-08,Bristol,University_of_Bristol,10793
+2025-09,Bristol,University_of_Bristol,11235
+2025-10,Bristol,University_of_Bristol,11803
+2025-11,Bristol,University_of_Bristol,10564
+2025-12,Bristol,University_of_Bristol,9922
+2026-01,Bristol,University_of_Bristol,9852
+2026-02,Bristol,University_of_Bristol,10446
+2026-03,Bristol,University_of_Bristol,10902
+2026-04,Bristol,University_of_Bristol,9815
+2026-05,Bristol,University_of_Bristol,9712
+2026-06,Bristol,University_of_Bristol,8669
+2026-07,Bristol,University_of_Bristol,9333
+2026-08,Bristol,University_of_Bristol,9911
+2026-09,Bristol,University_of_Bristol,9909
+2026-10,Bristol,University_of_Bristol,11026
+2015-07,Cambridge,University_of_Cambridge,79483
+2015-08,Cambridge,University_of_Cambridge,93876
+2015-09,Cambridge,University_of_Cambridge,116555
+2015-10,Cambridge,University_of_Cambridge,92945
+2015-11,Cambridge,University_of_Cambridge,94318
+2015-12,Cambridge,University_of_Cambridge,87177
+2016-01,Cambridge,University_of_Cambridge,81920
+2016-02,Cambridge,University_of_Cambridge,82252
+2016-03,Cambridge,University_of_Cambridge,90911
+2016-04,Cambridge,University_of_Cambridge,84188
+2016-05,Cambridge,University_of_Cambridge,82874
+2016-06,Cambridge,University_of_Cambridge,76816
+2016-07,Cambridge,University_of_Cambridge,72296
+2016-08,Cambridge,University_of_Cambridge,79132
+2016-09,Cambridge,University_of_Cambridge,84617
+2016-10,Cambridge,University_of_Cambridge,86168
+2016-11,Cambridge,University_of_Cambridge,89555
+2016-12,Cambridge,University_of_Cambridge,80430
+2017-01,Cambridge,University_of_Cambridge,85276
+2017-02,Cambridge,University_of_Cambridge,79359
+2017-03,Cambridge,University_of_Cambridge,88263
+2017-04,Cambridge,University_of_Cambridge,84026
+2017-05,Cambridge,University_of_Cambridge,81046
+2017-06,Cambridge,University_of_Cambridge,72787
+2017-07,Cambridge,University_of_Cambridge,81290
+2017-08,Cambridge,University_of_Cambridge,79729
+2017-09,Cambridge,University_of_Cambridge,85930
+2017-10,Cambridge,University_of_Cambridge,93613
+2017-11,Cambridge,University_of_Cambridge,84357
+2017-12,Cambridge,University_of_Cambridge,79980
+2018-01,Cambridge,University_of_Cambridge,86665
+2018-02,Cambridge,University_of_Cambridge,80486
+2018-03,Cambridge,University_of_Cambridge,131318
+2018-04,Cambridge,University_of_Cambridge,91816
+2018-05,Cambridge,University_of_Cambridge,89578
+2018-06,Cambridge,University_of_Cambridge,76475
+2018-07,Cambridge,University_of_Cambridge,79158
+2018-08,Cambridge,University_of_Cambridge,80361
+2018-09,Cambridge,University_of_Cambridge,81684
+2018-10,Cambridge,University_of_Cambridge,91751
+2018-11,Cambridge,University_of_Cambridge,83188
+2018-12,Cambridge,University_of_Cambridge,86341
+2019-01,Cambridge,University_of_Cambridge,90599
+2019-02,Cambridge,University_of_Cambridge,80136
+2019-03,Cambridge,University_of_Cambridge,88120
+2019-04,Cambridge,University_of_Cambridge,95472
+2019-05,Cambridge,University_of_Cambridge,80072
+2019-06,Cambridge,University_of_Cambridge,76430
+2019-07,Cambridge,University_of_Cambridge,84606
+2019-08,Cambridge,University_of_Cambridge,84130
+2019-09,Cambridge,University_of_Cambridge,92472
+2019-10,Cambridge,University_of_Cambridge,97530
+2019-11,Cambridge,University_of_Cambridge,89006
+2019-12,Cambridge,University_of_Cambridge,86159
+2020-01,Cambridge,University_of_Cambridge,87522
+2020-02,Cambridge,University_of_Cambridge,78114
+2020-03,Cambridge,University_of_Cambridge,82955
+2020-04,Cambridge,University_of_Cambridge,103191
+2020-05,Cambridge,University_of_Cambridge,92054
+2020-06,Cambridge,University_of_Cambridge,73032
+2020-07,Cambridge,University_of_Cambridge,76857
+2020-08,Cambridge,University_of_Cambridge,79910
+2020-09,Cambridge,University_of_Cambridge,80645
+2020-10,Cambridge,University_of_Cambridge,117058
+2020-11,Cambridge,University_of_Cambridge,97612
+2020-12,Cambridge,University_of_Cambridge,83131
+2021-01,Cambridge,University_of_Cambridge,79100
+2021-02,Cambridge,University_of_Cambridge,75132
+2021-03,Cambridge,University_of_Cambridge,86865
+2021-04,Cambridge,University_of_Cambridge,86311
+2021-05,Cambridge,University_of_Cambridge,75613
+2021-06,Cambridge,University_of_Cambridge,71616
+2021-07,Cambridge,University_of_Cambridge,81898
+2021-08,Cambridge,University_of_Cambridge,81083
+2021-09,Cambridge,University_of_Cambridge,87379
+2021-10,Cambridge,University_of_Cambridge,87977
+2021-11,Cambridge,University_of_Cambridge,79814
+2021-12,Cambridge,University_of_Cambridge,78101
+2022-01,Cambridge,University_of_Cambridge,95114
+2022-02,Cambridge,University_of_Cambridge,75452
+2022-03,Cambridge,University_of_Cambridge,71660
+2022-04,Cambridge,University_of_Cambridge,74298
+2022-05,Cambridge,University_of_Cambridge,72395
+2022-06,Cambridge,University_of_Cambridge,73070
+2022-07,Cambridge,University_of_Cambridge,77021
+2022-08,Cambridge,University_of_Cambridge,79453
+2022-09,Cambridge,University_of_Cambridge,123735
+2022-10,Cambridge,University_of_Cambridge,91030
+2022-11,Cambridge,University_of_Cambridge,81232
+2022-12,Cambridge,University_of_Cambridge,72249
+2023-01,Cambridge,University_of_Cambridge,79427
+2023-02,Cambridge,University_of_Cambridge,72408
+2023-03,Cambridge,University_of_Cambridge,90340
+2023-04,Cambridge,University_of_Cambridge,79251
+2023-05,Cambridge,University_of_Cambridge,82644
+2023-06,Cambridge,University_of_Cambridge,79899
+2023-07,Cambridge,University_of_Cambridge,103654
+2023-08,Cambridge,University_of_Cambridge,93119
+2023-09,Cambridge,University_of_Cambridge,81486
+2023-10,Cambridge,University_of_Cambridge,78533
+2023-11,Cambridge,University_of_Cambridge,76155
+2023-12,Cambridge,University_of_Cambridge,78817
+2024-01,Cambridge,University_of_Cambridge,98208
+2024-02,Cambridge,University_of_Cambridge,79083
+2024-03,Cambridge,University_of_Cambridge,82311
+2024-04,Cambridge,University_of_Cambridge,75983
+2024-05,Cambridge,University_of_Cambridge,73067
+2024-06,Cambridge,University_of_Cambridge,63748
+2024-07,Cambridge,University_of_Cambridge,66964
+2024-08,Cambridge,University_of_Cambridge,68244
+2024-09,Cambridge,University_of_Cambridge,66953
+2024-10,Cambridge,University_of_Cambridge,73102
+2024-11,Cambridge,University_of_Cambridge,66402
+2024-12,Cambridge,University_of_Cambridge,67697
+2025-01,Cambridge,University_of_Cambridge,71146
+2025-02,Cambridge,University_of_Cambridge,64894
+2025-03,Cambridge,University_of_Cambridge,69429
+2025-04,Cambridge,University_of_Cambridge,70415
+2025-05,Cambridge,University_of_Cambridge,65338
+2025-06,Cambridge,University_of_Cambridge,54318
+2025-07,Cambridge,University_of_Cambridge,55677
+2025-08,Cambridge,University_of_Cambridge,70129
+2025-09,Cambridge,University_of_Cambridge,64130
+2025-10,Cambridge,University_of_Cambridge,65439
+2025-11,Cambridge,University_of_Cambridge,60912
+2025-12,Cambridge,University_of_Cambridge,57497
+2026-01,Cambridge,University_of_Cambridge,58510
+2026-02,Cambridge,University_of_Cambridge,54693
+2026-03,Cambridge,University_of_Cambridge,54898
+2026-04,Cambridge,University_of_Cambridge,57347
+2026-05,Cambridge,University_of_Cambridge,63644
+2026-06,Cambridge,University_of_Cambridge,54532
+2026-07,Cambridge,University_of_Cambridge,56679
+2026-08,Cambridge,University_of_Cambridge,72739
+2026-09,Cambridge,University_of_Cambridge,57310
+2026-10,Cambridge,University_of_Cambridge,58908
+2015-07,Cardiff,Cardiff_University,8946
+2015-08,Cardiff,Cardiff_University,9902
+2015-09,Cardiff,Cardiff_University,9855
+2015-10,Cardiff,Cardiff_University,10161
+2015-11,Cardiff,Cardiff_University,9208
+2015-12,Cardiff,Cardiff_University,8086
+2016-01,Cardiff,Cardiff_University,9388
+2016-02,Cardiff,Cardiff_University,9131
+2016-03,Cardiff,Cardiff_University,9175
+2016-04,Cardiff,Cardiff_University,8802
+2016-05,Cardiff,Cardiff_University,9284
+2016-06,Cardiff,Cardiff_University,9131
+2016-07,Cardiff,Cardiff_University,9075
+2016-08,Cardiff,Cardiff_University,10254
+2016-09,Cardiff,Cardiff_University,12115
+2016-10,Cardiff,Cardiff_University,11548
+2016-11,Cardiff,Cardiff_University,8953
+2016-12,Cardiff,Cardiff_University,8189
+2017-01,Cardiff,Cardiff_University,9749
+2017-02,Cardiff,Cardiff_University,8830
+2017-03,Cardiff,Cardiff_University,10158
+2017-04,Cardiff,Cardiff_University,8657
+2017-05,Cardiff,Cardiff_University,10470
+2017-06,Cardiff,Cardiff_University,8635
+2017-07,Cardiff,Cardiff_University,9011
+2017-08,Cardiff,Cardiff_University,10615
+2017-09,Cardiff,Cardiff_University,9823
+2017-10,Cardiff,Cardiff_University,9699
+2017-11,Cardiff,Cardiff_University,9337
+2017-12,Cardiff,Cardiff_University,8387
+2018-01,Cardiff,Cardiff_University,10155
+2018-02,Cardiff,Cardiff_University,9311
+2018-03,Cardiff,Cardiff_University,11068
+2018-04,Cardiff,Cardiff_University,9255
+2018-05,Cardiff,Cardiff_University,9272
+2018-06,Cardiff,Cardiff_University,8765
+2018-07,Cardiff,Cardiff_University,9823
+2018-08,Cardiff,Cardiff_University,10597
+2018-09,Cardiff,Cardiff_University,10461
+2018-10,Cardiff,Cardiff_University,9968
+2018-11,Cardiff,Cardiff_University,10071
+2018-12,Cardiff,Cardiff_University,9076
+2019-01,Cardiff,Cardiff_University,11275
+2019-02,Cardiff,Cardiff_University,9125
+2019-03,Cardiff,Cardiff_University,9257
+2019-04,Cardiff,Cardiff_University,8170
+2019-05,Cardiff,Cardiff_University,9988
+2019-06,Cardiff,Cardiff_University,8921
+2019-07,Cardiff,Cardiff_University,9309
+2019-08,Cardiff,Cardiff_University,9684
+2019-09,Cardiff,Cardiff_University,10660
+2019-10,Cardiff,Cardiff_University,12893
+2019-11,Cardiff,Cardiff_University,10789
+2019-12,Cardiff,Cardiff_University,9384
+2020-01,Cardiff,Cardiff_University,12182
+2020-02,Cardiff,Cardiff_University,9371
+2020-03,Cardiff,Cardiff_University,8790
+2020-04,Cardiff,Cardiff_University,9632
+2020-05,Cardiff,Cardiff_University,8927
+2020-06,Cardiff,Cardiff_University,8194
+2020-07,Cardiff,Cardiff_University,9467
+2020-08,Cardiff,Cardiff_University,12441
+2020-09,Cardiff,Cardiff_University,13140
+2020-10,Cardiff,Cardiff_University,11248
+2020-11,Cardiff,Cardiff_University,9680
+2020-12,Cardiff,Cardiff_University,9438
+2021-01,Cardiff,Cardiff_University,8905
+2021-02,Cardiff,Cardiff_University,7222
+2021-03,Cardiff,Cardiff_University,8681
+2021-04,Cardiff,Cardiff_University,7369
+2021-05,Cardiff,Cardiff_University,7975
+2021-06,Cardiff,Cardiff_University,6896
+2021-07,Cardiff,Cardiff_University,8170
+2021-08,Cardiff,Cardiff_University,8866
+2021-09,Cardiff,Cardiff_University,9665
+2021-10,Cardiff,Cardiff_University,9876
+2021-11,Cardiff,Cardiff_University,8808
+2021-12,Cardiff,Cardiff_University,8294
+2022-01,Cardiff,Cardiff_University,9720
+2022-02,Cardiff,Cardiff_University,9293
+2022-03,Cardiff,Cardiff_University,9276
+2022-04,Cardiff,Cardiff_University,8677
+2022-05,Cardiff,Cardiff_University,8344
+2022-06,Cardiff,Cardiff_University,7827
+2022-07,Cardiff,Cardiff_University,8821
+2022-08,Cardiff,Cardiff_University,9577
+2022-09,Cardiff,Cardiff_University,11289
+2022-10,Cardiff,Cardiff_University,9627
+2022-11,Cardiff,Cardiff_University,8065
+2022-12,Cardiff,Cardiff_University,6597
+2023-01,Cardiff,Cardiff_University,8015
+2023-02,Cardiff,Cardiff_University,7495
+2023-03,Cardiff,Cardiff_University,9437
+2023-04,Cardiff,Cardiff_University,7335
+2023-05,Cardiff,Cardiff_University,8169
+2023-06,Cardiff,Cardiff_University,8105
+2023-07,Cardiff,Cardiff_University,13161
+2023-08,Cardiff,Cardiff_University,9178
+2023-09,Cardiff,Cardiff_University,9726
+2023-10,Cardiff,Cardiff_University,8811
+2023-11,Cardiff,Cardiff_University,8426
+2023-12,Cardiff,Cardiff_University,9459
+2024-01,Cardiff,Cardiff_University,11632
+2024-02,Cardiff,Cardiff_University,8902
+2024-03,Cardiff,Cardiff_University,9194
+2024-04,Cardiff,Cardiff_University,8079
+2024-05,Cardiff,Cardiff_University,7127
+2024-06,Cardiff,Cardiff_University,7181
+2024-07,Cardiff,Cardiff_University,11738
+2024-08,Cardiff,Cardiff_University,9758
+2024-09,Cardiff,Cardiff_University,8158
+2024-10,Cardiff,Cardiff_University,7949
+2024-11,Cardiff,Cardiff_University,7695
+2024-12,Cardiff,Cardiff_University,6827
+2025-01,Cardiff,Cardiff_University,9554
+2025-02,Cardiff,Cardiff_University,7903
+2025-03,Cardiff,Cardiff_University,7304
+2025-04,Cardiff,Cardiff_University,6696
+2025-05,Cardiff,Cardiff_University,6460
+2025-06,Cardiff,Cardiff_University,5772
+2025-07,Cardiff,Cardiff_University,6431
+2025-08,Cardiff,Cardiff_University,6770
+2025-09,Cardiff,Cardiff_University,7311
+2025-10,Cardiff,Cardiff_University,7149
+2025-11,Cardiff,Cardiff_University,6480
+2025-12,Cardiff,Cardiff_University,5920
+2026-01,Cardiff,Cardiff_University,6000
+2026-02,Cardiff,Cardiff_University,5261
+2026-03,Cardiff,Cardiff_University,5397
+2026-04,Cardiff,Cardiff_University,5796
+2026-05,Cardiff,Cardiff_University,6793
+2026-06,Cardiff,Cardiff_University,5666
+2026-07,Cardiff,Cardiff_University,5683
+2026-08,Cardiff,Cardiff_University,6125
+2026-09,Cardiff,Cardiff_University,5823
+2026-10,Cardiff,Cardiff_University,4992
+2015-07,Durham,Durham_University,17216
+2015-08,Durham,Durham_University,17181
+2015-09,Durham,Durham_University,18649
+2015-10,Durham,Durham_University,20301
+2015-11,Durham,Durham_University,16860
+2015-12,Durham,Durham_University,15115
+2016-01,Durham,Durham_University,17663
+2016-02,Durham,Durham_University,17263
+2016-03,Durham,Durham_University,17396
+2016-04,Durham,Durham_University,16190
+2016-05,Durham,Durham_University,16131
+2016-06,Durham,Durham_University,14808
+2016-07,Durham,Durham_University,15051
+2016-08,Durham,Durham_University,16373
+2016-09,Durham,Durham_University,18163
+2016-10,Durham,Durham_University,19341
+2016-11,Durham,Durham_University,18111
+2016-12,Durham,Durham_University,16907
+2017-01,Durham,Durham_University,20641
+2017-02,Durham,Durham_University,18351
+2017-03,Durham,Durham_University,20163
+2017-04,Durham,Durham_University,17674
+2017-05,Durham,Durham_University,17466
+2017-06,Durham,Durham_University,17174
+2017-07,Durham,Durham_University,17657
+2017-08,Durham,Durham_University,19256
+2017-09,Durham,Durham_University,20365
+2017-10,Durham,Durham_University,19769
+2017-11,Durham,Durham_University,19851
+2017-12,Durham,Durham_University,16750
+2018-01,Durham,Durham_University,19833
+2018-02,Durham,Durham_University,17601
+2018-03,Durham,Durham_University,18850
+2018-04,Durham,Durham_University,17402
+2018-05,Durham,Durham_University,17443
+2018-06,Durham,Durham_University,16543
+2018-07,Durham,Durham_University,16318
+2018-08,Durham,Durham_University,19281
+2018-09,Durham,Durham_University,20715
+2018-10,Durham,Durham_University,21900
+2018-11,Durham,Durham_University,19870
+2018-12,Durham,Durham_University,19879
+2019-01,Durham,Durham_University,20284
+2019-02,Durham,Durham_University,17164
+2019-03,Durham,Durham_University,18430
+2019-04,Durham,Durham_University,17649
+2019-05,Durham,Durham_University,17010
+2019-06,Durham,Durham_University,16478
+2019-07,Durham,Durham_University,21499
+2019-08,Durham,Durham_University,21010
+2019-09,Durham,Durham_University,25630
+2019-10,Durham,Durham_University,23333
+2019-11,Durham,Durham_University,25355
+2019-12,Durham,Durham_University,18539
+2020-01,Durham,Durham_University,21079
+2020-02,Durham,Durham_University,17427
+2020-03,Durham,Durham_University,16959
+2020-04,Durham,Durham_University,20196
+2020-05,Durham,Durham_University,18364
+2020-06,Durham,Durham_University,14374
+2020-07,Durham,Durham_University,14939
+2020-08,Durham,Durham_University,19717
+2020-09,Durham,Durham_University,18929
+2020-10,Durham,Durham_University,18984
+2020-11,Durham,Durham_University,16623
+2020-12,Durham,Durham_University,16459
+2021-01,Durham,Durham_University,18031
+2021-02,Durham,Durham_University,16330
+2021-03,Durham,Durham_University,19000
+2021-04,Durham,Durham_University,15783
+2021-05,Durham,Durham_University,15935
+2021-06,Durham,Durham_University,14693
+2021-07,Durham,Durham_University,17228
+2021-08,Durham,Durham_University,20054
+2021-09,Durham,Durham_University,20427
+2021-10,Durham,Durham_University,20369
+2021-11,Durham,Durham_University,17856
+2021-12,Durham,Durham_University,16845
+2022-01,Durham,Durham_University,19984
+2022-02,Durham,Durham_University,16518
+2022-03,Durham,Durham_University,15840
+2022-04,Durham,Durham_University,16835
+2022-05,Durham,Durham_University,17991
+2022-06,Durham,Durham_University,15726
+2022-07,Durham,Durham_University,16760
+2022-08,Durham,Durham_University,16779
+2022-09,Durham,Durham_University,18179
+2022-10,Durham,Durham_University,17047
+2022-11,Durham,Durham_University,20215
+2022-12,Durham,Durham_University,15892
+2023-01,Durham,Durham_University,17735
+2023-02,Durham,Durham_University,16769
+2023-03,Durham,Durham_University,18816
+2023-04,Durham,Durham_University,16707
+2023-05,Durham,Durham_University,18502
+2023-06,Durham,Durham_University,16906
+2023-07,Durham,Durham_University,19152
+2023-08,Durham,Durham_University,18791
+2023-09,Durham,Durham_University,17490
+2023-10,Durham,Durham_University,17717
+2023-11,Durham,Durham_University,21868
+2023-12,Durham,Durham_University,18773
+2024-01,Durham,Durham_University,24766
+2024-02,Durham,Durham_University,19555
+2024-03,Durham,Durham_University,19983
+2024-04,Durham,Durham_University,16892
+2024-05,Durham,Durham_University,15598
+2024-06,Durham,Durham_University,14356
+2024-07,Durham,Durham_University,16333
+2024-08,Durham,Durham_University,25606
+2024-09,Durham,Durham_University,16418
+2024-10,Durham,Durham_University,18784
+2024-11,Durham,Durham_University,15739
+2024-12,Durham,Durham_University,16222
+2025-01,Durham,Durham_University,20420
+2025-02,Durham,Durham_University,16723
+2025-03,Durham,Durham_University,19853
+2025-04,Durham,Durham_University,15540
+2025-05,Durham,Durham_University,15510
+2025-06,Durham,Durham_University,14728
+2025-07,Durham,Durham_University,15132
+2025-08,Durham,Durham_University,16217
+2025-09,Durham,Durham_University,19756
+2025-10,Durham,Durham_University,17964
+2025-11,Durham,Durham_University,17644
+2025-12,Durham,Durham_University,14651
+2026-01,Durham,Durham_University,16414
+2026-02,Durham,Durham_University,13492
+2026-03,Durham,Durham_University,14693
+2026-04,Durham,Durham_University,14171
+2026-05,Durham,Durham_University,14154
+2026-06,Durham,Durham_University,12877
+2026-07,Durham,Durham_University,14005
+2026-08,Durham,Durham_University,18328
+2026-09,Durham,Durham_University,14392
+2026-10,Durham,Durham_University,13778
+2015-07,Edinburgh,University_of_Edinburgh,22453
+2015-08,Edinburgh,University_of_Edinburgh,23429
+2015-09,Edinburgh,University_of_Edinburgh,25303
+2015-10,Edinburgh,University_of_Edinburgh,32193
+2015-11,Edinburgh,University_of_Edinburgh,25985
+2015-12,Edinburgh,University_of_Edinburgh,23310
+2016-01,Edinburgh,University_of_Edinburgh,25424
+2016-02,Edinburgh,University_of_Edinburgh,24276
+2016-03,Edinburgh,University_of_Edinburgh,25128
+2016-04,Edinburgh,University_of_Edinburgh,24197
+2016-05,Edinburgh,University_of_Edinburgh,24919
+2016-06,Edinburgh,University_of_Edinburgh,24619
+2016-07,Edinburgh,University_of_Edinburgh,23576
+2016-08,Edinburgh,University_of_Edinburgh,23292
+2016-09,Edinburgh,University_of_Edinburgh,25260
+2016-10,Edinburgh,University_of_Edinburgh,26015
+2016-11,Edinburgh,University_of_Edinburgh,24790
+2016-12,Edinburgh,University_of_Edinburgh,23438
+2017-01,Edinburgh,University_of_Edinburgh,26574
+2017-02,Edinburgh,University_of_Edinburgh,25192
+2017-03,Edinburgh,University_of_Edinburgh,27633
+2017-04,Edinburgh,University_of_Edinburgh,24374
+2017-05,Edinburgh,University_of_Edinburgh,26114
+2017-06,Edinburgh,University_of_Edinburgh,21995
+2017-07,Edinburgh,University_of_Edinburgh,22251
+2017-08,Edinburgh,University_of_Edinburgh,23971
+2017-09,Edinburgh,University_of_Edinburgh,25493
+2017-10,Edinburgh,University_of_Edinburgh,25739
+2017-11,Edinburgh,University_of_Edinburgh,25790
+2017-12,Edinburgh,University_of_Edinburgh,24815
+2018-01,Edinburgh,University_of_Edinburgh,26815
+2018-02,Edinburgh,University_of_Edinburgh,25101
+2018-03,Edinburgh,University_of_Edinburgh,29236
+2018-04,Edinburgh,University_of_Edinburgh,27383
+2018-05,Edinburgh,University_of_Edinburgh,30746
+2018-06,Edinburgh,University_of_Edinburgh,24354
+2018-07,Edinburgh,University_of_Edinburgh,25561
+2018-08,Edinburgh,University_of_Edinburgh,26961
+2018-09,Edinburgh,University_of_Edinburgh,29454
+2018-10,Edinburgh,University_of_Edinburgh,30700
+2018-11,Edinburgh,University_of_Edinburgh,28952
+2018-12,Edinburgh,University_of_Edinburgh,28520
+2019-01,Edinburgh,University_of_Edinburgh,31164
+2019-02,Edinburgh,University_of_Edinburgh,24545
+2019-03,Edinburgh,University_of_Edinburgh,27974
+2019-04,Edinburgh,University_of_Edinburgh,26934
+2019-05,Edinburgh,University_of_Edinburgh,25069
+2019-06,Edinburgh,University_of_Edinburgh,24695
+2019-07,Edinburgh,University_of_Edinburgh,25949
+2019-08,Edinburgh,University_of_Edinburgh,27977
+2019-09,Edinburgh,University_of_Edinburgh,32324
+2019-10,Edinburgh,University_of_Edinburgh,34047
+2019-11,Edinburgh,University_of_Edinburgh,31936
+2019-12,Edinburgh,University_of_Edinburgh,30859
+2020-01,Edinburgh,University_of_Edinburgh,30713
+2020-02,Edinburgh,University_of_Edinburgh,26658
+2020-03,Edinburgh,University_of_Edinburgh,26685
+2020-04,Edinburgh,University_of_Edinburgh,31911
+2020-05,Edinburgh,University_of_Edinburgh,30159
+2020-06,Edinburgh,University_of_Edinburgh,21373
+2020-07,Edinburgh,University_of_Edinburgh,23643
+2020-08,Edinburgh,University_of_Edinburgh,24938
+2020-09,Edinburgh,University_of_Edinburgh,26408
+2020-10,Edinburgh,University_of_Edinburgh,31225
+2020-11,Edinburgh,University_of_Edinburgh,28189
+2020-12,Edinburgh,University_of_Edinburgh,27133
+2021-01,Edinburgh,University_of_Edinburgh,26583
+2021-02,Edinburgh,University_of_Edinburgh,24337
+2021-03,Edinburgh,University_of_Edinburgh,27477
+2021-04,Edinburgh,University_of_Edinburgh,27596
+2021-05,Edinburgh,University_of_Edinburgh,25962
+2021-06,Edinburgh,University_of_Edinburgh,23268
+2021-07,Edinburgh,University_of_Edinburgh,28253
+2021-08,Edinburgh,University_of_Edinburgh,32141
+2021-09,Edinburgh,University_of_Edinburgh,30914
+2021-10,Edinburgh,University_of_Edinburgh,29315
+2021-11,Edinburgh,University_of_Edinburgh,27004
+2021-12,Edinburgh,University_of_Edinburgh,25593
+2022-01,Edinburgh,University_of_Edinburgh,29272
+2022-02,Edinburgh,University_of_Edinburgh,24160
+2022-03,Edinburgh,University_of_Edinburgh,24265
+2022-04,Edinburgh,University_of_Edinburgh,25784
+2022-05,Edinburgh,University_of_Edinburgh,24499
+2022-06,Edinburgh,University_of_Edinburgh,24920
+2022-07,Edinburgh,University_of_Edinburgh,25324
+2022-08,Edinburgh,University_of_Edinburgh,27291
+2022-09,Edinburgh,University_of_Edinburgh,33494
+2022-10,Edinburgh,University_of_Edinburgh,31700
+2022-11,Edinburgh,University_of_Edinburgh,26301
+2022-12,Edinburgh,University_of_Edinburgh,23807
+2023-01,Edinburgh,University_of_Edinburgh,27663
+2023-02,Edinburgh,University_of_Edinburgh,25368
+2023-03,Edinburgh,University_of_Edinburgh,30944
+2023-04,Edinburgh,University_of_Edinburgh,26668
+2023-05,Edinburgh,University_of_Edinburgh,31755
+2023-06,Edinburgh,University_of_Edinburgh,28280
+2023-07,Edinburgh,University_of_Edinburgh,29714
+2023-08,Edinburgh,University_of_Edinburgh,29323
+2023-09,Edinburgh,University_of_Edinburgh,29757
+2023-10,Edinburgh,University_of_Edinburgh,27335
+2023-11,Edinburgh,University_of_Edinburgh,26950
+2023-12,Edinburgh,University_of_Edinburgh,30676
+2024-01,Edinburgh,University_of_Edinburgh,41406
+2024-02,Edinburgh,University_of_Edinburgh,33533
+2024-03,Edinburgh,University_of_Edinburgh,35934
+2024-04,Edinburgh,University_of_Edinburgh,29969
+2024-05,Edinburgh,University_of_Edinburgh,27735
+2024-06,Edinburgh,University_of_Edinburgh,23082
+2024-07,Edinburgh,University_of_Edinburgh,24609
+2024-08,Edinburgh,University_of_Edinburgh,25599
+2024-09,Edinburgh,University_of_Edinburgh,28273
+2024-10,Edinburgh,University_of_Edinburgh,27302
+2024-11,Edinburgh,University_of_Edinburgh,25419
+2024-12,Edinburgh,University_of_Edinburgh,23360
+2025-01,Edinburgh,University_of_Edinburgh,26937
+2025-02,Edinburgh,University_of_Edinburgh,22195
+2025-03,Edinburgh,University_of_Edinburgh,24876
+2025-04,Edinburgh,University_of_Edinburgh,21205
+2025-05,Edinburgh,University_of_Edinburgh,21079
+2025-06,Edinburgh,University_of_Edinburgh,20552
+2025-07,Edinburgh,University_of_Edinburgh,21902
+2025-08,Edinburgh,University_of_Edinburgh,22255
+2025-09,Edinburgh,University_of_Edinburgh,22963
+2025-10,Edinburgh,University_of_Edinburgh,24199
+2025-11,Edinburgh,University_of_Edinburgh,21351
+2025-12,Edinburgh,University_of_Edinburgh,21584
+2026-01,Edinburgh,University_of_Edinburgh,21405
+2026-02,Edinburgh,University_of_Edinburgh,17965
+2026-03,Edinburgh,University_of_Edinburgh,19144
+2026-04,Edinburgh,University_of_Edinburgh,18932
+2026-05,Edinburgh,University_of_Edinburgh,20967
+2026-06,Edinburgh,University_of_Edinburgh,17274
+2026-07,Edinburgh,University_of_Edinburgh,17740
+2026-08,Edinburgh,University_of_Edinburgh,18085
+2026-09,Edinburgh,University_of_Edinburgh,19450
+2026-10,Edinburgh,University_of_Edinburgh,18030
+2015-07,Exeter,University_of_Exeter,15168
+2015-08,Exeter,University_of_Exeter,15505
+2015-09,Exeter,University_of_Exeter,15179
+2015-10,Exeter,University_of_Exeter,15618
+2015-11,Exeter,University_of_Exeter,14854
+2015-12,Exeter,University_of_Exeter,12812
+2016-01,Exeter,University_of_Exeter,14914
+2016-02,Exeter,University_of_Exeter,13015
+2016-03,Exeter,University_of_Exeter,14792
+2016-04,Exeter,University_of_Exeter,13673
+2016-05,Exeter,University_of_Exeter,13680
+2016-06,Exeter,University_of_Exeter,12773
+2016-07,Exeter,University_of_Exeter,14845
+2016-08,Exeter,University_of_Exeter,15075
+2016-09,Exeter,University_of_Exeter,15359
+2016-10,Exeter,University_of_Exeter,14646
+2016-11,Exeter,University_of_Exeter,15924
+2016-12,Exeter,University_of_Exeter,15762
+2017-01,Exeter,University_of_Exeter,15430
+2017-02,Exeter,University_of_Exeter,14670
+2017-03,Exeter,University_of_Exeter,17168
+2017-04,Exeter,University_of_Exeter,15203
+2017-05,Exeter,University_of_Exeter,14627
+2017-06,Exeter,University_of_Exeter,14570
+2017-07,Exeter,University_of_Exeter,14405
+2017-08,Exeter,University_of_Exeter,15365
+2017-09,Exeter,University_of_Exeter,15381
+2017-10,Exeter,University_of_Exeter,15433
+2017-11,Exeter,University_of_Exeter,14654
+2017-12,Exeter,University_of_Exeter,14108
+2018-01,Exeter,University_of_Exeter,16821
+2018-02,Exeter,University_of_Exeter,13893
+2018-03,Exeter,University_of_Exeter,15924
+2018-04,Exeter,University_of_Exeter,15044
+2018-05,Exeter,University_of_Exeter,17831
+2018-06,Exeter,University_of_Exeter,16250
+2018-07,Exeter,University_of_Exeter,16978
+2018-08,Exeter,University_of_Exeter,18072
+2018-09,Exeter,University_of_Exeter,18405
+2018-10,Exeter,University_of_Exeter,17120
+2018-11,Exeter,University_of_Exeter,17053
+2018-12,Exeter,University_of_Exeter,17497
+2019-01,Exeter,University_of_Exeter,17905
+2019-02,Exeter,University_of_Exeter,16100
+2019-03,Exeter,University_of_Exeter,17433
+2019-04,Exeter,University_of_Exeter,14871
+2019-05,Exeter,University_of_Exeter,14377
+2019-06,Exeter,University_of_Exeter,16997
+2019-07,Exeter,University_of_Exeter,18119
+2019-08,Exeter,University_of_Exeter,19363
+2019-09,Exeter,University_of_Exeter,18630
+2019-10,Exeter,University_of_Exeter,19775
+2019-11,Exeter,University_of_Exeter,16833
+2019-12,Exeter,University_of_Exeter,17285
+2020-01,Exeter,University_of_Exeter,17093
+2020-02,Exeter,University_of_Exeter,15935
+2020-03,Exeter,University_of_Exeter,15462
+2020-04,Exeter,University_of_Exeter,18030
+2020-05,Exeter,University_of_Exeter,16395
+2020-06,Exeter,University_of_Exeter,14012
+2020-07,Exeter,University_of_Exeter,13623
+2020-08,Exeter,University_of_Exeter,16323
+2020-09,Exeter,University_of_Exeter,15919
+2020-10,Exeter,University_of_Exeter,16991
+2020-11,Exeter,University_of_Exeter,19810
+2020-12,Exeter,University_of_Exeter,18533
+2021-01,Exeter,University_of_Exeter,19152
+2021-02,Exeter,University_of_Exeter,15022
+2021-03,Exeter,University_of_Exeter,17029
+2021-04,Exeter,University_of_Exeter,17025
+2021-05,Exeter,University_of_Exeter,13628
+2021-06,Exeter,University_of_Exeter,13144
+2021-07,Exeter,University_of_Exeter,16406
+2021-08,Exeter,University_of_Exeter,16383
+2021-09,Exeter,University_of_Exeter,16009
+2021-10,Exeter,University_of_Exeter,16563
+2021-11,Exeter,University_of_Exeter,14903
+2021-12,Exeter,University_of_Exeter,16829
+2022-01,Exeter,University_of_Exeter,20599
+2022-02,Exeter,University_of_Exeter,15130
+2022-03,Exeter,University_of_Exeter,15654
+2022-04,Exeter,University_of_Exeter,14807
+2022-05,Exeter,University_of_Exeter,14472
+2022-06,Exeter,University_of_Exeter,16534
+2022-07,Exeter,University_of_Exeter,16727
+2022-08,Exeter,University_of_Exeter,15742
+2022-09,Exeter,University_of_Exeter,25881
+2022-10,Exeter,University_of_Exeter,18040
+2022-11,Exeter,University_of_Exeter,16485
+2022-12,Exeter,University_of_Exeter,13537
+2023-01,Exeter,University_of_Exeter,15186
+2023-02,Exeter,University_of_Exeter,15981
+2023-03,Exeter,University_of_Exeter,15418
+2023-04,Exeter,University_of_Exeter,14040
+2023-05,Exeter,University_of_Exeter,14671
+2023-06,Exeter,University_of_Exeter,14574
+2023-07,Exeter,University_of_Exeter,18027
+2023-08,Exeter,University_of_Exeter,15675
+2023-09,Exeter,University_of_Exeter,14347
+2023-10,Exeter,University_of_Exeter,17793
+2023-11,Exeter,University_of_Exeter,21166
+2023-12,Exeter,University_of_Exeter,21228
+2024-01,Exeter,University_of_Exeter,25546
+2024-02,Exeter,University_of_Exeter,19116
+2024-03,Exeter,University_of_Exeter,15201
+2024-04,Exeter,University_of_Exeter,13171
+2024-05,Exeter,University_of_Exeter,12492
+2024-06,Exeter,University_of_Exeter,10676
+2024-07,Exeter,University_of_Exeter,11931
+2024-08,Exeter,University_of_Exeter,12489
+2024-09,Exeter,University_of_Exeter,13031
+2024-10,Exeter,University_of_Exeter,13436
+2024-11,Exeter,University_of_Exeter,13064
+2024-12,Exeter,University_of_Exeter,11891
+2025-01,Exeter,University_of_Exeter,12673
+2025-02,Exeter,University_of_Exeter,11181
+2025-03,Exeter,University_of_Exeter,11799
+2025-04,Exeter,University_of_Exeter,10959
+2025-05,Exeter,University_of_Exeter,10878
+2025-06,Exeter,University_of_Exeter,10484
+2025-07,Exeter,University_of_Exeter,13127
+2025-08,Exeter,University_of_Exeter,13039
+2025-09,Exeter,University_of_Exeter,12525
+2025-10,Exeter,University_of_Exeter,12360
+2025-11,Exeter,University_of_Exeter,11121
+2025-12,Exeter,University_of_Exeter,10543
+2026-01,Exeter,University_of_Exeter,10876
+2026-02,Exeter,University_of_Exeter,10921
+2026-03,Exeter,University_of_Exeter,9761
+2026-04,Exeter,University_of_Exeter,11559
+2026-05,Exeter,University_of_Exeter,10484
+2026-06,Exeter,University_of_Exeter,10639
+2026-07,Exeter,University_of_Exeter,10184
+2026-08,Exeter,University_of_Exeter,10983
+2026-09,Exeter,University_of_Exeter,11001
+2026-10,Exeter,University_of_Exeter,9785
+2015-07,Glasgow,University_of_Glasgow,15748
+2015-08,Glasgow,University_of_Glasgow,15685
+2015-09,Glasgow,University_of_Glasgow,17679
+2015-10,Glasgow,University_of_Glasgow,20489
+2015-11,Glasgow,University_of_Glasgow,16373
+2015-12,Glasgow,University_of_Glasgow,14367
+2016-01,Glasgow,University_of_Glasgow,16345
+2016-02,Glasgow,University_of_Glasgow,16652
+2016-03,Glasgow,University_of_Glasgow,17627
+2016-04,Glasgow,University_of_Glasgow,16414
+2016-05,Glasgow,University_of_Glasgow,16147
+2016-06,Glasgow,University_of_Glasgow,17170
+2016-07,Glasgow,University_of_Glasgow,15382
+2016-08,Glasgow,University_of_Glasgow,16268
+2016-09,Glasgow,University_of_Glasgow,19181
+2016-10,Glasgow,University_of_Glasgow,20058
+2016-11,Glasgow,University_of_Glasgow,17488
+2016-12,Glasgow,University_of_Glasgow,16763
+2017-01,Glasgow,University_of_Glasgow,18673
+2017-02,Glasgow,University_of_Glasgow,17801
+2017-03,Glasgow,University_of_Glasgow,21673
+2017-04,Glasgow,University_of_Glasgow,17467
+2017-05,Glasgow,University_of_Glasgow,17469
+2017-06,Glasgow,University_of_Glasgow,17155
+2017-07,Glasgow,University_of_Glasgow,16071
+2017-08,Glasgow,University_of_Glasgow,18347
+2017-09,Glasgow,University_of_Glasgow,19559
+2017-10,Glasgow,University_of_Glasgow,20086
+2017-11,Glasgow,University_of_Glasgow,18143
+2017-12,Glasgow,University_of_Glasgow,15271
+2018-01,Glasgow,University_of_Glasgow,18528
+2018-02,Glasgow,University_of_Glasgow,16686
+2018-03,Glasgow,University_of_Glasgow,18706
+2018-04,Glasgow,University_of_Glasgow,17121
+2018-05,Glasgow,University_of_Glasgow,20560
+2018-06,Glasgow,University_of_Glasgow,16191
+2018-07,Glasgow,University_of_Glasgow,17526
+2018-08,Glasgow,University_of_Glasgow,19088
+2018-09,Glasgow,University_of_Glasgow,20380
+2018-10,Glasgow,University_of_Glasgow,20232
+2018-11,Glasgow,University_of_Glasgow,21401
+2018-12,Glasgow,University_of_Glasgow,18159
+2019-01,Glasgow,University_of_Glasgow,20041
+2019-02,Glasgow,University_of_Glasgow,17028
+2019-03,Glasgow,University_of_Glasgow,20326
+2019-04,Glasgow,University_of_Glasgow,17647
+2019-05,Glasgow,University_of_Glasgow,17896
+2019-06,Glasgow,University_of_Glasgow,17110
+2019-07,Glasgow,University_of_Glasgow,18246
+2019-08,Glasgow,University_of_Glasgow,21404
+2019-09,Glasgow,University_of_Glasgow,21588
+2019-10,Glasgow,University_of_Glasgow,21980
+2019-11,Glasgow,University_of_Glasgow,20555
+2019-12,Glasgow,University_of_Glasgow,22843
+2020-01,Glasgow,University_of_Glasgow,21770
+2020-02,Glasgow,University_of_Glasgow,18698
+2020-03,Glasgow,University_of_Glasgow,17754
+2020-04,Glasgow,University_of_Glasgow,20478
+2020-05,Glasgow,University_of_Glasgow,17655
+2020-06,Glasgow,University_of_Glasgow,15264
+2020-07,Glasgow,University_of_Glasgow,15233
+2020-08,Glasgow,University_of_Glasgow,16861
+2020-09,Glasgow,University_of_Glasgow,18404
+2020-10,Glasgow,University_of_Glasgow,18240
+2020-11,Glasgow,University_of_Glasgow,16967
+2020-12,Glasgow,University_of_Glasgow,17413
+2021-01,Glasgow,University_of_Glasgow,18129
+2021-02,Glasgow,University_of_Glasgow,16076
+2021-03,Glasgow,University_of_Glasgow,19537
+2021-04,Glasgow,University_of_Glasgow,15906
+2021-05,Glasgow,University_of_Glasgow,15991
+2021-06,Glasgow,University_of_Glasgow,13837
+2021-07,Glasgow,University_of_Glasgow,17836
+2021-08,Glasgow,University_of_Glasgow,19836
+2021-09,Glasgow,University_of_Glasgow,19904
+2021-10,Glasgow,University_of_Glasgow,20941
+2021-11,Glasgow,University_of_Glasgow,19264
+2021-12,Glasgow,University_of_Glasgow,17105
+2022-01,Glasgow,University_of_Glasgow,22652
+2022-02,Glasgow,University_of_Glasgow,18069
+2022-03,Glasgow,University_of_Glasgow,18045
+2022-04,Glasgow,University_of_Glasgow,16053
+2022-05,Glasgow,University_of_Glasgow,17941
+2022-06,Glasgow,University_of_Glasgow,17574
+2022-07,Glasgow,University_of_Glasgow,18260
+2022-08,Glasgow,University_of_Glasgow,19854
+2022-09,Glasgow,University_of_Glasgow,21084
+2022-10,Glasgow,University_of_Glasgow,19593
+2022-11,Glasgow,University_of_Glasgow,17056
+2022-12,Glasgow,University_of_Glasgow,15441
+2023-01,Glasgow,University_of_Glasgow,18714
+2023-02,Glasgow,University_of_Glasgow,18598
+2023-03,Glasgow,University_of_Glasgow,22538
+2023-04,Glasgow,University_of_Glasgow,19369
+2023-05,Glasgow,University_of_Glasgow,18884
+2023-06,Glasgow,University_of_Glasgow,19007
+2023-07,Glasgow,University_of_Glasgow,19329
+2023-08,Glasgow,University_of_Glasgow,20044
+2023-09,Glasgow,University_of_Glasgow,18525
+2023-10,Glasgow,University_of_Glasgow,18370
+2023-11,Glasgow,University_of_Glasgow,16416
+2023-12,Glasgow,University_of_Glasgow,16688
+2024-01,Glasgow,University_of_Glasgow,25180
+2024-02,Glasgow,University_of_Glasgow,17506
+2024-03,Glasgow,University_of_Glasgow,19033
+2024-04,Glasgow,University_of_Glasgow,18518
+2024-05,Glasgow,University_of_Glasgow,17557
+2024-06,Glasgow,University_of_Glasgow,15338
+2024-07,Glasgow,University_of_Glasgow,14486
+2024-08,Glasgow,University_of_Glasgow,15160
+2024-09,Glasgow,University_of_Glasgow,16326
+2024-10,Glasgow,University_of_Glasgow,15703
+2024-11,Glasgow,University_of_Glasgow,14531
+2024-12,Glasgow,University_of_Glasgow,13371
+2025-01,Glasgow,University_of_Glasgow,14792
+2025-02,Glasgow,University_of_Glasgow,14512
+2025-03,Glasgow,University_of_Glasgow,14094
+2025-04,Glasgow,University_of_Glasgow,13084
+2025-05,Glasgow,University_of_Glasgow,12521
+2025-06,Glasgow,University_of_Glasgow,11877
+2025-07,Glasgow,University_of_Glasgow,12091
+2025-08,Glasgow,University_of_Glasgow,14970
+2025-09,Glasgow,University_of_Glasgow,14238
+2025-10,Glasgow,University_of_Glasgow,14103
+2025-11,Glasgow,University_of_Glasgow,11792
+2025-12,Glasgow,University_of_Glasgow,10971
+2026-01,Glasgow,University_of_Glasgow,12006
+2026-02,Glasgow,University_of_Glasgow,11420
+2026-03,Glasgow,University_of_Glasgow,11210
+2026-04,Glasgow,University_of_Glasgow,11475
+2026-05,Glasgow,University_of_Glasgow,13261
+2026-06,Glasgow,University_of_Glasgow,13485
+2026-07,Glasgow,University_of_Glasgow,13866
+2026-08,Glasgow,University_of_Glasgow,15535
+2026-09,Glasgow,University_of_Glasgow,12180
+2026-10,Glasgow,University_of_Glasgow,10781
+2015-07,King's College London,King's_College_London,27811
+2015-08,King's College London,King's_College_London,29569
+2015-09,King's College London,King's_College_London,34106
+2015-10,King's College London,King's_College_London,35274
+2015-11,King's College London,King's_College_London,31980
+2015-12,King's College London,King's_College_London,30448
+2016-01,King's College London,King's_College_London,36420
+2016-02,King's College London,King's_College_London,34019
+2016-03,King's College London,King's_College_London,35294
+2016-04,King's College London,King's_College_London,33005
+2016-05,King's College London,King's_College_London,31957
+2016-06,King's College London,King's_College_London,29863
+2016-07,King's College London,King's_College_London,29514
+2016-08,King's College London,King's_College_London,34049
+2016-09,King's College London,King's_College_London,35835
+2016-10,King's College London,King's_College_London,33200
+2016-11,King's College London,King's_College_London,30433
+2016-12,King's College London,King's_College_London,31328
+2017-01,King's College London,King's_College_London,33195
+2017-02,King's College London,King's_College_London,31983
+2017-03,King's College London,King's_College_London,36847
+2017-04,King's College London,King's_College_London,33553
+2017-05,King's College London,King's_College_London,31842
+2017-06,King's College London,King's_College_London,29580
+2017-07,King's College London,King's_College_London,30443
+2017-08,King's College London,King's_College_London,34136
+2017-09,King's College London,King's_College_London,36335
+2017-10,King's College London,King's_College_London,34419
+2017-11,King's College London,King's_College_London,32146
+2017-12,King's College London,King's_College_London,30469
+2018-01,King's College London,King's_College_London,42462
+2018-02,King's College London,King's_College_London,31980
+2018-03,King's College London,King's_College_London,35756
+2018-04,King's College London,King's_College_London,32853
+2018-05,King's College London,King's_College_London,33755
+2018-06,King's College London,King's_College_London,26680
+2018-07,King's College London,King's_College_London,30680
+2018-08,King's College London,King's_College_London,36322
+2018-09,King's College London,King's_College_London,33797
+2018-10,King's College London,King's_College_London,34184
+2018-11,King's College London,King's_College_London,32107
+2018-12,King's College London,King's_College_London,32398
+2019-01,King's College London,King's_College_London,34765
+2019-02,King's College London,King's_College_London,29174
+2019-03,King's College London,King's_College_London,35258
+2019-04,King's College London,King's_College_London,30427
+2019-05,King's College London,King's_College_London,31659
+2019-06,King's College London,King's_College_London,29829
+2019-07,King's College London,King's_College_London,31396
+2019-08,King's College London,King's_College_London,34880
+2019-09,King's College London,King's_College_London,38520
+2019-10,King's College London,King's_College_London,40112
+2019-11,King's College London,King's_College_London,34153
+2019-12,King's College London,King's_College_London,32876
+2020-01,King's College London,King's_College_London,37483
+2020-02,King's College London,King's_College_London,32332
+2020-03,King's College London,King's_College_London,33730
+2020-04,King's College London,King's_College_London,38845
+2020-05,King's College London,King's_College_London,34687
+2020-06,King's College London,King's_College_London,28141
+2020-07,King's College London,King's_College_London,29437
+2020-08,King's College London,King's_College_London,30609
+2020-09,King's College London,King's_College_London,29695
+2020-10,King's College London,King's_College_London,31810
+2020-11,King's College London,King's_College_London,31983
+2020-12,King's College London,King's_College_London,32164
+2021-01,King's College London,King's_College_London,30342
+2021-02,King's College London,King's_College_London,27481
+2021-03,King's College London,King's_College_London,32741
+2021-04,King's College London,King's_College_London,29318
+2021-05,King's College London,King's_College_London,29849
+2021-06,King's College London,King's_College_London,25129
+2021-07,King's College London,King's_College_London,28597
+2021-08,King's College London,King's_College_London,32439
+2021-09,King's College London,King's_College_London,31558
+2021-10,King's College London,King's_College_London,29940
+2021-11,King's College London,King's_College_London,27913
+2021-12,King's College London,King's_College_London,30177
+2022-01,King's College London,King's_College_London,31504
+2022-02,King's College London,King's_College_London,28195
+2022-03,King's College London,King's_College_London,29049
+2022-04,King's College London,King's_College_London,27996
+2022-05,King's College London,King's_College_London,27560
+2022-06,King's College London,King's_College_London,25604
+2022-07,King's College London,King's_College_London,27450
+2022-08,King's College London,King's_College_London,29484
+2022-09,King's College London,King's_College_London,33838
+2022-10,King's College London,King's_College_London,29883
+2022-11,King's College London,King's_College_London,28911
+2022-12,King's College London,King's_College_London,24778
+2023-01,King's College London,King's_College_London,29238
+2023-02,King's College London,King's_College_London,26271
+2023-03,King's College London,King's_College_London,30374
+2023-04,King's College London,King's_College_London,27147
+2023-05,King's College London,King's_College_London,29806
+2023-06,King's College London,King's_College_London,25970
+2023-07,King's College London,King's_College_London,29379
+2023-08,King's College London,King's_College_London,31277
+2023-09,King's College London,King's_College_London,30016
+2023-10,King's College London,King's_College_London,28335
+2023-11,King's College London,King's_College_London,26672
+2023-12,King's College London,King's_College_London,27958
+2024-01,King's College London,King's_College_London,43199
+2024-02,King's College London,King's_College_London,29988
+2024-03,King's College London,King's_College_London,30664
+2024-04,King's College London,King's_College_London,29256
+2024-05,King's College London,King's_College_London,27841
+2024-06,King's College London,King's_College_London,23720
+2024-07,King's College London,King's_College_London,26206
+2024-08,King's College London,King's_College_London,28978
+2024-09,King's College London,King's_College_London,27300
+2024-10,King's College London,King's_College_London,27253
+2024-11,King's College London,King's_College_London,25968
+2024-12,King's College London,King's_College_London,37944
+2025-01,King's College London,King's_College_London,32150
+2025-02,King's College London,King's_College_London,25071
+2025-03,King's College London,King's_College_London,29567
+2025-04,King's College London,King's_College_London,26497
+2025-05,King's College London,King's_College_London,27366
+2025-06,King's College London,King's_College_London,23662
+2025-07,King's College London,King's_College_London,25822
+2025-08,King's College London,King's_College_London,26242
+2025-09,King's College London,King's_College_London,26990
+2025-10,King's College London,King's_College_London,26068
+2025-11,King's College London,King's_College_London,22566
+2025-12,King's College London,King's_College_London,22757
+2026-01,King's College London,King's_College_London,23353
+2026-02,King's College London,King's_College_London,20695
+2026-03,King's College London,King's_College_London,22036
+2026-04,King's College London,King's_College_London,21608
+2026-05,King's College London,King's_College_London,26626
+2026-06,King's College London,King's_College_London,23270
+2026-07,King's College London,King's_College_London,23861
+2026-08,King's College London,King's_College_London,24597
+2026-09,King's College London,King's_College_London,21797
+2026-10,King's College London,King's_College_London,19446
+2015-07,Leeds,University_of_Leeds,25471
+2015-08,Leeds,University_of_Leeds,25105
+2015-09,Leeds,University_of_Leeds,21137
+2015-10,Leeds,University_of_Leeds,17409
+2015-11,Leeds,University_of_Leeds,15229
+2015-12,Leeds,University_of_Leeds,26281
+2016-01,Leeds,University_of_Leeds,14857
+2016-02,Leeds,University_of_Leeds,13612
+2016-03,Leeds,University_of_Leeds,14492
+2016-04,Leeds,University_of_Leeds,14090
+2016-05,Leeds,University_of_Leeds,13139
+2016-06,Leeds,University_of_Leeds,12986
+2016-07,Leeds,University_of_Leeds,13000
+2016-08,Leeds,University_of_Leeds,14844
+2016-09,Leeds,University_of_Leeds,18287
+2016-10,Leeds,University_of_Leeds,17593
+2016-11,Leeds,University_of_Leeds,15380
+2016-12,Leeds,University_of_Leeds,14055
+2017-01,Leeds,University_of_Leeds,16754
+2017-02,Leeds,University_of_Leeds,14875
+2017-03,Leeds,University_of_Leeds,15874
+2017-04,Leeds,University_of_Leeds,14406
+2017-05,Leeds,University_of_Leeds,14930
+2017-06,Leeds,University_of_Leeds,14405
+2017-07,Leeds,University_of_Leeds,14753
+2017-08,Leeds,University_of_Leeds,15973
+2017-09,Leeds,University_of_Leeds,17747
+2017-10,Leeds,University_of_Leeds,16847
+2017-11,Leeds,University_of_Leeds,16844
+2017-12,Leeds,University_of_Leeds,14959
+2018-01,Leeds,University_of_Leeds,20411
+2018-02,Leeds,University_of_Leeds,14661
+2018-03,Leeds,University_of_Leeds,17044
+2018-04,Leeds,University_of_Leeds,15559
+2018-05,Leeds,University_of_Leeds,18450
+2018-06,Leeds,University_of_Leeds,16498
+2018-07,Leeds,University_of_Leeds,17327
+2018-08,Leeds,University_of_Leeds,16473
+2018-09,Leeds,University_of_Leeds,17429
+2018-10,Leeds,University_of_Leeds,17291
+2018-11,Leeds,University_of_Leeds,16395
+2018-12,Leeds,University_of_Leeds,15425
+2019-01,Leeds,University_of_Leeds,19471
+2019-02,Leeds,University_of_Leeds,16289
+2019-03,Leeds,University_of_Leeds,16393
+2019-04,Leeds,University_of_Leeds,14839
+2019-05,Leeds,University_of_Leeds,14770
+2019-06,Leeds,University_of_Leeds,14526
+2019-07,Leeds,University_of_Leeds,16417
+2019-08,Leeds,University_of_Leeds,17346
+2019-09,Leeds,University_of_Leeds,19768
+2019-10,Leeds,University_of_Leeds,21348
+2019-11,Leeds,University_of_Leeds,17957
+2019-12,Leeds,University_of_Leeds,17384
+2020-01,Leeds,University_of_Leeds,27199
+2020-02,Leeds,University_of_Leeds,19138
+2020-03,Leeds,University_of_Leeds,15713
+2020-04,Leeds,University_of_Leeds,20841
+2020-05,Leeds,University_of_Leeds,17404
+2020-06,Leeds,University_of_Leeds,13034
+2020-07,Leeds,University_of_Leeds,13356
+2020-08,Leeds,University_of_Leeds,15439
+2020-09,Leeds,University_of_Leeds,14769
+2020-10,Leeds,University_of_Leeds,15711
+2020-11,Leeds,University_of_Leeds,16943
+2020-12,Leeds,University_of_Leeds,17349
+2021-01,Leeds,University_of_Leeds,14820
+2021-02,Leeds,University_of_Leeds,12327
+2021-03,Leeds,University_of_Leeds,14459
+2021-04,Leeds,University_of_Leeds,13148
+2021-05,Leeds,University_of_Leeds,12764
+2021-06,Leeds,University_of_Leeds,11350
+2021-07,Leeds,University_of_Leeds,13836
+2021-08,Leeds,University_of_Leeds,15282
+2021-09,Leeds,University_of_Leeds,19613
+2021-10,Leeds,University_of_Leeds,19130
+2021-11,Leeds,University_of_Leeds,14803
+2021-12,Leeds,University_of_Leeds,13751
+2022-01,Leeds,University_of_Leeds,16655
+2022-02,Leeds,University_of_Leeds,14269
+2022-03,Leeds,University_of_Leeds,14357
+2022-04,Leeds,University_of_Leeds,15300
+2022-05,Leeds,University_of_Leeds,13829
+2022-06,Leeds,University_of_Leeds,13193
+2022-07,Leeds,University_of_Leeds,15877
+2022-08,Leeds,University_of_Leeds,15654
+2022-09,Leeds,University_of_Leeds,19114
+2022-10,Leeds,University_of_Leeds,17924
+2022-11,Leeds,University_of_Leeds,15937
+2022-12,Leeds,University_of_Leeds,13008
+2023-01,Leeds,University_of_Leeds,15086
+2023-02,Leeds,University_of_Leeds,13630
+2023-03,Leeds,University_of_Leeds,15303
+2023-04,Leeds,University_of_Leeds,13994
+2023-05,Leeds,University_of_Leeds,14940
+2023-06,Leeds,University_of_Leeds,14420
+2023-07,Leeds,University_of_Leeds,16387
+2023-08,Leeds,University_of_Leeds,17998
+2023-09,Leeds,University_of_Leeds,18412
+2023-10,Leeds,University_of_Leeds,17914
+2023-11,Leeds,University_of_Leeds,14614
+2023-12,Leeds,University_of_Leeds,14784
+2024-01,Leeds,University_of_Leeds,21839
+2024-02,Leeds,University_of_Leeds,14075
+2024-03,Leeds,University_of_Leeds,14491
+2024-04,Leeds,University_of_Leeds,12845
+2024-05,Leeds,University_of_Leeds,12569
+2024-06,Leeds,University_of_Leeds,11931
+2024-07,Leeds,University_of_Leeds,22193
+2024-08,Leeds,University_of_Leeds,11944
+2024-09,Leeds,University_of_Leeds,12870
+2024-10,Leeds,University_of_Leeds,14046
+2024-11,Leeds,University_of_Leeds,12554
+2024-12,Leeds,University_of_Leeds,12175
+2025-01,Leeds,University_of_Leeds,12837
+2025-02,Leeds,University_of_Leeds,11413
+2025-03,Leeds,University_of_Leeds,12317
+2025-04,Leeds,University_of_Leeds,10370
+2025-05,Leeds,University_of_Leeds,11114
+2025-06,Leeds,University_of_Leeds,9647
+2025-07,Leeds,University_of_Leeds,10082
+2025-08,Leeds,University_of_Leeds,11747
+2025-09,Leeds,University_of_Leeds,12438
+2025-10,Leeds,University_of_Leeds,13858
+2025-11,Leeds,University_of_Leeds,10688
+2025-12,Leeds,University_of_Leeds,10717
+2026-01,Leeds,University_of_Leeds,10690
+2026-02,Leeds,University_of_Leeds,10043
+2026-03,Leeds,University_of_Leeds,10943
+2026-04,Leeds,University_of_Leeds,10550
+2026-05,Leeds,University_of_Leeds,10820
+2026-06,Leeds,University_of_Leeds,10356
+2026-07,Leeds,University_of_Leeds,10421
+2026-08,Leeds,University_of_Leeds,9940
+2026-09,Leeds,University_of_Leeds,9484
+2026-10,Leeds,University_of_Leeds,8628
+2015-07,Liverpool,University_of_Liverpool,9959
+2015-08,Liverpool,University_of_Liverpool,10496
+2015-09,Liverpool,University_of_Liverpool,10588
+2015-10,Liverpool,University_of_Liverpool,11410
+2015-11,Liverpool,University_of_Liverpool,10456
+2015-12,Liverpool,University_of_Liverpool,8808
+2016-01,Liverpool,University_of_Liverpool,9582
+2016-02,Liverpool,University_of_Liverpool,9623
+2016-03,Liverpool,University_of_Liverpool,10338
+2016-04,Liverpool,University_of_Liverpool,9395
+2016-05,Liverpool,University_of_Liverpool,9039
+2016-06,Liverpool,University_of_Liverpool,8690
+2016-07,Liverpool,University_of_Liverpool,8702
+2016-08,Liverpool,University_of_Liverpool,10203
+2016-09,Liverpool,University_of_Liverpool,11007
+2016-10,Liverpool,University_of_Liverpool,10153
+2016-11,Liverpool,University_of_Liverpool,10433
+2016-12,Liverpool,University_of_Liverpool,10151
+2017-01,Liverpool,University_of_Liverpool,11014
+2017-02,Liverpool,University_of_Liverpool,10311
+2017-03,Liverpool,University_of_Liverpool,11329
+2017-04,Liverpool,University_of_Liverpool,9264
+2017-05,Liverpool,University_of_Liverpool,10202
+2017-06,Liverpool,University_of_Liverpool,9001
+2017-07,Liverpool,University_of_Liverpool,9237
+2017-08,Liverpool,University_of_Liverpool,10917
+2017-09,Liverpool,University_of_Liverpool,10472
+2017-10,Liverpool,University_of_Liverpool,10720
+2017-11,Liverpool,University_of_Liverpool,10244
+2017-12,Liverpool,University_of_Liverpool,8609
+2018-01,Liverpool,University_of_Liverpool,13383
+2018-02,Liverpool,University_of_Liverpool,10210
+2018-03,Liverpool,University_of_Liverpool,10551
+2018-04,Liverpool,University_of_Liverpool,10204
+2018-05,Liverpool,University_of_Liverpool,10527
+2018-06,Liverpool,University_of_Liverpool,8539
+2018-07,Liverpool,University_of_Liverpool,8809
+2018-08,Liverpool,University_of_Liverpool,10326
+2018-09,Liverpool,University_of_Liverpool,10784
+2018-10,Liverpool,University_of_Liverpool,9918
+2018-11,Liverpool,University_of_Liverpool,9118
+2018-12,Liverpool,University_of_Liverpool,9306
+2019-01,Liverpool,University_of_Liverpool,9601
+2019-02,Liverpool,University_of_Liverpool,8725
+2019-03,Liverpool,University_of_Liverpool,10272
+2019-04,Liverpool,University_of_Liverpool,9862
+2019-05,Liverpool,University_of_Liverpool,8856
+2019-06,Liverpool,University_of_Liverpool,8805
+2019-07,Liverpool,University_of_Liverpool,10994
+2019-08,Liverpool,University_of_Liverpool,11788
+2019-09,Liverpool,University_of_Liverpool,16353
+2019-10,Liverpool,University_of_Liverpool,20748
+2019-11,Liverpool,University_of_Liverpool,13979
+2019-12,Liverpool,University_of_Liverpool,14561
+2020-01,Liverpool,University_of_Liverpool,14724
+2020-02,Liverpool,University_of_Liverpool,19892
+2020-03,Liverpool,University_of_Liverpool,11943
+2020-04,Liverpool,University_of_Liverpool,16092
+2020-05,Liverpool,University_of_Liverpool,13616
+2020-06,Liverpool,University_of_Liverpool,10638
+2020-07,Liverpool,University_of_Liverpool,10606
+2020-08,Liverpool,University_of_Liverpool,11887
+2020-09,Liverpool,University_of_Liverpool,11516
+2020-10,Liverpool,University_of_Liverpool,10388
+2020-11,Liverpool,University_of_Liverpool,16532
+2020-12,Liverpool,University_of_Liverpool,11265
+2021-01,Liverpool,University_of_Liverpool,11758
+2021-02,Liverpool,University_of_Liverpool,9276
+2021-03,Liverpool,University_of_Liverpool,10132
+2021-04,Liverpool,University_of_Liverpool,9970
+2021-05,Liverpool,University_of_Liverpool,9423
+2021-06,Liverpool,University_of_Liverpool,8594
+2021-07,Liverpool,University_of_Liverpool,9881
+2021-08,Liverpool,University_of_Liverpool,10652
+2021-09,Liverpool,University_of_Liverpool,10841
+2021-10,Liverpool,University_of_Liverpool,11005
+2021-11,Liverpool,University_of_Liverpool,9146
+2021-12,Liverpool,University_of_Liverpool,8989
+2022-01,Liverpool,University_of_Liverpool,10765
+2022-02,Liverpool,University_of_Liverpool,9663
+2022-03,Liverpool,University_of_Liverpool,10422
+2022-04,Liverpool,University_of_Liverpool,10189
+2022-05,Liverpool,University_of_Liverpool,10137
+2022-06,Liverpool,University_of_Liverpool,9947
+2022-07,Liverpool,University_of_Liverpool,10413
+2022-08,Liverpool,University_of_Liverpool,11695
+2022-09,Liverpool,University_of_Liverpool,13782
+2022-10,Liverpool,University_of_Liverpool,10735
+2022-11,Liverpool,University_of_Liverpool,9743
+2022-12,Liverpool,University_of_Liverpool,8537
+2023-01,Liverpool,University_of_Liverpool,10154
+2023-02,Liverpool,University_of_Liverpool,8996
+2023-03,Liverpool,University_of_Liverpool,10544
+2023-04,Liverpool,University_of_Liverpool,8988
+2023-05,Liverpool,University_of_Liverpool,9986
+2023-06,Liverpool,University_of_Liverpool,9797
+2023-07,Liverpool,University_of_Liverpool,10778
+2023-08,Liverpool,University_of_Liverpool,10753
+2023-09,Liverpool,University_of_Liverpool,10417
+2023-10,Liverpool,University_of_Liverpool,9421
+2023-11,Liverpool,University_of_Liverpool,8165
+2023-12,Liverpool,University_of_Liverpool,8984
+2024-01,Liverpool,University_of_Liverpool,12144
+2024-02,Liverpool,University_of_Liverpool,9641
+2024-03,Liverpool,University_of_Liverpool,9777
+2024-04,Liverpool,University_of_Liverpool,17116
+2024-05,Liverpool,University_of_Liverpool,8290
+2024-06,Liverpool,University_of_Liverpool,7859
+2024-07,Liverpool,University_of_Liverpool,8110
+2024-08,Liverpool,University_of_Liverpool,8300
+2024-09,Liverpool,University_of_Liverpool,8539
+2024-10,Liverpool,University_of_Liverpool,8820
+2024-11,Liverpool,University_of_Liverpool,8234
+2024-12,Liverpool,University_of_Liverpool,7808
+2025-01,Liverpool,University_of_Liverpool,8343
+2025-02,Liverpool,University_of_Liverpool,7329
+2025-03,Liverpool,University_of_Liverpool,7344
+2025-04,Liverpool,University_of_Liverpool,6400
+2025-05,Liverpool,University_of_Liverpool,6939
+2025-06,Liverpool,University_of_Liverpool,6452
+2025-07,Liverpool,University_of_Liverpool,7115
+2025-08,Liverpool,University_of_Liverpool,7732
+2025-09,Liverpool,University_of_Liverpool,7739
+2025-10,Liverpool,University_of_Liverpool,8778
+2025-11,Liverpool,University_of_Liverpool,7677
+2025-12,Liverpool,University_of_Liverpool,7494
+2026-01,Liverpool,University_of_Liverpool,6963
+2026-02,Liverpool,University_of_Liverpool,5991
+2026-03,Liverpool,University_of_Liverpool,6593
+2026-04,Liverpool,University_of_Liverpool,6160
+2026-05,Liverpool,University_of_Liverpool,6623
+2026-06,Liverpool,University_of_Liverpool,7253
+2026-07,Liverpool,University_of_Liverpool,7578
+2026-08,Liverpool,University_of_Liverpool,8040
+2026-09,Liverpool,University_of_Liverpool,7309
+2026-10,Liverpool,University_of_Liverpool,6533
+2015-07,LSE,London_School_of_Economics,33872
+2015-08,LSE,London_School_of_Economics,33950
+2015-09,LSE,London_School_of_Economics,35037
+2015-10,LSE,London_School_of_Economics,35980
+2015-11,LSE,London_School_of_Economics,34228
+2015-12,LSE,London_School_of_Economics,31142
+2016-01,LSE,London_School_of_Economics,37511
+2016-02,LSE,London_School_of_Economics,35436
+2016-03,LSE,London_School_of_Economics,37138
+2016-04,LSE,London_School_of_Economics,37305
+2016-05,LSE,London_School_of_Economics,36660
+2016-06,LSE,London_School_of_Economics,36159
+2016-07,LSE,London_School_of_Economics,34144
+2016-08,LSE,London_School_of_Economics,34532
+2016-09,LSE,London_School_of_Economics,37237
+2016-10,LSE,London_School_of_Economics,39756
+2016-11,LSE,London_School_of_Economics,41253
+2016-12,LSE,London_School_of_Economics,38151
+2017-01,LSE,London_School_of_Economics,43400
+2017-02,LSE,London_School_of_Economics,38074
+2017-03,LSE,London_School_of_Economics,44141
+2017-04,LSE,London_School_of_Economics,42399
+2017-05,LSE,London_School_of_Economics,36112
+2017-06,LSE,London_School_of_Economics,41163
+2017-07,LSE,London_School_of_Economics,33773
+2017-08,LSE,London_School_of_Economics,36065
+2017-09,LSE,London_School_of_Economics,38008
+2017-10,LSE,London_School_of_Economics,38792
+2017-11,LSE,London_School_of_Economics,37865
+2017-12,LSE,London_School_of_Economics,34805
+2018-01,LSE,London_School_of_Economics,37569
+2018-02,LSE,London_School_of_Economics,35114
+2018-03,LSE,London_School_of_Economics,42179
+2018-04,LSE,London_School_of_Economics,39762
+2018-05,LSE,London_School_of_Economics,38206
+2018-06,LSE,London_School_of_Economics,34371
+2018-07,LSE,London_School_of_Economics,36306
+2018-08,LSE,London_School_of_Economics,36558
+2018-09,LSE,London_School_of_Economics,37707
+2018-10,LSE,London_School_of_Economics,44738
+2018-11,LSE,London_School_of_Economics,40176
+2018-12,LSE,London_School_of_Economics,39855
+2019-01,LSE,London_School_of_Economics,42394
+2019-02,LSE,London_School_of_Economics,36446
+2019-03,LSE,London_School_of_Economics,43902
+2019-04,LSE,London_School_of_Economics,38996
+2019-05,LSE,London_School_of_Economics,39532
+2019-06,LSE,London_School_of_Economics,36482
+2019-07,LSE,London_School_of_Economics,48795
+2019-08,LSE,London_School_of_Economics,40070
+2019-09,LSE,London_School_of_Economics,46820
+2019-10,LSE,London_School_of_Economics,43447
+2019-11,LSE,London_School_of_Economics,41619
+2019-12,LSE,London_School_of_Economics,42429
+2020-01,LSE,London_School_of_Economics,41750
+2020-02,LSE,London_School_of_Economics,38031
+2020-03,LSE,London_School_of_Economics,39858
+2020-04,LSE,London_School_of_Economics,48808
+2020-05,LSE,London_School_of_Economics,44402
+2020-06,LSE,London_School_of_Economics,38859
+2020-07,LSE,London_School_of_Economics,39806
+2020-08,LSE,London_School_of_Economics,38770
+2020-09,LSE,London_School_of_Economics,40226
+2020-10,LSE,London_School_of_Economics,43122
+2020-11,LSE,London_School_of_Economics,49028
+2020-12,LSE,London_School_of_Economics,49634
+2021-01,LSE,London_School_of_Economics,67617
+2021-02,LSE,London_School_of_Economics,36895
+2021-03,LSE,London_School_of_Economics,41158
+2021-04,LSE,London_School_of_Economics,40366
+2021-05,LSE,London_School_of_Economics,40186
+2021-06,LSE,London_School_of_Economics,33444
+2021-07,LSE,London_School_of_Economics,40755
+2021-08,LSE,London_School_of_Economics,49614
+2021-09,LSE,London_School_of_Economics,45072
+2021-10,LSE,London_School_of_Economics,42838
+2021-11,LSE,London_School_of_Economics,39863
+2021-12,LSE,London_School_of_Economics,38558
+2022-01,LSE,London_School_of_Economics,45220
+2022-02,LSE,London_School_of_Economics,40867
+2022-03,LSE,London_School_of_Economics,40599
+2022-04,LSE,London_School_of_Economics,42894
+2022-05,LSE,London_School_of_Economics,46949
+2022-06,LSE,London_School_of_Economics,44632
+2022-07,LSE,London_School_of_Economics,45834
+2022-08,LSE,London_School_of_Economics,42129
+2022-09,LSE,London_School_of_Economics,46180
+2022-10,LSE,London_School_of_Economics,43253
+2022-11,LSE,London_School_of_Economics,38926
+2022-12,LSE,London_School_of_Economics,32468
+2023-01,LSE,London_School_of_Economics,41569
+2023-02,LSE,London_School_of_Economics,38231
+2023-03,LSE,London_School_of_Economics,43861
+2023-04,LSE,London_School_of_Economics,46554
+2023-05,LSE,London_School_of_Economics,46218
+2023-06,LSE,London_School_of_Economics,43614
+2023-07,LSE,London_School_of_Economics,47237
+2023-08,LSE,London_School_of_Economics,40449
+2023-09,LSE,London_School_of_Economics,40418
+2023-10,LSE,London_School_of_Economics,37569
+2023-11,LSE,London_School_of_Economics,34999
+2023-12,LSE,London_School_of_Economics,35729
+2024-01,LSE,London_School_of_Economics,47375
+2024-02,LSE,London_School_of_Economics,37972
+2024-03,LSE,London_School_of_Economics,40368
+2024-04,LSE,London_School_of_Economics,40557
+2024-05,LSE,London_School_of_Economics,35766
+2024-06,LSE,London_School_of_Economics,30717
+2024-07,LSE,London_School_of_Economics,35376
+2024-08,LSE,London_School_of_Economics,37658
+2024-09,LSE,London_School_of_Economics,36830
+2024-10,LSE,London_School_of_Economics,38009
+2024-11,LSE,London_School_of_Economics,38757
+2024-12,LSE,London_School_of_Economics,36818
+2025-01,LSE,London_School_of_Economics,40546
+2025-02,LSE,London_School_of_Economics,35834
+2025-03,LSE,London_School_of_Economics,40017
+2025-04,LSE,London_School_of_Economics,37099
+2025-05,LSE,London_School_of_Economics,32920
+2025-06,LSE,London_School_of_Economics,29605
+2025-07,LSE,London_School_of_Economics,29328
+2025-08,LSE,London_School_of_Economics,34304
+2025-09,LSE,London_School_of_Economics,37441
+2025-10,LSE,London_School_of_Economics,33082
+2025-11,LSE,London_School_of_Economics,33132
+2025-12,LSE,London_School_of_Economics,28063
+2026-01,LSE,London_School_of_Economics,30527
+2026-02,LSE,London_School_of_Economics,30036
+2026-03,LSE,London_School_of_Economics,30927
+2026-04,LSE,London_School_of_Economics,33066
+2026-05,LSE,London_School_of_Economics,28126
+2026-06,LSE,London_School_of_Economics,26264
+2026-07,LSE,London_School_of_Economics,29026
+2026-08,LSE,London_School_of_Economics,30271
+2026-09,LSE,London_School_of_Economics,27894
+2026-10,LSE,London_School_of_Economics,29110
+2015-07,Manchester,University_of_Manchester,19893
+2015-08,Manchester,University_of_Manchester,21538
+2015-09,Manchester,University_of_Manchester,21328
+2015-10,Manchester,University_of_Manchester,23628
+2015-11,Manchester,University_of_Manchester,21038
+2015-12,Manchester,University_of_Manchester,19597
+2016-01,Manchester,University_of_Manchester,22871
+2016-02,Manchester,University_of_Manchester,21041
+2016-03,Manchester,University_of_Manchester,22639
+2016-04,Manchester,University_of_Manchester,20138
+2016-05,Manchester,University_of_Manchester,20842
+2016-06,Manchester,University_of_Manchester,19535
+2016-07,Manchester,University_of_Manchester,19286
+2016-08,Manchester,University_of_Manchester,20227
+2016-09,Manchester,University_of_Manchester,23332
+2016-10,Manchester,University_of_Manchester,24310
+2016-11,Manchester,University_of_Manchester,25143
+2016-12,Manchester,University_of_Manchester,21090
+2017-01,Manchester,University_of_Manchester,24064
+2017-02,Manchester,University_of_Manchester,24586
+2017-03,Manchester,University_of_Manchester,22746
+2017-04,Manchester,University_of_Manchester,20677
+2017-05,Manchester,University_of_Manchester,21756
+2017-06,Manchester,University_of_Manchester,17854
+2017-07,Manchester,University_of_Manchester,18688
+2017-08,Manchester,University_of_Manchester,19136
+2017-09,Manchester,University_of_Manchester,21582
+2017-10,Manchester,University_of_Manchester,22334
+2017-11,Manchester,University_of_Manchester,20909
+2017-12,Manchester,University_of_Manchester,19980
+2018-01,Manchester,University_of_Manchester,21188
+2018-02,Manchester,University_of_Manchester,18986
+2018-03,Manchester,University_of_Manchester,22316
+2018-04,Manchester,University_of_Manchester,20858
+2018-05,Manchester,University_of_Manchester,21216
+2018-06,Manchester,University_of_Manchester,18173
+2018-07,Manchester,University_of_Manchester,19189
+2018-08,Manchester,University_of_Manchester,21701
+2018-09,Manchester,University_of_Manchester,22497
+2018-10,Manchester,University_of_Manchester,25104
+2018-11,Manchester,University_of_Manchester,23054
+2018-12,Manchester,University_of_Manchester,23030
+2019-01,Manchester,University_of_Manchester,25357
+2019-02,Manchester,University_of_Manchester,20020
+2019-03,Manchester,University_of_Manchester,22646
+2019-04,Manchester,University_of_Manchester,19126
+2019-05,Manchester,University_of_Manchester,18995
+2019-06,Manchester,University_of_Manchester,18816
+2019-07,Manchester,University_of_Manchester,20960
+2019-08,Manchester,University_of_Manchester,21837
+2019-09,Manchester,University_of_Manchester,24576
+2019-10,Manchester,University_of_Manchester,26078
+2019-11,Manchester,University_of_Manchester,22649
+2019-12,Manchester,University_of_Manchester,22761
+2020-01,Manchester,University_of_Manchester,24465
+2020-02,Manchester,University_of_Manchester,21095
+2020-03,Manchester,University_of_Manchester,19147
+2020-04,Manchester,University_of_Manchester,22433
+2020-05,Manchester,University_of_Manchester,21562
+2020-06,Manchester,University_of_Manchester,17992
+2020-07,Manchester,University_of_Manchester,19393
+2020-08,Manchester,University_of_Manchester,20337
+2020-09,Manchester,University_of_Manchester,19327
+2020-10,Manchester,University_of_Manchester,22127
+2020-11,Manchester,University_of_Manchester,21675
+2020-12,Manchester,University_of_Manchester,20942
+2021-01,Manchester,University_of_Manchester,20914
+2021-02,Manchester,University_of_Manchester,16511
+2021-03,Manchester,University_of_Manchester,22090
+2021-04,Manchester,University_of_Manchester,18435
+2021-05,Manchester,University_of_Manchester,17594
+2021-06,Manchester,University_of_Manchester,16349
+2021-07,Manchester,University_of_Manchester,22652
+2021-08,Manchester,University_of_Manchester,24454
+2021-09,Manchester,University_of_Manchester,26241
+2021-10,Manchester,University_of_Manchester,26823
+2021-11,Manchester,University_of_Manchester,22668
+2021-12,Manchester,University_of_Manchester,24998
+2022-01,Manchester,University_of_Manchester,27011
+2022-02,Manchester,University_of_Manchester,25450
+2022-03,Manchester,University_of_Manchester,23082
+2022-04,Manchester,University_of_Manchester,22607
+2022-05,Manchester,University_of_Manchester,24787
+2022-06,Manchester,University_of_Manchester,21120
+2022-07,Manchester,University_of_Manchester,21157
+2022-08,Manchester,University_of_Manchester,22375
+2022-09,Manchester,University_of_Manchester,22880
+2022-10,Manchester,University_of_Manchester,22898
+2022-11,Manchester,University_of_Manchester,21337
+2022-12,Manchester,University_of_Manchester,18015
+2023-01,Manchester,University_of_Manchester,20602
+2023-02,Manchester,University_of_Manchester,18761
+2023-03,Manchester,University_of_Manchester,24440
+2023-04,Manchester,University_of_Manchester,21412
+2023-05,Manchester,University_of_Manchester,26462
+2023-06,Manchester,University_of_Manchester,19478
+2023-07,Manchester,University_of_Manchester,21811
+2023-08,Manchester,University_of_Manchester,22500
+2023-09,Manchester,University_of_Manchester,24283
+2023-10,Manchester,University_of_Manchester,21410
+2023-11,Manchester,University_of_Manchester,17892
+2023-12,Manchester,University_of_Manchester,19729
+2024-01,Manchester,University_of_Manchester,27098
+2024-02,Manchester,University_of_Manchester,19050
+2024-03,Manchester,University_of_Manchester,19100
+2024-04,Manchester,University_of_Manchester,20754
+2024-05,Manchester,University_of_Manchester,17629
+2024-06,Manchester,University_of_Manchester,14972
+2024-07,Manchester,University_of_Manchester,14776
+2024-08,Manchester,University_of_Manchester,14871
+2024-09,Manchester,University_of_Manchester,15762
+2024-10,Manchester,University_of_Manchester,17226
+2024-11,Manchester,University_of_Manchester,15294
+2024-12,Manchester,University_of_Manchester,15465
+2025-01,Manchester,University_of_Manchester,16835
+2025-02,Manchester,University_of_Manchester,14110
+2025-03,Manchester,University_of_Manchester,14368
+2025-04,Manchester,University_of_Manchester,13612
+2025-05,Manchester,University_of_Manchester,13333
+2025-06,Manchester,University_of_Manchester,12637
+2025-07,Manchester,University_of_Manchester,12152
+2025-08,Manchester,University_of_Manchester,14184
+2025-09,Manchester,University_of_Manchester,14249
+2025-10,Manchester,University_of_Manchester,15105
+2025-11,Manchester,University_of_Manchester,14079
+2025-12,Manchester,University_of_Manchester,13066
+2026-01,Manchester,University_of_Manchester,13323
+2026-02,Manchester,University_of_Manchester,11905
+2026-03,Manchester,University_of_Manchester,13011
+2026-04,Manchester,University_of_Manchester,13443
+2026-05,Manchester,University_of_Manchester,12906
+2026-06,Manchester,University_of_Manchester,12159
+2026-07,Manchester,University_of_Manchester,11976
+2026-08,Manchester,University_of_Manchester,12365
+2026-09,Manchester,University_of_Manchester,12103
+2026-10,Manchester,University_of_Manchester,12576
+2015-07,Newcastle,Newcastle_University,9595
+2015-08,Newcastle,Newcastle_University,9571
+2015-09,Newcastle,Newcastle_University,9983
+2015-10,Newcastle,Newcastle_University,14928
+2015-11,Newcastle,Newcastle_University,10540
+2015-12,Newcastle,Newcastle_University,8900
+2016-01,Newcastle,Newcastle_University,10092
+2016-02,Newcastle,Newcastle_University,9239
+2016-03,Newcastle,Newcastle_University,9424
+2016-04,Newcastle,Newcastle_University,9156
+2016-05,Newcastle,Newcastle_University,9240
+2016-06,Newcastle,Newcastle_University,9203
+2016-07,Newcastle,Newcastle_University,9252
+2016-08,Newcastle,Newcastle_University,12071
+2016-09,Newcastle,Newcastle_University,11059
+2016-10,Newcastle,Newcastle_University,10501
+2016-11,Newcastle,Newcastle_University,10459
+2016-12,Newcastle,Newcastle_University,9129
+2017-01,Newcastle,Newcastle_University,10455
+2017-02,Newcastle,Newcastle_University,9954
+2017-03,Newcastle,Newcastle_University,11185
+2017-04,Newcastle,Newcastle_University,10203
+2017-05,Newcastle,Newcastle_University,10555
+2017-06,Newcastle,Newcastle_University,9892
+2017-07,Newcastle,Newcastle_University,10486
+2017-08,Newcastle,Newcastle_University,11469
+2017-09,Newcastle,Newcastle_University,11031
+2017-10,Newcastle,Newcastle_University,10706
+2017-11,Newcastle,Newcastle_University,10812
+2017-12,Newcastle,Newcastle_University,10157
+2018-01,Newcastle,Newcastle_University,11434
+2018-02,Newcastle,Newcastle_University,10650
+2018-03,Newcastle,Newcastle_University,11697
+2018-04,Newcastle,Newcastle_University,15769
+2018-05,Newcastle,Newcastle_University,10127
+2018-06,Newcastle,Newcastle_University,9636
+2018-07,Newcastle,Newcastle_University,12718
+2018-08,Newcastle,Newcastle_University,12702
+2018-09,Newcastle,Newcastle_University,12615
+2018-10,Newcastle,Newcastle_University,15627
+2018-11,Newcastle,Newcastle_University,12454
+2018-12,Newcastle,Newcastle_University,11617
+2019-01,Newcastle,Newcastle_University,12346
+2019-02,Newcastle,Newcastle_University,10611
+2019-03,Newcastle,Newcastle_University,12489
+2019-04,Newcastle,Newcastle_University,11003
+2019-05,Newcastle,Newcastle_University,10744
+2019-06,Newcastle,Newcastle_University,10316
+2019-07,Newcastle,Newcastle_University,12120
+2019-08,Newcastle,Newcastle_University,13214
+2019-09,Newcastle,Newcastle_University,14465
+2019-10,Newcastle,Newcastle_University,13856
+2019-11,Newcastle,Newcastle_University,13456
+2019-12,Newcastle,Newcastle_University,12783
+2020-01,Newcastle,Newcastle_University,14212
+2020-02,Newcastle,Newcastle_University,11489
+2020-03,Newcastle,Newcastle_University,11621
+2020-04,Newcastle,Newcastle_University,12772
+2020-05,Newcastle,Newcastle_University,11458
+2020-06,Newcastle,Newcastle_University,9416
+2020-07,Newcastle,Newcastle_University,9800
+2020-08,Newcastle,Newcastle_University,10968
+2020-09,Newcastle,Newcastle_University,11107
+2020-10,Newcastle,Newcastle_University,12584
+2020-11,Newcastle,Newcastle_University,11056
+2020-12,Newcastle,Newcastle_University,10634
+2021-01,Newcastle,Newcastle_University,11322
+2021-02,Newcastle,Newcastle_University,8940
+2021-03,Newcastle,Newcastle_University,10525
+2021-04,Newcastle,Newcastle_University,9414
+2021-05,Newcastle,Newcastle_University,9134
+2021-06,Newcastle,Newcastle_University,8664
+2021-07,Newcastle,Newcastle_University,11837
+2021-08,Newcastle,Newcastle_University,12816
+2021-09,Newcastle,Newcastle_University,12704
+2021-10,Newcastle,Newcastle_University,12420
+2021-11,Newcastle,Newcastle_University,13818
+2021-12,Newcastle,Newcastle_University,11152
+2022-01,Newcastle,Newcastle_University,12952
+2022-02,Newcastle,Newcastle_University,10943
+2022-03,Newcastle,Newcastle_University,11254
+2022-04,Newcastle,Newcastle_University,10520
+2022-05,Newcastle,Newcastle_University,11649
+2022-06,Newcastle,Newcastle_University,12870
+2022-07,Newcastle,Newcastle_University,12160
+2022-08,Newcastle,Newcastle_University,11513
+2022-09,Newcastle,Newcastle_University,12573
+2022-10,Newcastle,Newcastle_University,10614
+2022-11,Newcastle,Newcastle_University,9895
+2022-12,Newcastle,Newcastle_University,8282
+2023-01,Newcastle,Newcastle_University,8916
+2023-02,Newcastle,Newcastle_University,8434
+2023-03,Newcastle,Newcastle_University,10834
+2023-04,Newcastle,Newcastle_University,9917
+2023-05,Newcastle,Newcastle_University,10532
+2023-06,Newcastle,Newcastle_University,10010
+2023-07,Newcastle,Newcastle_University,10074
+2023-08,Newcastle,Newcastle_University,10203
+2023-09,Newcastle,Newcastle_University,11106
+2023-10,Newcastle,Newcastle_University,9172
+2023-11,Newcastle,Newcastle_University,8935
+2023-12,Newcastle,Newcastle_University,10019
+2024-01,Newcastle,Newcastle_University,12452
+2024-02,Newcastle,Newcastle_University,9428
+2024-03,Newcastle,Newcastle_University,10046
+2024-04,Newcastle,Newcastle_University,8908
+2024-05,Newcastle,Newcastle_University,9097
+2024-06,Newcastle,Newcastle_University,8850
+2024-07,Newcastle,Newcastle_University,8399
+2024-08,Newcastle,Newcastle_University,7922
+2024-09,Newcastle,Newcastle_University,8866
+2024-10,Newcastle,Newcastle_University,8779
+2024-11,Newcastle,Newcastle_University,8134
+2024-12,Newcastle,Newcastle_University,7705
+2025-01,Newcastle,Newcastle_University,9083
+2025-02,Newcastle,Newcastle_University,7980
+2025-03,Newcastle,Newcastle_University,8733
+2025-04,Newcastle,Newcastle_University,7417
+2025-05,Newcastle,Newcastle_University,6972
+2025-06,Newcastle,Newcastle_University,6447
+2025-07,Newcastle,Newcastle_University,6994
+2025-08,Newcastle,Newcastle_University,7548
+2025-09,Newcastle,Newcastle_University,7752
+2025-10,Newcastle,Newcastle_University,7732
+2025-11,Newcastle,Newcastle_University,7227
+2025-12,Newcastle,Newcastle_University,6954
+2026-01,Newcastle,Newcastle_University,6608
+2026-02,Newcastle,Newcastle_University,6282
+2026-03,Newcastle,Newcastle_University,6512
+2026-04,Newcastle,Newcastle_University,6668
+2026-05,Newcastle,Newcastle_University,7943
+2026-06,Newcastle,Newcastle_University,6048
+2026-07,Newcastle,Newcastle_University,6565
+2026-08,Newcastle,Newcastle_University,7338
+2026-09,Newcastle,Newcastle_University,7902
+2026-10,Newcastle,Newcastle_University,6304
+2015-07,Nottingham,University_of_Nottingham,13654
+2015-08,Nottingham,University_of_Nottingham,15934
+2015-09,Nottingham,University_of_Nottingham,15350
+2015-10,Nottingham,University_of_Nottingham,14874
+2015-11,Nottingham,University_of_Nottingham,13967
+2015-12,Nottingham,University_of_Nottingham,12246
+2016-01,Nottingham,University_of_Nottingham,13757
+2016-02,Nottingham,University_of_Nottingham,12953
+2016-03,Nottingham,University_of_Nottingham,15841
+2016-04,Nottingham,University_of_Nottingham,13324
+2016-05,Nottingham,University_of_Nottingham,12723
+2016-06,Nottingham,University_of_Nottingham,13002
+2016-07,Nottingham,University_of_Nottingham,12539
+2016-08,Nottingham,University_of_Nottingham,14273
+2016-09,Nottingham,University_of_Nottingham,17072
+2016-10,Nottingham,University_of_Nottingham,16377
+2016-11,Nottingham,University_of_Nottingham,14245
+2016-12,Nottingham,University_of_Nottingham,12850
+2017-01,Nottingham,University_of_Nottingham,15001
+2017-02,Nottingham,University_of_Nottingham,14407
+2017-03,Nottingham,University_of_Nottingham,15888
+2017-04,Nottingham,University_of_Nottingham,13694
+2017-05,Nottingham,University_of_Nottingham,14426
+2017-06,Nottingham,University_of_Nottingham,13041
+2017-07,Nottingham,University_of_Nottingham,13544
+2017-08,Nottingham,University_of_Nottingham,15532
+2017-09,Nottingham,University_of_Nottingham,15041
+2017-10,Nottingham,University_of_Nottingham,14704
+2017-11,Nottingham,University_of_Nottingham,13971
+2017-12,Nottingham,University_of_Nottingham,12750
+2018-01,Nottingham,University_of_Nottingham,13675
+2018-02,Nottingham,University_of_Nottingham,12303
+2018-03,Nottingham,University_of_Nottingham,14241
+2018-04,Nottingham,University_of_Nottingham,12746
+2018-05,Nottingham,University_of_Nottingham,15400
+2018-06,Nottingham,University_of_Nottingham,11455
+2018-07,Nottingham,University_of_Nottingham,13463
+2018-08,Nottingham,University_of_Nottingham,14644
+2018-09,Nottingham,University_of_Nottingham,15285
+2018-10,Nottingham,University_of_Nottingham,14400
+2018-11,Nottingham,University_of_Nottingham,13518
+2018-12,Nottingham,University_of_Nottingham,13988
+2019-01,Nottingham,University_of_Nottingham,15059
+2019-02,Nottingham,University_of_Nottingham,14587
+2019-03,Nottingham,University_of_Nottingham,14035
+2019-04,Nottingham,University_of_Nottingham,13249
+2019-05,Nottingham,University_of_Nottingham,12720
+2019-06,Nottingham,University_of_Nottingham,12940
+2019-07,Nottingham,University_of_Nottingham,14282
+2019-08,Nottingham,University_of_Nottingham,14910
+2019-09,Nottingham,University_of_Nottingham,17049
+2019-10,Nottingham,University_of_Nottingham,18485
+2019-11,Nottingham,University_of_Nottingham,16321
+2019-12,Nottingham,University_of_Nottingham,15091
+2020-01,Nottingham,University_of_Nottingham,17104
+2020-02,Nottingham,University_of_Nottingham,15562
+2020-03,Nottingham,University_of_Nottingham,21042
+2020-04,Nottingham,University_of_Nottingham,27755
+2020-05,Nottingham,University_of_Nottingham,15792
+2020-06,Nottingham,University_of_Nottingham,12312
+2020-07,Nottingham,University_of_Nottingham,12411
+2020-08,Nottingham,University_of_Nottingham,13786
+2020-09,Nottingham,University_of_Nottingham,13215
+2020-10,Nottingham,University_of_Nottingham,13647
+2020-11,Nottingham,University_of_Nottingham,13789
+2020-12,Nottingham,University_of_Nottingham,13379
+2021-01,Nottingham,University_of_Nottingham,13115
+2021-02,Nottingham,University_of_Nottingham,12306
+2021-03,Nottingham,University_of_Nottingham,13415
+2021-04,Nottingham,University_of_Nottingham,11695
+2021-05,Nottingham,University_of_Nottingham,11951
+2021-06,Nottingham,University_of_Nottingham,10724
+2021-07,Nottingham,University_of_Nottingham,12060
+2021-08,Nottingham,University_of_Nottingham,15656
+2021-09,Nottingham,University_of_Nottingham,14619
+2021-10,Nottingham,University_of_Nottingham,13786
+2021-11,Nottingham,University_of_Nottingham,12245
+2021-12,Nottingham,University_of_Nottingham,11776
+2022-01,Nottingham,University_of_Nottingham,14883
+2022-02,Nottingham,University_of_Nottingham,12046
+2022-03,Nottingham,University_of_Nottingham,12960
+2022-04,Nottingham,University_of_Nottingham,12076
+2022-05,Nottingham,University_of_Nottingham,13438
+2022-06,Nottingham,University_of_Nottingham,12577
+2022-07,Nottingham,University_of_Nottingham,13054
+2022-08,Nottingham,University_of_Nottingham,15073
+2022-09,Nottingham,University_of_Nottingham,14654
+2022-10,Nottingham,University_of_Nottingham,13870
+2022-11,Nottingham,University_of_Nottingham,13203
+2022-12,Nottingham,University_of_Nottingham,11794
+2023-01,Nottingham,University_of_Nottingham,11995
+2023-02,Nottingham,University_of_Nottingham,11250
+2023-03,Nottingham,University_of_Nottingham,14225
+2023-04,Nottingham,University_of_Nottingham,10730
+2023-05,Nottingham,University_of_Nottingham,11518
+2023-06,Nottingham,University_of_Nottingham,14159
+2023-07,Nottingham,University_of_Nottingham,12075
+2023-08,Nottingham,University_of_Nottingham,12315
+2023-09,Nottingham,University_of_Nottingham,12432
+2023-10,Nottingham,University_of_Nottingham,11480
+2023-11,Nottingham,University_of_Nottingham,10128
+2023-12,Nottingham,University_of_Nottingham,10521
+2024-01,Nottingham,University_of_Nottingham,15509
+2024-02,Nottingham,University_of_Nottingham,10654
+2024-03,Nottingham,University_of_Nottingham,15099
+2024-04,Nottingham,University_of_Nottingham,11384
+2024-05,Nottingham,University_of_Nottingham,11047
+2024-06,Nottingham,University_of_Nottingham,9282
+2024-07,Nottingham,University_of_Nottingham,9510
+2024-08,Nottingham,University_of_Nottingham,9950
+2024-09,Nottingham,University_of_Nottingham,10398
+2024-10,Nottingham,University_of_Nottingham,10415
+2024-11,Nottingham,University_of_Nottingham,9746
+2024-12,Nottingham,University_of_Nottingham,13218
+2025-01,Nottingham,University_of_Nottingham,10035
+2025-02,Nottingham,University_of_Nottingham,8964
+2025-03,Nottingham,University_of_Nottingham,10702
+2025-04,Nottingham,University_of_Nottingham,8725
+2025-05,Nottingham,University_of_Nottingham,8644
+2025-06,Nottingham,University_of_Nottingham,7959
+2025-07,Nottingham,University_of_Nottingham,7976
+2025-08,Nottingham,University_of_Nottingham,9309
+2025-09,Nottingham,University_of_Nottingham,9156
+2025-10,Nottingham,University_of_Nottingham,8833
+2025-11,Nottingham,University_of_Nottingham,8277
+2025-12,Nottingham,University_of_Nottingham,7650
+2026-01,Nottingham,University_of_Nottingham,7084
+2026-02,Nottingham,University_of_Nottingham,6973
+2026-03,Nottingham,University_of_Nottingham,6986
+2026-04,Nottingham,University_of_Nottingham,7318
+2026-05,Nottingham,University_of_Nottingham,8656
+2026-06,Nottingham,University_of_Nottingham,6879
+2026-07,Nottingham,University_of_Nottingham,7319
+2026-08,Nottingham,University_of_Nottingham,7726
+2026-09,Nottingham,University_of_Nottingham,10850
+2026-10,Nottingham,University_of_Nottingham,7132
+2015-07,Oxford,University_of_Oxford,101757
+2015-08,Oxford,University_of_Oxford,104004
+2015-09,Oxford,University_of_Oxford,114340
+2015-10,Oxford,University_of_Oxford,116796
+2015-11,Oxford,University_of_Oxford,111111
+2015-12,Oxford,University_of_Oxford,99893
+2016-01,Oxford,University_of_Oxford,113174
+2016-02,Oxford,University_of_Oxford,107576
+2016-03,Oxford,University_of_Oxford,120598
+2016-04,Oxford,University_of_Oxford,112544
+2016-05,Oxford,University_of_Oxford,119715
+2016-06,Oxford,University_of_Oxford,109906
+2016-07,Oxford,University_of_Oxford,107508
+2016-08,Oxford,University_of_Oxford,102854
+2016-09,Oxford,University_of_Oxford,116990
+2016-10,Oxford,University_of_Oxford,119868
+2016-11,Oxford,University_of_Oxford,121696
+2016-12,Oxford,University_of_Oxford,112254
+2017-01,Oxford,University_of_Oxford,123473
+2017-02,Oxford,University_of_Oxford,113696
+2017-03,Oxford,University_of_Oxford,132616
+2017-04,Oxford,University_of_Oxford,134456
+2017-05,Oxford,University_of_Oxford,123540
+2017-06,Oxford,University_of_Oxford,102584
+2017-07,Oxford,University_of_Oxford,107901
+2017-08,Oxford,University_of_Oxford,112789
+2017-09,Oxford,University_of_Oxford,123050
+2017-10,Oxford,University_of_Oxford,127736
+2017-11,Oxford,University_of_Oxford,116068
+2017-12,Oxford,University_of_Oxford,109901
+2018-01,Oxford,University_of_Oxford,120514
+2018-02,Oxford,University_of_Oxford,105487
+2018-03,Oxford,University_of_Oxford,143889
+2018-04,Oxford,University_of_Oxford,122112
+2018-05,Oxford,University_of_Oxford,120181
+2018-06,Oxford,University_of_Oxford,104446
+2018-07,Oxford,University_of_Oxford,114881
+2018-08,Oxford,University_of_Oxford,115769
+2018-09,Oxford,University_of_Oxford,119584
+2018-10,Oxford,University_of_Oxford,126585
+2018-11,Oxford,University_of_Oxford,119628
+2018-12,Oxford,University_of_Oxford,116299
+2019-01,Oxford,University_of_Oxford,119144
+2019-02,Oxford,University_of_Oxford,105133
+2019-03,Oxford,University_of_Oxford,120573
+2019-04,Oxford,University_of_Oxford,125016
+2019-05,Oxford,University_of_Oxford,109140
+2019-06,Oxford,University_of_Oxford,107293
+2019-07,Oxford,University_of_Oxford,106577
+2019-08,Oxford,University_of_Oxford,107906
+2019-09,Oxford,University_of_Oxford,118527
+2019-10,Oxford,University_of_Oxford,122377
+2019-11,Oxford,University_of_Oxford,120464
+2019-12,Oxford,University_of_Oxford,114937
+2020-01,Oxford,University_of_Oxford,112119
+2020-02,Oxford,University_of_Oxford,107378
+2020-03,Oxford,University_of_Oxford,111037
+2020-04,Oxford,University_of_Oxford,155533
+2020-05,Oxford,University_of_Oxford,142698
+2020-06,Oxford,University_of_Oxford,118736
+2020-07,Oxford,University_of_Oxford,168345
+2020-08,Oxford,University_of_Oxford,129038
+2020-09,Oxford,University_of_Oxford,121196
+2020-10,Oxford,University_of_Oxford,132106
+2020-11,Oxford,University_of_Oxford,133907
+2020-12,Oxford,University_of_Oxford,129831
+2021-01,Oxford,University_of_Oxford,132277
+2021-02,Oxford,University_of_Oxford,119679
+2021-03,Oxford,University_of_Oxford,132215
+2021-04,Oxford,University_of_Oxford,124571
+2021-05,Oxford,University_of_Oxford,124964
+2021-06,Oxford,University_of_Oxford,114386
+2021-07,Oxford,University_of_Oxford,111832
+2021-08,Oxford,University_of_Oxford,119274
+2021-09,Oxford,University_of_Oxford,115925
+2021-10,Oxford,University_of_Oxford,129981
+2021-11,Oxford,University_of_Oxford,120185
+2021-12,Oxford,University_of_Oxford,123042
+2022-01,Oxford,University_of_Oxford,136622
+2022-02,Oxford,University_of_Oxford,116669
+2022-03,Oxford,University_of_Oxford,108251
+2022-04,Oxford,University_of_Oxford,110185
+2022-05,Oxford,University_of_Oxford,118547
+2022-06,Oxford,University_of_Oxford,102863
+2022-07,Oxford,University_of_Oxford,109501
+2022-08,Oxford,University_of_Oxford,114569
+2022-09,Oxford,University_of_Oxford,130192
+2022-10,Oxford,University_of_Oxford,136961
+2022-11,Oxford,University_of_Oxford,113649
+2022-12,Oxford,University_of_Oxford,92218
+2023-01,Oxford,University_of_Oxford,112945
+2023-02,Oxford,University_of_Oxford,96203
+2023-03,Oxford,University_of_Oxford,118749
+2023-04,Oxford,University_of_Oxford,119163
+2023-05,Oxford,University_of_Oxford,113252
+2023-06,Oxford,University_of_Oxford,105266
+2023-07,Oxford,University_of_Oxford,116915
+2023-08,Oxford,University_of_Oxford,118059
+2023-09,Oxford,University_of_Oxford,111804
+2023-10,Oxford,University_of_Oxford,112586
+2023-11,Oxford,University_of_Oxford,113101
+2023-12,Oxford,University_of_Oxford,115354
+2024-01,Oxford,University_of_Oxford,143975
+2024-02,Oxford,University_of_Oxford,109227
+2024-03,Oxford,University_of_Oxford,112000
+2024-04,Oxford,University_of_Oxford,109131
+2024-05,Oxford,University_of_Oxford,110232
+2024-06,Oxford,University_of_Oxford,97350
+2024-07,Oxford,University_of_Oxford,110093
+2024-08,Oxford,University_of_Oxford,100653
+2024-09,Oxford,University_of_Oxford,111795
+2024-10,Oxford,University_of_Oxford,105592
+2024-11,Oxford,University_of_Oxford,99754
+2024-12,Oxford,University_of_Oxford,101154
+2025-01,Oxford,University_of_Oxford,106662
+2025-02,Oxford,University_of_Oxford,98182
+2025-03,Oxford,University_of_Oxford,103448
+2025-04,Oxford,University_of_Oxford,111190
+2025-05,Oxford,University_of_Oxford,100899
+2025-06,Oxford,University_of_Oxford,79993
+2025-07,Oxford,University_of_Oxford,84072
+2025-08,Oxford,University_of_Oxford,125911
+2025-09,Oxford,University_of_Oxford,101981
+2025-10,Oxford,University_of_Oxford,91084
+2025-11,Oxford,University_of_Oxford,92860
+2025-12,Oxford,University_of_Oxford,84388
+2026-01,Oxford,University_of_Oxford,83025
+2026-02,Oxford,University_of_Oxford,83912
+2026-03,Oxford,University_of_Oxford,88207
+2026-04,Oxford,University_of_Oxford,80335
+2026-05,Oxford,University_of_Oxford,85875
+2026-06,Oxford,University_of_Oxford,76161
+2026-07,Oxford,University_of_Oxford,77477
+2026-08,Oxford,University_of_Oxford,82163
+2026-09,Oxford,University_of_Oxford,82982
+2026-10,Oxford,University_of_Oxford,89881
+2015-07,Queen Mary,Queen_Mary_University_of_London,10265
+2015-08,Queen Mary,Queen_Mary_University_of_London,13122
+2015-09,Queen Mary,Queen_Mary_University_of_London,12040
+2015-10,Queen Mary,Queen_Mary_University_of_London,13559
+2015-11,Queen Mary,Queen_Mary_University_of_London,10645
+2015-12,Queen Mary,Queen_Mary_University_of_London,9320
+2016-01,Queen Mary,Queen_Mary_University_of_London,11440
+2016-02,Queen Mary,Queen_Mary_University_of_London,10398
+2016-03,Queen Mary,Queen_Mary_University_of_London,10840
+2016-04,Queen Mary,Queen_Mary_University_of_London,9670
+2016-05,Queen Mary,Queen_Mary_University_of_London,9080
+2016-06,Queen Mary,Queen_Mary_University_of_London,9818
+2016-07,Queen Mary,Queen_Mary_University_of_London,9538
+2016-08,Queen Mary,Queen_Mary_University_of_London,12107
+2016-09,Queen Mary,Queen_Mary_University_of_London,12244
+2016-10,Queen Mary,Queen_Mary_University_of_London,10924
+2016-11,Queen Mary,Queen_Mary_University_of_London,11170
+2016-12,Queen Mary,Queen_Mary_University_of_London,10178
+2017-01,Queen Mary,Queen_Mary_University_of_London,11709
+2017-02,Queen Mary,Queen_Mary_University_of_London,10907
+2017-03,Queen Mary,Queen_Mary_University_of_London,11915
+2017-04,Queen Mary,Queen_Mary_University_of_London,9919
+2017-05,Queen Mary,Queen_Mary_University_of_London,9521
+2017-06,Queen Mary,Queen_Mary_University_of_London,9339
+2017-07,Queen Mary,Queen_Mary_University_of_London,9756
+2017-08,Queen Mary,Queen_Mary_University_of_London,11696
+2017-09,Queen Mary,Queen_Mary_University_of_London,12217
+2017-10,Queen Mary,Queen_Mary_University_of_London,11213
+2017-11,Queen Mary,Queen_Mary_University_of_London,10797
+2017-12,Queen Mary,Queen_Mary_University_of_London,10269
+2018-01,Queen Mary,Queen_Mary_University_of_London,12780
+2018-02,Queen Mary,Queen_Mary_University_of_London,10715
+2018-03,Queen Mary,Queen_Mary_University_of_London,12471
+2018-04,Queen Mary,Queen_Mary_University_of_London,10527
+2018-05,Queen Mary,Queen_Mary_University_of_London,10766
+2018-06,Queen Mary,Queen_Mary_University_of_London,10081
+2018-07,Queen Mary,Queen_Mary_University_of_London,11172
+2018-08,Queen Mary,Queen_Mary_University_of_London,12184
+2018-09,Queen Mary,Queen_Mary_University_of_London,12920
+2018-10,Queen Mary,Queen_Mary_University_of_London,12962
+2018-11,Queen Mary,Queen_Mary_University_of_London,12878
+2018-12,Queen Mary,Queen_Mary_University_of_London,12538
+2019-01,Queen Mary,Queen_Mary_University_of_London,14984
+2019-02,Queen Mary,Queen_Mary_University_of_London,12790
+2019-03,Queen Mary,Queen_Mary_University_of_London,12970
+2019-04,Queen Mary,Queen_Mary_University_of_London,11439
+2019-05,Queen Mary,Queen_Mary_University_of_London,13195
+2019-06,Queen Mary,Queen_Mary_University_of_London,12994
+2019-07,Queen Mary,Queen_Mary_University_of_London,13948
+2019-08,Queen Mary,Queen_Mary_University_of_London,15846
+2019-09,Queen Mary,Queen_Mary_University_of_London,16710
+2019-10,Queen Mary,Queen_Mary_University_of_London,16184
+2019-11,Queen Mary,Queen_Mary_University_of_London,14578
+2019-12,Queen Mary,Queen_Mary_University_of_London,13323
+2020-01,Queen Mary,Queen_Mary_University_of_London,15155
+2020-02,Queen Mary,Queen_Mary_University_of_London,13519
+2020-03,Queen Mary,Queen_Mary_University_of_London,12430
+2020-04,Queen Mary,Queen_Mary_University_of_London,13475
+2020-05,Queen Mary,Queen_Mary_University_of_London,12925
+2020-06,Queen Mary,Queen_Mary_University_of_London,10758
+2020-07,Queen Mary,Queen_Mary_University_of_London,10872
+2020-08,Queen Mary,Queen_Mary_University_of_London,14554
+2020-09,Queen Mary,Queen_Mary_University_of_London,12559
+2020-10,Queen Mary,Queen_Mary_University_of_London,13388
+2020-11,Queen Mary,Queen_Mary_University_of_London,15294
+2020-12,Queen Mary,Queen_Mary_University_of_London,13198
+2021-01,Queen Mary,Queen_Mary_University_of_London,12483
+2021-02,Queen Mary,Queen_Mary_University_of_London,10780
+2021-03,Queen Mary,Queen_Mary_University_of_London,13291
+2021-04,Queen Mary,Queen_Mary_University_of_London,12354
+2021-05,Queen Mary,Queen_Mary_University_of_London,10600
+2021-06,Queen Mary,Queen_Mary_University_of_London,10180
+2021-07,Queen Mary,Queen_Mary_University_of_London,12547
+2021-08,Queen Mary,Queen_Mary_University_of_London,15284
+2021-09,Queen Mary,Queen_Mary_University_of_London,13944
+2021-10,Queen Mary,Queen_Mary_University_of_London,14494
+2021-11,Queen Mary,Queen_Mary_University_of_London,13356
+2021-12,Queen Mary,Queen_Mary_University_of_London,12297
+2022-01,Queen Mary,Queen_Mary_University_of_London,15843
+2022-02,Queen Mary,Queen_Mary_University_of_London,13409
+2022-03,Queen Mary,Queen_Mary_University_of_London,12824
+2022-04,Queen Mary,Queen_Mary_University_of_London,12152
+2022-05,Queen Mary,Queen_Mary_University_of_London,11743
+2022-06,Queen Mary,Queen_Mary_University_of_London,12058
+2022-07,Queen Mary,Queen_Mary_University_of_London,12574
+2022-08,Queen Mary,Queen_Mary_University_of_London,14549
+2022-09,Queen Mary,Queen_Mary_University_of_London,21863
+2022-10,Queen Mary,Queen_Mary_University_of_London,14361
+2022-11,Queen Mary,Queen_Mary_University_of_London,14267
+2022-12,Queen Mary,Queen_Mary_University_of_London,10885
+2023-01,Queen Mary,Queen_Mary_University_of_London,12722
+2023-02,Queen Mary,Queen_Mary_University_of_London,10788
+2023-03,Queen Mary,Queen_Mary_University_of_London,12402
+2023-04,Queen Mary,Queen_Mary_University_of_London,10489
+2023-05,Queen Mary,Queen_Mary_University_of_London,12485
+2023-06,Queen Mary,Queen_Mary_University_of_London,10612
+2023-07,Queen Mary,Queen_Mary_University_of_London,12180
+2023-08,Queen Mary,Queen_Mary_University_of_London,13122
+2023-09,Queen Mary,Queen_Mary_University_of_London,13282
+2023-10,Queen Mary,Queen_Mary_University_of_London,12730
+2023-11,Queen Mary,Queen_Mary_University_of_London,11529
+2023-12,Queen Mary,Queen_Mary_University_of_London,11837
+2024-01,Queen Mary,Queen_Mary_University_of_London,19132
+2024-02,Queen Mary,Queen_Mary_University_of_London,13255
+2024-03,Queen Mary,Queen_Mary_University_of_London,14499
+2024-04,Queen Mary,Queen_Mary_University_of_London,11062
+2024-05,Queen Mary,Queen_Mary_University_of_London,10499
+2024-06,Queen Mary,Queen_Mary_University_of_London,9823
+2024-07,Queen Mary,Queen_Mary_University_of_London,10171
+2024-08,Queen Mary,Queen_Mary_University_of_London,10154
+2024-09,Queen Mary,Queen_Mary_University_of_London,10891
+2024-10,Queen Mary,Queen_Mary_University_of_London,10812
+2024-11,Queen Mary,Queen_Mary_University_of_London,9589
+2024-12,Queen Mary,Queen_Mary_University_of_London,9039
+2025-01,Queen Mary,Queen_Mary_University_of_London,11117
+2025-02,Queen Mary,Queen_Mary_University_of_London,9260
+2025-03,Queen Mary,Queen_Mary_University_of_London,10278
+2025-04,Queen Mary,Queen_Mary_University_of_London,9216
+2025-05,Queen Mary,Queen_Mary_University_of_London,8370
+2025-06,Queen Mary,Queen_Mary_University_of_London,8444
+2025-07,Queen Mary,Queen_Mary_University_of_London,9477
+2025-08,Queen Mary,Queen_Mary_University_of_London,10956
+2025-09,Queen Mary,Queen_Mary_University_of_London,10683
+2025-10,Queen Mary,Queen_Mary_University_of_London,9447
+2025-11,Queen Mary,Queen_Mary_University_of_London,9244
+2025-12,Queen Mary,Queen_Mary_University_of_London,9677
+2026-01,Queen Mary,Queen_Mary_University_of_London,9161
+2026-02,Queen Mary,Queen_Mary_University_of_London,8953
+2026-03,Queen Mary,Queen_Mary_University_of_London,8360
+2026-04,Queen Mary,Queen_Mary_University_of_London,9047
+2026-05,Queen Mary,Queen_Mary_University_of_London,8438
+2026-06,Queen Mary,Queen_Mary_University_of_London,7549
+2026-07,Queen Mary,Queen_Mary_University_of_London,8471
+2026-08,Queen Mary,Queen_Mary_University_of_London,8793
+2026-09,Queen Mary,Queen_Mary_University_of_London,9023
+2026-10,Queen Mary,Queen_Mary_University_of_London,8261
+2015-07,Queen's Belfast,Queen's_University_Belfast,6707
+2015-08,Queen's Belfast,Queen's_University_Belfast,7141
+2015-09,Queen's Belfast,Queen's_University_Belfast,7997
+2015-10,Queen's Belfast,Queen's_University_Belfast,7853
+2015-11,Queen's Belfast,Queen's_University_Belfast,7200
+2015-12,Queen's Belfast,Queen's_University_Belfast,6280
+2016-01,Queen's Belfast,Queen's_University_Belfast,7469
+2016-02,Queen's Belfast,Queen's_University_Belfast,6970
+2016-03,Queen's Belfast,Queen's_University_Belfast,7268
+2016-04,Queen's Belfast,Queen's_University_Belfast,7375
+2016-05,Queen's Belfast,Queen's_University_Belfast,7899
+2016-06,Queen's Belfast,Queen's_University_Belfast,8565
+2016-07,Queen's Belfast,Queen's_University_Belfast,8497
+2016-08,Queen's Belfast,Queen's_University_Belfast,8173
+2016-09,Queen's Belfast,Queen's_University_Belfast,9371
+2016-10,Queen's Belfast,Queen's_University_Belfast,8508
+2016-11,Queen's Belfast,Queen's_University_Belfast,7536
+2016-12,Queen's Belfast,Queen's_University_Belfast,7340
+2017-01,Queen's Belfast,Queen's_University_Belfast,8221
+2017-02,Queen's Belfast,Queen's_University_Belfast,7954
+2017-03,Queen's Belfast,Queen's_University_Belfast,9586
+2017-04,Queen's Belfast,Queen's_University_Belfast,7192
+2017-05,Queen's Belfast,Queen's_University_Belfast,7677
+2017-06,Queen's Belfast,Queen's_University_Belfast,9021
+2017-07,Queen's Belfast,Queen's_University_Belfast,7369
+2017-08,Queen's Belfast,Queen's_University_Belfast,9687
+2017-09,Queen's Belfast,Queen's_University_Belfast,8563
+2017-10,Queen's Belfast,Queen's_University_Belfast,8579
+2017-11,Queen's Belfast,Queen's_University_Belfast,7806
+2017-12,Queen's Belfast,Queen's_University_Belfast,7000
+2018-01,Queen's Belfast,Queen's_University_Belfast,10069
+2018-02,Queen's Belfast,Queen's_University_Belfast,8378
+2018-03,Queen's Belfast,Queen's_University_Belfast,9148
+2018-04,Queen's Belfast,Queen's_University_Belfast,8703
+2018-05,Queen's Belfast,Queen's_University_Belfast,8402
+2018-06,Queen's Belfast,Queen's_University_Belfast,7380
+2018-07,Queen's Belfast,Queen's_University_Belfast,8133
+2018-08,Queen's Belfast,Queen's_University_Belfast,8946
+2018-09,Queen's Belfast,Queen's_University_Belfast,9014
+2018-10,Queen's Belfast,Queen's_University_Belfast,8588
+2018-11,Queen's Belfast,Queen's_University_Belfast,8334
+2018-12,Queen's Belfast,Queen's_University_Belfast,7997
+2019-01,Queen's Belfast,Queen's_University_Belfast,8918
+2019-02,Queen's Belfast,Queen's_University_Belfast,7463
+2019-03,Queen's Belfast,Queen's_University_Belfast,8889
+2019-04,Queen's Belfast,Queen's_University_Belfast,7719
+2019-05,Queen's Belfast,Queen's_University_Belfast,7747
+2019-06,Queen's Belfast,Queen's_University_Belfast,7617
+2019-07,Queen's Belfast,Queen's_University_Belfast,7907
+2019-08,Queen's Belfast,Queen's_University_Belfast,8790
+2019-09,Queen's Belfast,Queen's_University_Belfast,9374
+2019-10,Queen's Belfast,Queen's_University_Belfast,11356
+2019-11,Queen's Belfast,Queen's_University_Belfast,9141
+2019-12,Queen's Belfast,Queen's_University_Belfast,10890
+2020-01,Queen's Belfast,Queen's_University_Belfast,29306
+2020-02,Queen's Belfast,Queen's_University_Belfast,13404
+2020-03,Queen's Belfast,Queen's_University_Belfast,16667
+2020-04,Queen's Belfast,Queen's_University_Belfast,13160
+2020-05,Queen's Belfast,Queen's_University_Belfast,11728
+2020-06,Queen's Belfast,Queen's_University_Belfast,9154
+2020-07,Queen's Belfast,Queen's_University_Belfast,9092
+2020-08,Queen's Belfast,Queen's_University_Belfast,10701
+2020-09,Queen's Belfast,Queen's_University_Belfast,9856
+2020-10,Queen's Belfast,Queen's_University_Belfast,12189
+2020-11,Queen's Belfast,Queen's_University_Belfast,15045
+2020-12,Queen's Belfast,Queen's_University_Belfast,8838
+2021-01,Queen's Belfast,Queen's_University_Belfast,11220
+2021-02,Queen's Belfast,Queen's_University_Belfast,9693
+2021-03,Queen's Belfast,Queen's_University_Belfast,10440
+2021-04,Queen's Belfast,Queen's_University_Belfast,9608
+2021-05,Queen's Belfast,Queen's_University_Belfast,9342
+2021-06,Queen's Belfast,Queen's_University_Belfast,7811
+2021-07,Queen's Belfast,Queen's_University_Belfast,9238
+2021-08,Queen's Belfast,Queen's_University_Belfast,10134
+2021-09,Queen's Belfast,Queen's_University_Belfast,21533
+2021-10,Queen's Belfast,Queen's_University_Belfast,12922
+2021-11,Queen's Belfast,Queen's_University_Belfast,11266
+2021-12,Queen's Belfast,Queen's_University_Belfast,10290
+2022-01,Queen's Belfast,Queen's_University_Belfast,12538
+2022-02,Queen's Belfast,Queen's_University_Belfast,9943
+2022-03,Queen's Belfast,Queen's_University_Belfast,10193
+2022-04,Queen's Belfast,Queen's_University_Belfast,9206
+2022-05,Queen's Belfast,Queen's_University_Belfast,9966
+2022-06,Queen's Belfast,Queen's_University_Belfast,8368
+2022-07,Queen's Belfast,Queen's_University_Belfast,8589
+2022-08,Queen's Belfast,Queen's_University_Belfast,9299
+2022-09,Queen's Belfast,Queen's_University_Belfast,12409
+2022-10,Queen's Belfast,Queen's_University_Belfast,10070
+2022-11,Queen's Belfast,Queen's_University_Belfast,9391
+2022-12,Queen's Belfast,Queen's_University_Belfast,7856
+2023-01,Queen's Belfast,Queen's_University_Belfast,9331
+2023-02,Queen's Belfast,Queen's_University_Belfast,8053
+2023-03,Queen's Belfast,Queen's_University_Belfast,9973
+2023-04,Queen's Belfast,Queen's_University_Belfast,11558
+2023-05,Queen's Belfast,Queen's_University_Belfast,9381
+2023-06,Queen's Belfast,Queen's_University_Belfast,8581
+2023-07,Queen's Belfast,Queen's_University_Belfast,8291
+2023-08,Queen's Belfast,Queen's_University_Belfast,9873
+2023-09,Queen's Belfast,Queen's_University_Belfast,10486
+2023-10,Queen's Belfast,Queen's_University_Belfast,9092
+2023-11,Queen's Belfast,Queen's_University_Belfast,9263
+2023-12,Queen's Belfast,Queen's_University_Belfast,8975
+2024-01,Queen's Belfast,Queen's_University_Belfast,12522
+2024-02,Queen's Belfast,Queen's_University_Belfast,10710
+2024-03,Queen's Belfast,Queen's_University_Belfast,10791
+2024-04,Queen's Belfast,Queen's_University_Belfast,8944
+2024-05,Queen's Belfast,Queen's_University_Belfast,8515
+2024-06,Queen's Belfast,Queen's_University_Belfast,7408
+2024-07,Queen's Belfast,Queen's_University_Belfast,9991
+2024-08,Queen's Belfast,Queen's_University_Belfast,10545
+2024-09,Queen's Belfast,Queen's_University_Belfast,8661
+2024-10,Queen's Belfast,Queen's_University_Belfast,8301
+2024-11,Queen's Belfast,Queen's_University_Belfast,10918
+2024-12,Queen's Belfast,Queen's_University_Belfast,7464
+2025-01,Queen's Belfast,Queen's_University_Belfast,8716
+2025-02,Queen's Belfast,Queen's_University_Belfast,8204
+2025-03,Queen's Belfast,Queen's_University_Belfast,8833
+2025-04,Queen's Belfast,Queen's_University_Belfast,7971
+2025-05,Queen's Belfast,Queen's_University_Belfast,7256
+2025-06,Queen's Belfast,Queen's_University_Belfast,6925
+2025-07,Queen's Belfast,Queen's_University_Belfast,7247
+2025-08,Queen's Belfast,Queen's_University_Belfast,8874
+2025-09,Queen's Belfast,Queen's_University_Belfast,9486
+2025-10,Queen's Belfast,Queen's_University_Belfast,8000
+2025-11,Queen's Belfast,Queen's_University_Belfast,10824
+2025-12,Queen's Belfast,Queen's_University_Belfast,9383
+2026-01,Queen's Belfast,Queen's_University_Belfast,9196
+2026-02,Queen's Belfast,Queen's_University_Belfast,10546
+2026-03,Queen's Belfast,Queen's_University_Belfast,10514
+2026-04,Queen's Belfast,Queen's_University_Belfast,8111
+2026-05,Queen's Belfast,Queen's_University_Belfast,8142
+2026-06,Queen's Belfast,Queen's_University_Belfast,7923
+2026-07,Queen's Belfast,Queen's_University_Belfast,7314
+2026-08,Queen's Belfast,Queen's_University_Belfast,8017
+2026-09,Queen's Belfast,Queen's_University_Belfast,8465
+2026-10,Queen's Belfast,Queen's_University_Belfast,7634
+2015-07,Sheffield,University_of_Sheffield,10024
+2015-08,Sheffield,University_of_Sheffield,10743
+2015-09,Sheffield,University_of_Sheffield,11011
+2015-10,Sheffield,University_of_Sheffield,12483
+2015-11,Sheffield,University_of_Sheffield,11315
+2015-12,Sheffield,University_of_Sheffield,9554
+2016-01,Sheffield,University_of_Sheffield,11228
+2016-02,Sheffield,University_of_Sheffield,10421
+2016-03,Sheffield,University_of_Sheffield,10150
+2016-04,Sheffield,University_of_Sheffield,9948
+2016-05,Sheffield,University_of_Sheffield,9497
+2016-06,Sheffield,University_of_Sheffield,9139
+2016-07,Sheffield,University_of_Sheffield,9134
+2016-08,Sheffield,University_of_Sheffield,10784
+2016-09,Sheffield,University_of_Sheffield,11409
+2016-10,Sheffield,University_of_Sheffield,12001
+2016-11,Sheffield,University_of_Sheffield,9827
+2016-12,Sheffield,University_of_Sheffield,8971
+2017-01,Sheffield,University_of_Sheffield,10412
+2017-02,Sheffield,University_of_Sheffield,9802
+2017-03,Sheffield,University_of_Sheffield,10711
+2017-04,Sheffield,University_of_Sheffield,9416
+2017-05,Sheffield,University_of_Sheffield,9793
+2017-06,Sheffield,University_of_Sheffield,9170
+2017-07,Sheffield,University_of_Sheffield,9704
+2017-08,Sheffield,University_of_Sheffield,10266
+2017-09,Sheffield,University_of_Sheffield,10724
+2017-10,Sheffield,University_of_Sheffield,10594
+2017-11,Sheffield,University_of_Sheffield,9684
+2017-12,Sheffield,University_of_Sheffield,8875
+2018-01,Sheffield,University_of_Sheffield,11108
+2018-02,Sheffield,University_of_Sheffield,9727
+2018-03,Sheffield,University_of_Sheffield,10472
+2018-04,Sheffield,University_of_Sheffield,9319
+2018-05,Sheffield,University_of_Sheffield,9392
+2018-06,Sheffield,University_of_Sheffield,9112
+2018-07,Sheffield,University_of_Sheffield,9812
+2018-08,Sheffield,University_of_Sheffield,10881
+2018-09,Sheffield,University_of_Sheffield,12217
+2018-10,Sheffield,University_of_Sheffield,11673
+2018-11,Sheffield,University_of_Sheffield,11972
+2018-12,Sheffield,University_of_Sheffield,10495
+2019-01,Sheffield,University_of_Sheffield,11495
+2019-02,Sheffield,University_of_Sheffield,9999
+2019-03,Sheffield,University_of_Sheffield,11656
+2019-04,Sheffield,University_of_Sheffield,9726
+2019-05,Sheffield,University_of_Sheffield,10103
+2019-06,Sheffield,University_of_Sheffield,9573
+2019-07,Sheffield,University_of_Sheffield,10468
+2019-08,Sheffield,University_of_Sheffield,11550
+2019-09,Sheffield,University_of_Sheffield,13181
+2019-10,Sheffield,University_of_Sheffield,15260
+2019-11,Sheffield,University_of_Sheffield,12197
+2019-12,Sheffield,University_of_Sheffield,11114
+2020-01,Sheffield,University_of_Sheffield,12708
+2020-02,Sheffield,University_of_Sheffield,10996
+2020-03,Sheffield,University_of_Sheffield,12465
+2020-04,Sheffield,University_of_Sheffield,10306
+2020-05,Sheffield,University_of_Sheffield,9903
+2020-06,Sheffield,University_of_Sheffield,8038
+2020-07,Sheffield,University_of_Sheffield,8118
+2020-08,Sheffield,University_of_Sheffield,10253
+2020-09,Sheffield,University_of_Sheffield,8781
+2020-10,Sheffield,University_of_Sheffield,9326
+2020-11,Sheffield,University_of_Sheffield,8210
+2020-12,Sheffield,University_of_Sheffield,7811
+2021-01,Sheffield,University_of_Sheffield,8067
+2021-02,Sheffield,University_of_Sheffield,7622
+2021-03,Sheffield,University_of_Sheffield,8631
+2021-04,Sheffield,University_of_Sheffield,8113
+2021-05,Sheffield,University_of_Sheffield,8203
+2021-06,Sheffield,University_of_Sheffield,7335
+2021-07,Sheffield,University_of_Sheffield,9030
+2021-08,Sheffield,University_of_Sheffield,10172
+2021-09,Sheffield,University_of_Sheffield,10080
+2021-10,Sheffield,University_of_Sheffield,10524
+2021-11,Sheffield,University_of_Sheffield,9366
+2021-12,Sheffield,University_of_Sheffield,7757
+2022-01,Sheffield,University_of_Sheffield,10166
+2022-02,Sheffield,University_of_Sheffield,9001
+2022-03,Sheffield,University_of_Sheffield,8962
+2022-04,Sheffield,University_of_Sheffield,8567
+2022-05,Sheffield,University_of_Sheffield,8570
+2022-06,Sheffield,University_of_Sheffield,8336
+2022-07,Sheffield,University_of_Sheffield,8490
+2022-08,Sheffield,University_of_Sheffield,9821
+2022-09,Sheffield,University_of_Sheffield,11653
+2022-10,Sheffield,University_of_Sheffield,10916
+2022-11,Sheffield,University_of_Sheffield,10654
+2022-12,Sheffield,University_of_Sheffield,7749
+2023-01,Sheffield,University_of_Sheffield,9342
+2023-02,Sheffield,University_of_Sheffield,8421
+2023-03,Sheffield,University_of_Sheffield,10494
+2023-04,Sheffield,University_of_Sheffield,8227
+2023-05,Sheffield,University_of_Sheffield,8896
+2023-06,Sheffield,University_of_Sheffield,9358
+2023-07,Sheffield,University_of_Sheffield,8755
+2023-08,Sheffield,University_of_Sheffield,9341
+2023-09,Sheffield,University_of_Sheffield,9819
+2023-10,Sheffield,University_of_Sheffield,9283
+2023-11,Sheffield,University_of_Sheffield,8544
+2023-12,Sheffield,University_of_Sheffield,8692
+2024-01,Sheffield,University_of_Sheffield,13162
+2024-02,Sheffield,University_of_Sheffield,8297
+2024-03,Sheffield,University_of_Sheffield,9062
+2024-04,Sheffield,University_of_Sheffield,8929
+2024-05,Sheffield,University_of_Sheffield,7780
+2024-06,Sheffield,University_of_Sheffield,6062
+2024-07,Sheffield,University_of_Sheffield,6292
+2024-08,Sheffield,University_of_Sheffield,6921
+2024-09,Sheffield,University_of_Sheffield,7070
+2024-10,Sheffield,University_of_Sheffield,7486
+2024-11,Sheffield,University_of_Sheffield,6582
+2024-12,Sheffield,University_of_Sheffield,6321
+2025-01,Sheffield,University_of_Sheffield,8507
+2025-02,Sheffield,University_of_Sheffield,7111
+2025-03,Sheffield,University_of_Sheffield,7279
+2025-04,Sheffield,University_of_Sheffield,7555
+2025-05,Sheffield,University_of_Sheffield,6960
+2025-06,Sheffield,University_of_Sheffield,6300
+2025-07,Sheffield,University_of_Sheffield,5945
+2025-08,Sheffield,University_of_Sheffield,6439
+2025-09,Sheffield,University_of_Sheffield,7359
+2025-10,Sheffield,University_of_Sheffield,6406
+2025-11,Sheffield,University_of_Sheffield,7658
+2025-12,Sheffield,University_of_Sheffield,7141
+2026-01,Sheffield,University_of_Sheffield,6797
+2026-02,Sheffield,University_of_Sheffield,5281
+2026-03,Sheffield,University_of_Sheffield,5586
+2026-04,Sheffield,University_of_Sheffield,5298
+2026-05,Sheffield,University_of_Sheffield,6097
+2026-06,Sheffield,University_of_Sheffield,4948
+2026-07,Sheffield,University_of_Sheffield,5409
+2026-08,Sheffield,University_of_Sheffield,5651
+2026-09,Sheffield,University_of_Sheffield,5568
+2026-10,Sheffield,University_of_Sheffield,4833
+2015-07,Southampton,University_of_Southampton,9501
+2015-08,Southampton,University_of_Southampton,10827
+2015-09,Southampton,University_of_Southampton,10010
+2015-10,Southampton,University_of_Southampton,10303
+2015-11,Southampton,University_of_Southampton,9785
+2015-12,Southampton,University_of_Southampton,8098
+2016-01,Southampton,University_of_Southampton,9662
+2016-02,Southampton,University_of_Southampton,9697
+2016-03,Southampton,University_of_Southampton,10061
+2016-04,Southampton,University_of_Southampton,8853
+2016-05,Southampton,University_of_Southampton,8892
+2016-06,Southampton,University_of_Southampton,9450
+2016-07,Southampton,University_of_Southampton,9460
+2016-08,Southampton,University_of_Southampton,10545
+2016-09,Southampton,University_of_Southampton,10900
+2016-10,Southampton,University_of_Southampton,10135
+2016-11,Southampton,University_of_Southampton,9970
+2016-12,Southampton,University_of_Southampton,9033
+2017-01,Southampton,University_of_Southampton,10999
+2017-02,Southampton,University_of_Southampton,10056
+2017-03,Southampton,University_of_Southampton,11674
+2017-04,Southampton,University_of_Southampton,10018
+2017-05,Southampton,University_of_Southampton,9739
+2017-06,Southampton,University_of_Southampton,9335
+2017-07,Southampton,University_of_Southampton,9004
+2017-08,Southampton,University_of_Southampton,10917
+2017-09,Southampton,University_of_Southampton,10771
+2017-10,Southampton,University_of_Southampton,11830
+2017-11,Southampton,University_of_Southampton,9944
+2017-12,Southampton,University_of_Southampton,8332
+2018-01,Southampton,University_of_Southampton,9926
+2018-02,Southampton,University_of_Southampton,8721
+2018-03,Southampton,University_of_Southampton,10681
+2018-04,Southampton,University_of_Southampton,9511
+2018-05,Southampton,University_of_Southampton,9353
+2018-06,Southampton,University_of_Southampton,8202
+2018-07,Southampton,University_of_Southampton,9494
+2018-08,Southampton,University_of_Southampton,10078
+2018-09,Southampton,University_of_Southampton,10747
+2018-10,Southampton,University_of_Southampton,10723
+2018-11,Southampton,University_of_Southampton,9866
+2018-12,Southampton,University_of_Southampton,10739
+2019-01,Southampton,University_of_Southampton,11336
+2019-02,Southampton,University_of_Southampton,9778
+2019-03,Southampton,University_of_Southampton,9551
+2019-04,Southampton,University_of_Southampton,9511
+2019-05,Southampton,University_of_Southampton,9082
+2019-06,Southampton,University_of_Southampton,9104
+2019-07,Southampton,University_of_Southampton,10441
+2019-08,Southampton,University_of_Southampton,11432
+2019-09,Southampton,University_of_Southampton,12787
+2019-10,Southampton,University_of_Southampton,13471
+2019-11,Southampton,University_of_Southampton,11313
+2019-12,Southampton,University_of_Southampton,9706
+2020-01,Southampton,University_of_Southampton,11871
+2020-02,Southampton,University_of_Southampton,9874
+2020-03,Southampton,University_of_Southampton,9955
+2020-04,Southampton,University_of_Southampton,11148
+2020-05,Southampton,University_of_Southampton,8904
+2020-06,Southampton,University_of_Southampton,7229
+2020-07,Southampton,University_of_Southampton,7420
+2020-08,Southampton,University_of_Southampton,9249
+2020-09,Southampton,University_of_Southampton,8216
+2020-10,Southampton,University_of_Southampton,9177
+2020-11,Southampton,University_of_Southampton,8090
+2020-12,Southampton,University_of_Southampton,7511
+2021-01,Southampton,University_of_Southampton,7760
+2021-02,Southampton,University_of_Southampton,6688
+2021-03,Southampton,University_of_Southampton,8084
+2021-04,Southampton,University_of_Southampton,7307
+2021-05,Southampton,University_of_Southampton,7074
+2021-06,Southampton,University_of_Southampton,6855
+2021-07,Southampton,University_of_Southampton,8568
+2021-08,Southampton,University_of_Southampton,9866
+2021-09,Southampton,University_of_Southampton,9548
+2021-10,Southampton,University_of_Southampton,10108
+2021-11,Southampton,University_of_Southampton,10565
+2021-12,Southampton,University_of_Southampton,9210
+2022-01,Southampton,University_of_Southampton,11456
+2022-02,Southampton,University_of_Southampton,9122
+2022-03,Southampton,University_of_Southampton,9084
+2022-04,Southampton,University_of_Southampton,8258
+2022-05,Southampton,University_of_Southampton,8606
+2022-06,Southampton,University_of_Southampton,9690
+2022-07,Southampton,University_of_Southampton,10354
+2022-08,Southampton,University_of_Southampton,9809
+2022-09,Southampton,University_of_Southampton,10472
+2022-10,Southampton,University_of_Southampton,10907
+2022-11,Southampton,University_of_Southampton,8848
+2022-12,Southampton,University_of_Southampton,7152
+2023-01,Southampton,University_of_Southampton,8619
+2023-02,Southampton,University_of_Southampton,8448
+2023-03,Southampton,University_of_Southampton,11335
+2023-04,Southampton,University_of_Southampton,9414
+2023-05,Southampton,University_of_Southampton,9590
+2023-06,Southampton,University_of_Southampton,9405
+2023-07,Southampton,University_of_Southampton,9510
+2023-08,Southampton,University_of_Southampton,9698
+2023-09,Southampton,University_of_Southampton,9312
+2023-10,Southampton,University_of_Southampton,9433
+2023-11,Southampton,University_of_Southampton,8237
+2023-12,Southampton,University_of_Southampton,8397
+2024-01,Southampton,University_of_Southampton,13090
+2024-02,Southampton,University_of_Southampton,9316
+2024-03,Southampton,University_of_Southampton,10506
+2024-04,Southampton,University_of_Southampton,8857
+2024-05,Southampton,University_of_Southampton,9736
+2024-06,Southampton,University_of_Southampton,6656
+2024-07,Southampton,University_of_Southampton,9546
+2024-08,Southampton,University_of_Southampton,10316
+2024-09,Southampton,University_of_Southampton,10499
+2024-10,Southampton,University_of_Southampton,8453
+2024-11,Southampton,University_of_Southampton,7642
+2024-12,Southampton,University_of_Southampton,7754
+2025-01,Southampton,University_of_Southampton,8398
+2025-02,Southampton,University_of_Southampton,7125
+2025-03,Southampton,University_of_Southampton,7605
+2025-04,Southampton,University_of_Southampton,6986
+2025-05,Southampton,University_of_Southampton,6260
+2025-06,Southampton,University_of_Southampton,9991
+2025-07,Southampton,University_of_Southampton,6752
+2025-08,Southampton,University_of_Southampton,7099
+2025-09,Southampton,University_of_Southampton,8243
+2025-10,Southampton,University_of_Southampton,7257
+2025-11,Southampton,University_of_Southampton,6971
+2025-12,Southampton,University_of_Southampton,6092
+2026-01,Southampton,University_of_Southampton,6151
+2026-02,Southampton,University_of_Southampton,5625
+2026-03,Southampton,University_of_Southampton,5531
+2026-04,Southampton,University_of_Southampton,5503
+2026-05,Southampton,University_of_Southampton,5907
+2026-06,Southampton,University_of_Southampton,7998
+2026-07,Southampton,University_of_Southampton,5594
+2026-08,Southampton,University_of_Southampton,6507
+2026-09,Southampton,University_of_Southampton,6503
+2026-10,Southampton,University_of_Southampton,5480
+2015-07,UCL,University_College_London,35417
+2015-08,UCL,University_College_London,37466
+2015-09,UCL,University_College_London,39389
+2015-10,UCL,University_College_London,40571
+2015-11,UCL,University_College_London,36055
+2015-12,UCL,University_College_London,33568
+2016-01,UCL,University_College_London,38344
+2016-02,UCL,University_College_London,38622
+2016-03,UCL,University_College_London,40686
+2016-04,UCL,University_College_London,36284
+2016-05,UCL,University_College_London,36972
+2016-06,UCL,University_College_London,35771
+2016-07,UCL,University_College_London,39996
+2016-08,UCL,University_College_London,37519
+2016-09,UCL,University_College_London,44038
+2016-10,UCL,University_College_London,41159
+2016-11,UCL,University_College_London,40289
+2016-12,UCL,University_College_London,37058
+2017-01,UCL,University_College_London,41403
+2017-02,UCL,University_College_London,38953
+2017-03,UCL,University_College_London,44838
+2017-04,UCL,University_College_London,39763
+2017-05,UCL,University_College_London,37655
+2017-06,UCL,University_College_London,36758
+2017-07,UCL,University_College_London,40350
+2017-08,UCL,University_College_London,41304
+2017-09,UCL,University_College_London,43908
+2017-10,UCL,University_College_London,43408
+2017-11,UCL,University_College_London,40939
+2017-12,UCL,University_College_London,38937
+2018-01,UCL,University_College_London,46958
+2018-02,UCL,University_College_London,43609
+2018-03,UCL,University_College_London,46016
+2018-04,UCL,University_College_London,40461
+2018-05,UCL,University_College_London,39367
+2018-06,UCL,University_College_London,33912
+2018-07,UCL,University_College_London,37177
+2018-08,UCL,University_College_London,38910
+2018-09,UCL,University_College_London,48903
+2018-10,UCL,University_College_London,44936
+2018-11,UCL,University_College_London,41009
+2018-12,UCL,University_College_London,44532
+2019-01,UCL,University_College_London,43484
+2019-02,UCL,University_College_London,39061
+2019-03,UCL,University_College_London,46690
+2019-04,UCL,University_College_London,39529
+2019-05,UCL,University_College_London,39477
+2019-06,UCL,University_College_London,36686
+2019-07,UCL,University_College_London,40396
+2019-08,UCL,University_College_London,42965
+2019-09,UCL,University_College_London,50834
+2019-10,UCL,University_College_London,52947
+2019-11,UCL,University_College_London,45014
+2019-12,UCL,University_College_London,44880
+2020-01,UCL,University_College_London,48689
+2020-02,UCL,University_College_London,43975
+2020-03,UCL,University_College_London,45864
+2020-04,UCL,University_College_London,48944
+2020-05,UCL,University_College_London,45383
+2020-06,UCL,University_College_London,38501
+2020-07,UCL,University_College_London,36860
+2020-08,UCL,University_College_London,44215
+2020-09,UCL,University_College_London,39331
+2020-10,UCL,University_College_London,48915
+2020-11,UCL,University_College_London,46928
+2020-12,UCL,University_College_London,54903
+2021-01,UCL,University_College_London,44128
+2021-02,UCL,University_College_London,40484
+2021-03,UCL,University_College_London,40837
+2021-04,UCL,University_College_London,38190
+2021-05,UCL,University_College_London,35027
+2021-06,UCL,University_College_London,29849
+2021-07,UCL,University_College_London,41941
+2021-08,UCL,University_College_London,43543
+2021-09,UCL,University_College_London,51979
+2021-10,UCL,University_College_London,49774
+2021-11,UCL,University_College_London,47077
+2021-12,UCL,University_College_London,41552
+2022-01,UCL,University_College_London,48100
+2022-02,UCL,University_College_London,47134
+2022-03,UCL,University_College_London,45697
+2022-04,UCL,University_College_London,49333
+2022-05,UCL,University_College_London,45073
+2022-06,UCL,University_College_London,37658
+2022-07,UCL,University_College_London,43675
+2022-08,UCL,University_College_London,46228
+2022-09,UCL,University_College_London,61925
+2022-10,UCL,University_College_London,69097
+2022-11,UCL,University_College_London,43131
+2022-12,UCL,University_College_London,36429
+2023-01,UCL,University_College_London,41275
+2023-02,UCL,University_College_London,40852
+2023-03,UCL,University_College_London,56967
+2023-04,UCL,University_College_London,45962
+2023-05,UCL,University_College_London,52198
+2023-06,UCL,University_College_London,43201
+2023-07,UCL,University_College_London,72351
+2023-08,UCL,University_College_London,45916
+2023-09,UCL,University_College_London,44184
+2023-10,UCL,University_College_London,44563
+2023-11,UCL,University_College_London,49997
+2023-12,UCL,University_College_London,45051
+2024-01,UCL,University_College_London,57299
+2024-02,UCL,University_College_London,59798
+2024-03,UCL,University_College_London,56098
+2024-04,UCL,University_College_London,57585
+2024-05,UCL,University_College_London,44309
+2024-06,UCL,University_College_London,34602
+2024-07,UCL,University_College_London,30961
+2024-08,UCL,University_College_London,36492
+2024-09,UCL,University_College_London,39080
+2024-10,UCL,University_College_London,41134
+2024-11,UCL,University_College_London,39144
+2024-12,UCL,University_College_London,54874
+2025-01,UCL,University_College_London,52850
+2025-02,UCL,University_College_London,54585
+2025-03,UCL,University_College_London,41597
+2025-04,UCL,University_College_London,35337
+2025-05,UCL,University_College_London,32195
+2025-06,UCL,University_College_London,32009
+2025-07,UCL,University_College_London,33926
+2025-08,UCL,University_College_London,34459
+2025-09,UCL,University_College_London,43865
+2025-10,UCL,University_College_London,34122
+2025-11,UCL,University_College_London,30454
+2025-12,UCL,University_College_London,30476
+2026-01,UCL,University_College_London,31017
+2026-02,UCL,University_College_London,29978
+2026-03,UCL,University_College_London,30195
+2026-04,UCL,University_College_London,29823
+2026-05,UCL,University_College_London,29829
+2026-06,UCL,University_College_London,24409
+2026-07,UCL,University_College_London,35172
+2026-08,UCL,University_College_London,33003
+2026-09,UCL,University_College_London,29371
+2026-10,UCL,University_College_London,29647
+2015-07,Warwick,University_of_Warwick,17696
+2015-08,Warwick,University_of_Warwick,18397
+2015-09,Warwick,University_of_Warwick,20594
+2015-10,Warwick,University_of_Warwick,20484
+2015-11,Warwick,University_of_Warwick,18274
+2015-12,Warwick,University_of_Warwick,16763
+2016-01,Warwick,University_of_Warwick,16478
+2016-02,Warwick,University_of_Warwick,16901
+2016-03,Warwick,University_of_Warwick,18126
+2016-04,Warwick,University_of_Warwick,16325
+2016-05,Warwick,University_of_Warwick,15679
+2016-06,Warwick,University_of_Warwick,16540
+2016-07,Warwick,University_of_Warwick,18890
+2016-08,Warwick,University_of_Warwick,17591
+2016-09,Warwick,University_of_Warwick,19550
+2016-10,Warwick,University_of_Warwick,20799
+2016-11,Warwick,University_of_Warwick,19128
+2016-12,Warwick,University_of_Warwick,17310
+2017-01,Warwick,University_of_Warwick,19010
+2017-02,Warwick,University_of_Warwick,18354
+2017-03,Warwick,University_of_Warwick,20537
+2017-04,Warwick,University_of_Warwick,16922
+2017-05,Warwick,University_of_Warwick,16608
+2017-06,Warwick,University_of_Warwick,16515
+2017-07,Warwick,University_of_Warwick,17252
+2017-08,Warwick,University_of_Warwick,19675
+2017-09,Warwick,University_of_Warwick,20544
+2017-10,Warwick,University_of_Warwick,20558
+2017-11,Warwick,University_of_Warwick,20207
+2017-12,Warwick,University_of_Warwick,16602
+2018-01,Warwick,University_of_Warwick,20081
+2018-02,Warwick,University_of_Warwick,19569
+2018-03,Warwick,University_of_Warwick,18816
+2018-04,Warwick,University_of_Warwick,17018
+2018-05,Warwick,University_of_Warwick,21092
+2018-06,Warwick,University_of_Warwick,14830
+2018-07,Warwick,University_of_Warwick,16305
+2018-08,Warwick,University_of_Warwick,18240
+2018-09,Warwick,University_of_Warwick,19515
+2018-10,Warwick,University_of_Warwick,20456
+2018-11,Warwick,University_of_Warwick,18355
+2018-12,Warwick,University_of_Warwick,17399
+2019-01,Warwick,University_of_Warwick,20357
+2019-02,Warwick,University_of_Warwick,19389
+2019-03,Warwick,University_of_Warwick,20309
+2019-04,Warwick,University_of_Warwick,17678
+2019-05,Warwick,University_of_Warwick,20643
+2019-06,Warwick,University_of_Warwick,22946
+2019-07,Warwick,University_of_Warwick,19786
+2019-08,Warwick,University_of_Warwick,22121
+2019-09,Warwick,University_of_Warwick,24266
+2019-10,Warwick,University_of_Warwick,23111
+2019-11,Warwick,University_of_Warwick,20208
+2019-12,Warwick,University_of_Warwick,19729
+2020-01,Warwick,University_of_Warwick,20889
+2020-02,Warwick,University_of_Warwick,18678
+2020-03,Warwick,University_of_Warwick,19272
+2020-04,Warwick,University_of_Warwick,26481
+2020-05,Warwick,University_of_Warwick,21485
+2020-06,Warwick,University_of_Warwick,16975
+2020-07,Warwick,University_of_Warwick,17084
+2020-08,Warwick,University_of_Warwick,20184
+2020-09,Warwick,University_of_Warwick,18327
+2020-10,Warwick,University_of_Warwick,22138
+2020-11,Warwick,University_of_Warwick,35556
+2020-12,Warwick,University_of_Warwick,21623
+2021-01,Warwick,University_of_Warwick,22443
+2021-02,Warwick,University_of_Warwick,17656
+2021-03,Warwick,University_of_Warwick,19155
+2021-04,Warwick,University_of_Warwick,18072
+2021-05,Warwick,University_of_Warwick,17425
+2021-06,Warwick,University_of_Warwick,14611
+2021-07,Warwick,University_of_Warwick,17036
+2021-08,Warwick,University_of_Warwick,19449
+2021-09,Warwick,University_of_Warwick,20970
+2021-10,Warwick,University_of_Warwick,22576
+2021-11,Warwick,University_of_Warwick,19735
+2021-12,Warwick,University_of_Warwick,17329
+2022-01,Warwick,University_of_Warwick,19586
+2022-02,Warwick,University_of_Warwick,18247
+2022-03,Warwick,University_of_Warwick,16138
+2022-04,Warwick,University_of_Warwick,15832
+2022-05,Warwick,University_of_Warwick,16857
+2022-06,Warwick,University_of_Warwick,16444
+2022-07,Warwick,University_of_Warwick,21069
+2022-08,Warwick,University_of_Warwick,18338
+2022-09,Warwick,University_of_Warwick,20483
+2022-10,Warwick,University_of_Warwick,20457
+2022-11,Warwick,University_of_Warwick,17663
+2022-12,Warwick,University_of_Warwick,15668
+2023-01,Warwick,University_of_Warwick,16965
+2023-02,Warwick,University_of_Warwick,15615
+2023-03,Warwick,University_of_Warwick,19835
+2023-04,Warwick,University_of_Warwick,16647
+2023-05,Warwick,University_of_Warwick,19120
+2023-06,Warwick,University_of_Warwick,16696
+2023-07,Warwick,University_of_Warwick,18807
+2023-08,Warwick,University_of_Warwick,17608
+2023-09,Warwick,University_of_Warwick,18162
+2023-10,Warwick,University_of_Warwick,17833
+2023-11,Warwick,University_of_Warwick,15785
+2023-12,Warwick,University_of_Warwick,17616
+2024-01,Warwick,University_of_Warwick,23340
+2024-02,Warwick,University_of_Warwick,16673
+2024-03,Warwick,University_of_Warwick,17377
+2024-04,Warwick,University_of_Warwick,15840
+2024-05,Warwick,University_of_Warwick,14651
+2024-06,Warwick,University_of_Warwick,16059
+2024-07,Warwick,University_of_Warwick,14496
+2024-08,Warwick,University_of_Warwick,14710
+2024-09,Warwick,University_of_Warwick,15341
+2024-10,Warwick,University_of_Warwick,16950
+2024-11,Warwick,University_of_Warwick,14921
+2024-12,Warwick,University_of_Warwick,14373
+2025-01,Warwick,University_of_Warwick,16250
+2025-02,Warwick,University_of_Warwick,14964
+2025-03,Warwick,University_of_Warwick,15721
+2025-04,Warwick,University_of_Warwick,15303
+2025-05,Warwick,University_of_Warwick,14205
+2025-06,Warwick,University_of_Warwick,13614
+2025-07,Warwick,University_of_Warwick,14033
+2025-08,Warwick,University_of_Warwick,15355
+2025-09,Warwick,University_of_Warwick,16111
+2025-10,Warwick,University_of_Warwick,16620
+2025-11,Warwick,University_of_Warwick,13835
+2025-12,Warwick,University_of_Warwick,12295
+2026-01,Warwick,University_of_Warwick,12949
+2026-02,Warwick,University_of_Warwick,12760
+2026-03,Warwick,University_of_Warwick,12846
+2026-04,Warwick,University_of_Warwick,12868
+2026-05,Warwick,University_of_Warwick,12857
+2026-06,Warwick,University_of_Warwick,13737
+2026-07,Warwick,University_of_Warwick,11949
+2026-08,Warwick,University_of_Warwick,14462
+2026-09,Warwick,University_of_Warwick,13292
+2026-10,Warwick,University_of_Warwick,12581
+2015-07,York,University_of_York,9445
+2015-08,York,University_of_York,11459
+2015-09,York,University_of_York,10987
+2015-10,York,University_of_York,11252
+2015-11,York,University_of_York,10476
+2015-12,York,University_of_York,9032
+2016-01,York,University_of_York,10583
+2016-02,York,University_of_York,10246
+2016-03,York,University_of_York,11022
+2016-04,York,University_of_York,9883
+2016-05,York,University_of_York,9432
+2016-06,York,University_of_York,8765
+2016-07,York,University_of_York,8927
+2016-08,York,University_of_York,10263
+2016-09,York,University_of_York,10907
+2016-10,York,University_of_York,10630
+2016-11,York,University_of_York,10115
+2016-12,York,University_of_York,9429
+2017-01,York,University_of_York,10947
+2017-02,York,University_of_York,10341
+2017-03,York,University_of_York,11002
+2017-04,York,University_of_York,10200
+2017-05,York,University_of_York,9847
+2017-06,York,University_of_York,9551
+2017-07,York,University_of_York,9721
+2017-08,York,University_of_York,11228
+2017-09,York,University_of_York,11914
+2017-10,York,University_of_York,11369
+2017-11,York,University_of_York,10659
+2017-12,York,University_of_York,9548
+2018-01,York,University_of_York,11321
+2018-02,York,University_of_York,9555
+2018-03,York,University_of_York,10600
+2018-04,York,University_of_York,9949
+2018-05,York,University_of_York,9764
+2018-06,York,University_of_York,8779
+2018-07,York,University_of_York,9467
+2018-08,York,University_of_York,10542
+2018-09,York,University_of_York,10917
+2018-10,York,University_of_York,10556
+2018-11,York,University_of_York,10106
+2018-12,York,University_of_York,10455
+2019-01,York,University_of_York,11123
+2019-02,York,University_of_York,9559
+2019-03,York,University_of_York,10110
+2019-04,York,University_of_York,9521
+2019-05,York,University_of_York,9430
+2019-06,York,University_of_York,9585
+2019-07,York,University_of_York,10789
+2019-08,York,University_of_York,12107
+2019-09,York,University_of_York,12131
+2019-10,York,University_of_York,14417
+2019-11,York,University_of_York,11172
+2019-12,York,University_of_York,11219
+2020-01,York,University_of_York,12607
+2020-02,York,University_of_York,11337
+2020-03,York,University_of_York,10354
+2020-04,York,University_of_York,12989
+2020-05,York,University_of_York,10878
+2020-06,York,University_of_York,9382
+2020-07,York,University_of_York,9445
+2020-08,York,University_of_York,11724
+2020-09,York,University_of_York,11235
+2020-10,York,University_of_York,10645
+2020-11,York,University_of_York,10265
+2020-12,York,University_of_York,9850
+2021-01,York,University_of_York,10748
+2021-02,York,University_of_York,9311
+2021-03,York,University_of_York,10579
+2021-04,York,University_of_York,10191
+2021-05,York,University_of_York,9608
+2021-06,York,University_of_York,8766
+2021-07,York,University_of_York,10194
+2021-08,York,University_of_York,12534
+2021-09,York,University_of_York,12106
+2021-10,York,University_of_York,12152
+2021-11,York,University_of_York,10593
+2021-12,York,University_of_York,9386
+2022-01,York,University_of_York,12588
+2022-02,York,University_of_York,10324
+2022-03,York,University_of_York,10604
+2022-04,York,University_of_York,10476
+2022-05,York,University_of_York,11255
+2022-06,York,University_of_York,9283
+2022-07,York,University_of_York,10705
+2022-08,York,University_of_York,10691
+2022-09,York,University_of_York,11728
+2022-10,York,University_of_York,11256
+2022-11,York,University_of_York,10777
+2022-12,York,University_of_York,10669
+2023-01,York,University_of_York,11179
+2023-02,York,University_of_York,10972
+2023-03,York,University_of_York,10654
+2023-04,York,University_of_York,9148
+2023-05,York,University_of_York,9774
+2023-06,York,University_of_York,8721
+2023-07,York,University_of_York,9881
+2023-08,York,University_of_York,9944
+2023-09,York,University_of_York,9662
+2023-10,York,University_of_York,10439
+2023-11,York,University_of_York,9251
+2023-12,York,University_of_York,8879
+2024-01,York,University_of_York,13434
+2024-02,York,University_of_York,8850
+2024-03,York,University_of_York,9658
+2024-04,York,University_of_York,8388
+2024-05,York,University_of_York,8316
+2024-06,York,University_of_York,7323
+2024-07,York,University_of_York,7932
+2024-08,York,University_of_York,8415
+2024-09,York,University_of_York,8920
+2024-10,York,University_of_York,11535
+2024-11,York,University_of_York,8440
+2024-12,York,University_of_York,8480
+2025-01,York,University_of_York,9248
+2025-02,York,University_of_York,7317
+2025-03,York,University_of_York,8151
+2025-04,York,University_of_York,7242
+2025-05,York,University_of_York,7300
+2025-06,York,University_of_York,6782
+2025-07,York,University_of_York,6729
+2025-08,York,University_of_York,8251
+2025-09,York,University_of_York,8301
+2025-10,York,University_of_York,8800
+2025-11,York,University_of_York,7614
+2025-12,York,University_of_York,6981
+2026-01,York,University_of_York,7050
+2026-02,York,University_of_York,6125
+2026-03,York,University_of_York,6892
+2026-04,York,University_of_York,6959
+2026-05,York,University_of_York,7442
+2026-06,York,University_of_York,6368
+2026-07,York,University_of_York,6464
+2026-08,York,University_of_York,7820
+2026-09,York,University_of_York,7365
+2026-10,York,University_of_York,7196

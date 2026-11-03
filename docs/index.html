@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Logo, Converted</title>
 <meta name="author" content="Jiggle Marsian">
-<meta name="description" content="Imperial College London's 2024 logo and brand refresh cost £434,801.47. What else could that money buy? Cows, free lunches, PhD studentships, centrifuges, cell lines, culture medium, GPT tokens and new labs: an interactive what-if.">
-<link rel="stylesheet" href="assets/style.css?v=20261103a">
+<meta name="description" content="Imperial College London's 2024 logo and brand refresh cost £434,801.47. What else could that money buy, and has the brand attracted more students, funding and partners? An interactive what-if with four statistical tests and Bayesian inference.">
+<link rel="stylesheet" href="assets/style.css?v=20261103d">
 </head>
 <body>
 <div class="theme-toggle"><button id="themeBtn" type="button" aria-label="Toggle dark mode">Dark mode</button></div>
@@ -15,7 +15,7 @@
   <div class="wrap">
     <p class="eyebrow">Imperial College London · an open “what if” analysis</p>
     <h1>What else could the new logo have bought?</h1>
-    <p class="lede">In February 2024 Imperial replaced its “Imperial College London” logo with a new “Imperial” wordmark. According to its own Freedom of Information disclosure, the brand refresh cost <strong>£434,801.47</strong>. This page turns that money into beef, cows, free lunches, rent, PhD studentships, centrifuges, cell lines, culture medium, GPT tokens and new labs. Pick a budget, change the prices, and fill a basket of your own.</p>
+    <p class="lede">In February 2024 Imperial replaced its “Imperial College London” logo with a new “Imperial” wordmark. According to its own Freedom of Information disclosure, the brand refresh cost <strong>£434,801.47</strong>. This page turns that money into beef, cows, free lunches, rent, PhD studentships, centrifuges, cell lines, culture medium, GPT tokens and new labs. Pick a budget, change the prices, and fill a basket of your own. Then see whether the brand has attracted more students, funding and partners, tested four ways and with Bayesian inference.</p>
     <p class="byline" id="byline">Jiggle Marsian · Imperial College London</p>
     <div class="links" id="links">
       <a class="btn primary" href="https://github.com/sthsci/imperial-logo-whatif">Code and data on GitHub</a>
@@ -32,6 +32,7 @@
     <a href="#picture">Picture it</a>
     <a href="#basket">Spend it yourself</a>
     <a href="#twist">Plot twist</a>
+    <a href="#worked">Did it work?</a>
     <a href="#method">Method</a>
     <span class="budget-chip" id="budgetChip" aria-live="polite"></span>
   </div>
@@ -148,6 +149,94 @@
     </div>
   </section>
 
+  <!-- Did it work? -->
+  <section class="block" id="worked">
+    <div class="wrap">
+      <p class="kicker">Did it work?</p>
+      <h2>Has the new brand attracted more?</h2>
+      <div class="prose">
+        <p>Imperial says the new brand will help it attract students, staff, funding and partners. More than two years after the launch on <span data-k="launchLabel"></span>, we can start to check. We compare Imperial with the other 23 Russell Group universities before and after the launch. The comparison uses open data on undergraduate applicants (UCAS), research money from Wellcome, industry projects funded by Innovate UK, and Wikipedia page views as a measure of attention. Each outcome is estimated four ways, and a Bayesian model then asks how far the evidence should move what you already believed.</p>
+      </div>
+
+      <div class="tiles verdicts" id="verdictTiles" aria-live="polite"></div>
+      <p class="note" id="verdictNote"></p>
+
+      <div class="card">
+        <h3>Four ways to estimate the effect</h3>
+        <p class="sub">Each dot is one method's estimate of how much higher or lower Imperial's numbers are than they would have been without the new brand. The line is its 95% interval. If a line crosses zero, that method cannot tell the effect apart from no effect. Hover or tab to a dot for the details.</p>
+        <div class="legend" id="forestLegend"></div>
+        <div class="forest" id="forest"></div>
+        <details class="explain">
+          <summary>How the four methods work</summary>
+          <dl class="defs">
+            <dt>Imperial's own trend</dt>
+            <dd>An interrupted time series. Fit a straight line (plus the usual monthly ups and downs) to Imperial before the launch, extend it, and measure how far Imperial strays from it afterwards. It ignores everything that happened to every other university at the same time.</dd>
+            <dt>Difference-in-differences</dt>
+            <dd>How much Imperial changed, minus how much the average comparison university changed. It assumes Imperial would otherwise have moved in step with that average.</dd>
+            <dt>Synthetic control</dt>
+            <dd>Build a "synthetic Imperial" from a weighted blend of comparison universities that tracked the real one before the launch, then compare the two afterwards. To judge the gap, every other university gets a placebo "rebrand" on the same date and the same test.</dd>
+            <dt>Bayesian synthetic control</dt>
+            <dd>The same idea as a Bayesian regression, in the spirit of Google's CausalImpact. It gives a full probability distribution for what Imperial would have done, shown as the shaded band below. Its intervals assume the regression is right, so they come out narrower than the placebo-based ones.</dd>
+          </dl>
+        </details>
+        <details class="explain">
+          <summary>Show as a table</summary>
+          <div class="table-wrap"><table id="forestTable"></table></div>
+        </details>
+      </div>
+
+      <div class="card" id="twinCard">
+        <h3>Imperial and its synthetic twin</h3>
+        <div class="seg" id="outcomeTabs" role="group" aria-label="Outcome"></div>
+        <p class="sub" id="twinSub"></p>
+        <div class="legend" id="twinLegend"></div>
+        <div class="linechart" id="twinChart"></div>
+        <p class="note" id="twinNote"></p>
+        <h4 class="minor">Is Imperial's gap unusual?</h4>
+        <p class="sub" id="placeboSub"></p>
+        <div class="strip" id="placeboStrip"></div>
+      </div>
+
+      <div class="card" id="bayesCard">
+        <h3>What the evidence does to a belief</h3>
+        <p class="sub">Bayesian inference starts from a belief about the effect (the prior), weighs it against the data (the likelihood) and ends with an updated belief (the posterior). The data here are each outcome's synthetic-control gap, judged against the placebo gaps at the 23 other universities. Pick a starting belief. The verdicts at the top of this section change with it.</p>
+        <fieldset class="pots" id="priorPots"><legend>Starting belief about the brand effect</legend></fieldset>
+        <div class="controls" id="priorControls"></div>
+        <p class="note" id="priorNote"></p>
+        <div class="seg" id="bayesTabs" role="group" aria-label="Outcome"></div>
+        <div class="legend" id="bayesLegend"></div>
+        <div class="density" id="bayesChart"></div>
+        <div class="tiles small" id="bayesTiles"></div>
+      </div>
+
+      <div class="card">
+        <h3>Could the data even tell?</h3>
+        <p class="sub" id="powerSub"></p>
+        <div class="legend" id="powerLegend"></div>
+        <div class="power" id="powerChart"></div>
+      </div>
+
+      <div class="prose" id="workedSummary">
+        <h3>What it adds up to</h3>
+        <p id="sumStudents"></p>
+        <p id="sumMoney"></p>
+        <p id="sumAttention"></p>
+        <p id="sumAll"></p>
+      </div>
+      <div class="prose">
+        <h3>Read with care</h3>
+        <ul>
+          <li><strong>It is early.</strong> There is one UCAS cycle and one or two years of grants since the launch. Brands are meant to work over decades, and the last logo lasted 22 years.</li>
+          <li><strong>Other things happened to Imperial too.</strong> Four months after the launch Imperial rose from sixth to second in the <a href="https://www.imperial.ac.uk/news/253793/imperial-ranks-second-world-major-university/">QS World University Rankings</a>. Anything that changed for Imperial alone at the same time is mixed in with the brand's effect, so a positive result would be an upper limit.</li>
+          <li><strong>These are proxies.</strong> Applicants are not students, Wellcome is one funder among many, Innovate UK projects are one kind of industry partnership, and page views measure attention, not attraction.</li>
+          <li><strong>Staff are not tested.</strong> HESA's staff record is the only source that counts staff the same way at every university, and its website blocks automated downloads.</li>
+          <li><strong>Recent years are still filling in.</strong> Innovate UK's 2025/26 list is still being updated, and the Russell Group's total is about half the year before. Every university is affected alike, but Imperial's small numbers that year are noisy.</li>
+          <li><strong>Why trust the placebo test.</strong> With one rebranded university, the honest yardstick is how much the other universities drift anyway. Model-based intervals (Imperial's own trend, the Bayesian synthetic control) ignore that drift and can look more certain than they are.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
   <!-- Method -->
   <section class="block" id="method">
     <div class="wrap">
@@ -168,7 +257,7 @@
         <h3>Fair’s fair</h3>
         <ul>
           <li><strong>Money is not that interchangeable.</strong> The brand was paid for from central budgets, not research grants. A PhD studentship also needs a supervisor, a project and a desk, and a new lab needs people and running costs.</li>
-          <li><strong>Imperial is big.</strong> The bill is about 0.03% of one year’s income, and the College says the brand will help it attract students, staff, funding and partners. Whether it does is another question.</li>
+          <li><strong>Imperial is big.</strong> The bill is about 0.03% of one year’s income, and the College says the brand will help it attract students, staff, funding and partners. <a href="#worked">Did it work?</a> tests that claim.</li>
           <li><strong>Keeping the old logo was not free either.</strong> Signs wear out and fonts need licences. Imperial says the bespoke typeface cuts ongoing licensing fees.</li>
           <li><strong>The split is a guess; the total is not.</strong> Only Imperial knows what the signs cost. If you have a better figure, open an issue on GitHub.</li>
           <li><strong>Prices move.</strong> Each card says where and when its price was taken. Cows, beef and tokens in particular change quickly.</li>
@@ -186,6 +275,6 @@
 </footer>
 
 <div class="tooltip" id="tooltip" role="status" hidden></div>
-<script src="assets/app.js?v=20261103a"></script>
+<script src="assets/app.js?v=20261103d"></script>
 </body>
 </html>
