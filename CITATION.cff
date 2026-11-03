@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "What else could Imperial's new logo have bought? An open what-if"
+authors:
+  - family-names: Marsian
+    given-names: Jiggle
+    affiliation: Imperial College London
+version: 1.0.0
+date-released: 2026-11-03
+license: MIT
+repository-code: "https://github.com/sthsci/imperial-logo-whatif"
+url: "https://sthsci.github.io/imperial-logo-whatif/"
+keywords:
+  - rebrand
+  - university finance
+  - freedom of information
+  - PhD funding
+  - laboratory costs
+  - Imperial College London

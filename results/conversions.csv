@@ -1,0 +1,30 @@
+group,title,key,option,price,per,n
+food,Beef,beef,Beef mince (UK average),10.87,per kg,40000.1
+food,Beef,beef,Beef steak (UK average),23.06,per kg,18855.2
+food,Cows,cows,Finished beef steer,2391.80,per head,181.788
+food,Cows,cows,Freshly calved dairy heifer,3032.00,per head,143.404
+food,Free food for students,food,"Hot main, student price",6.78,per meal,64130
+food,Free food for students,food,Value hot meal,5.00,per meal,86960.3
+food,Free food for students,food,Student meal deal,4.00,per meal,108700
+people,Free accommodation,rent,Cheapest hall room (£150 a week),5850.00,per student-year,74.325
+people,Free accommodation,rent,Median hall room (£199 a week),7761.00,per student-year,56.0239
+people,Free accommodation,rent,Priciest hall room (£425 a week),16575.00,per student-year,26.2324
+people,New PhD positions,phd,"4-year studentship, London",136172.00,per studentship,3.19303
+people,New PhD positions,phd,"3.5-year studentship, London",119150.50,per studentship,3.64918
+lab,Centrifuges,centrifuge,Microcentrifuge (Eppendorf 5425),2619.00,each,166.018
+lab,Centrifuges,centrifuge,Refrigerated benchtop (Eppendorf 5810 R),9498.00,each,45.7782
+lab,Centrifuges,centrifuge,Ultracentrifuge (Beckman Optima XPN-100),81126.07,each,5.35958
+lab,Cell lines,cells,ATCC vial (HEK-293 or HeLa),430.63,per vial,1009.69
+lab,Cell culture medium,medium,"DMEM, high glucose, 500 mL",16.88,per bottle,25758.4
+lab,Cell culture medium,medium,"Fetal bovine serum, 500 mL",367.00,per bottle,1184.75
+lab,New bio labs,lab,"Small CL2 lab, 45 m² (6 people)",202500.00,per lab,2.14717
+lab,New bio labs,lab,"Standard CL2 lab, 75 m² (10 people)",337500.00,per lab,1.2883
+lab,New bio labs,lab,"Large CL2 suite, 150 m² (20 people)",675000.00,per lab,0.64415
+ai,ChatGPT tokens,tokens,"GPT-6 Astra (flagship), output",37.32,per million tokens,1.16517e+10
+ai,ChatGPT tokens,tokens,"GPT-6 Astra (flagship), input",7.46,per million tokens,5.82586e+10
+ai,ChatGPT tokens,tokens,"GPT-6 Luna (cheapest), output",0.37,per million tokens,1.16517e+12
+ai,ChatGPT Plus,plus,"ChatGPT Plus, one month",19.99,per month,21750.9
+extra,Pints at the Union,pints,Pint at the Union bar (value range),3.85,each,112935
+extra,Pipettes,pipettes,Gilson Pipetman Classic,250.00,each,1739.21
+extra,Open-access papers,papers,Nature Communications APC,5490.00,each,79.1988
+extra,Postdoc years,postdocs,"Imperial research associate, one year",50733.00,each,8.57039

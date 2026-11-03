@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Logo, Converted</title>
+<meta name="author" content="Jiggle Marsian">
+<meta name="description" content="Imperial College London's 2024 logo and brand refresh cost £434,801.47. What else could that money buy? Cows, free lunches, PhD studentships, centrifuges, cell lines, culture medium, GPT tokens and new labs: an interactive what-if.">
+<link rel="stylesheet" href="assets/style.css?v=20261103a">
+</head>
+<body>
+<div class="theme-toggle"><button id="themeBtn" type="button" aria-label="Toggle dark mode">Dark mode</button></div>
+
+<header class="site">
+  <div class="wrap">
+    <p class="eyebrow">Imperial College London · an open “what if” analysis</p>
+    <h1>What else could the new logo have bought?</h1>
+    <p class="lede">In February 2024 Imperial replaced its “Imperial College London” logo with a new “Imperial” wordmark. According to its own Freedom of Information disclosure, the brand refresh cost <strong>£434,801.47</strong>. This page turns that money into beef, cows, free lunches, rent, PhD studentships, centrifuges, cell lines, culture medium, GPT tokens and new labs. Pick a budget, change the prices, and fill a basket of your own.</p>
+    <p class="byline" id="byline">Jiggle Marsian · Imperial College London</p>
+    <div class="links" id="links">
+      <a class="btn primary" href="https://github.com/sthsci/imperial-logo-whatif">Code and data on GitHub</a>
+      <a class="btn" href="https://github.com/sthsci/imperial-logo-whatif/blob/main/docs/CALCULATIONS.md">Every calculation</a>
+      <a class="btn" href="https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/secretariat/public/information-governance/Imperial-Brand-Project-FOI.pdf">Imperial’s FOI disclosure (PDF)</a>
+    </div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="Sections">
+  <div class="wrap">
+    <a href="#bill">The bill</a>
+    <a href="#buys">What it buys</a>
+    <a href="#picture">Picture it</a>
+    <a href="#basket">Spend it yourself</a>
+    <a href="#twist">Plot twist</a>
+    <a href="#method">Method</a>
+    <span class="budget-chip" id="budgetChip" aria-live="polite"></span>
+  </div>
+</nav>
+
+<main>
+  <!-- 1. The bill -->
+  <section class="block" id="bill">
+    <div class="wrap">
+      <p class="kicker">The bill</p>
+      <h2>£434,801.47, and what it paid for</h2>
+      <div class="prose">
+        <p>Imperial published one number: the total. It covers the agencies that wrote the brand strategy and drew the identity, a bespoke typeface, new signage across the campuses, and promotional extras such as a brand animation video and lanyards. When asked for the amount paid to each supplier, the College refused under section 43 of the FOI Act (commercial interests). The split below is therefore <em>our estimate</em>. Drag the sliders if you think it is wrong.</p>
+      </div>
+      <div class="tiles" id="billTiles"></div>
+
+      <div class="card" id="receiptCard">
+        <h3>Where the money went</h3>
+        <p class="sub">The total is official. Each slice is an estimate (marked ≈); the agencies’ share is whatever the other three leave over.</p>
+        <div class="stackbar" id="splitBar" role="img" aria-label="Estimated split of the brand refresh cost"></div>
+        <div class="legend" id="splitLegend"></div>
+        <div class="controls" id="splitControls"></div>
+        <div class="receipt" id="receipt" aria-label="Receipt: estimated split of the £434,801.47"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Budget selector: scopes everything below -->
+  <section class="block" id="buys">
+    <div class="wrap">
+      <p class="kicker">What it buys</p>
+      <h2>Spend the logo money on something else</h2>
+      <div class="prose">
+        <p>Choose a budget and every card, chart and basket below updates. Most cards also let you pick what to buy. Prices are from 2026, UK prices wherever one is published, and each one links to its source.</p>
+      </div>
+      <fieldset class="pots" id="pots">
+        <legend>Budget</legend>
+      </fieldset>
+      <div class="custom" id="customWrap" hidden>
+        <label for="customRange">Custom budget <output id="customOut"></output></label>
+        <input type="range" id="customRange" min="10000" max="2000000" step="1000">
+      </div>
+
+      <h3 class="group">Food and farm</h3>
+      <div class="cards" id="cards-food"></div>
+      <h3 class="group">Students and researchers</h3>
+      <div class="cards" id="cards-people"></div>
+      <h3 class="group">In the lab</h3>
+      <div class="cards" id="cards-lab"></div>
+      <h3 class="group">AI</h3>
+      <div class="cards" id="cards-ai"></div>
+      <h3 class="group">And a few more</h3>
+      <div class="cards mini" id="cards-extra"></div>
+    </div>
+  </section>
+
+  <!-- Picture it -->
+  <section class="block" id="picture">
+    <div class="wrap">
+      <p class="kicker">Picture it</p>
+      <h2>From less than one lab to billions of tokens</h2>
+      <div class="tiles" id="pictureTiles"></div>
+
+      <div class="card">
+        <h3>How many of each the budget buys</h3>
+        <p class="sub">Each dot is one card above at its current price. The scale is logarithmic: every gridline is ten times the one before. Hover or tab to a dot for the exact figure.</p>
+        <div class="dotplot" id="dotplot"></div>
+      </div>
+
+      <div class="card">
+        <h3>Stack the culture medium</h3>
+        <p class="sub" id="stackSub"></p>
+        <div class="skyline" id="skyline" role="img"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Basket -->
+  <section class="block" id="basket">
+    <div class="wrap">
+      <p class="kicker">Spend it yourself</p>
+      <h2>Fill your own basket</h2>
+      <div class="prose"><p>Add whatever your lab, your hall or your stomach needs. The bar shows how much of the budget is left.</p></div>
+      <div class="card">
+        <div class="meter-head">
+          <div><span class="meter-label">Spent</span> <strong id="basketSpent"></strong> <span class="muted" id="basketOf"></span></div>
+          <div id="basketLeft" class="meter-left"></div>
+        </div>
+        <div class="meter" id="basketMeter" role="meter" aria-valuemin="0"><div class="fill" id="basketFill"></div></div>
+        <div class="basket-actions">
+          <button type="button" class="btn" id="basketRandom">Surprise me</button>
+          <button type="button" class="btn" id="basketPhd">The PhD student’s basket</button>
+          <button type="button" class="btn" id="basketReset">Empty basket</button>
+        </div>
+        <div class="basket" id="basketList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Plot twist -->
+  <section class="block" id="twist">
+    <div class="wrap">
+      <p class="kicker">Plot twist</p>
+      <h2>The 2002 rebrand cost more</h2>
+      <div class="prose" id="twistProse">
+        <p>This is not Imperial’s first new logo. In 2002 the College stopped using its coat of arms as its everyday mark and adopted the “Imperial College London” logotype. A 2009 FOI reply put that rebrand at <strong data-k="rebrand2002"></strong>, spread over two years. In <span data-k="cpiLabel"></span> prices that is about <strong data-k="rebrand2002Real"></strong>, which is <span data-k="twistPct"></span> more than the 2024 refresh (<span data-k="realToday"></span>). In real terms, the new logo is the cheaper of Imperial’s two rebrands. Together they come to about <span data-k="bothReal"></span> in today’s money.</p>
+      </div>
+      <div class="card">
+        <h3>Imperial’s two rebrands, then and now</h3>
+        <p class="sub">Paid at the time, and the same amount in today’s money (ONS consumer price index).</p>
+        <div class="legend" id="twistLegend"></div>
+        <div class="dumbbell" id="dumbbell"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Method -->
+  <section class="block" id="method">
+    <div class="wrap">
+      <p class="kicker">Method</p>
+      <h2>How the numbers are made</h2>
+      <div class="prose" id="methodProse">
+        <p><strong>The bill.</strong> The total, £434,801.47, is Imperial’s own figure from its FOI disclosure log (March 2024), and Felix reported the same number. The College refused to give the amount paid to each supplier (FOI Act s.43). The split into agencies, typeface, signs and promotional material is therefore our estimate. We sized the signage bottom-up: identification signs, banners and lettering at the main campuses. The typeface and the promotional items are sized from typical commission costs, and the agencies get the remainder. Each slice has a range, and the sliders let you test it.</p>
+        <p><strong>Today’s money.</strong> Amounts are re-priced with the ONS consumer price index (series D7BT): 2024 average <span data-k="cpi2024"></span>; 2002–03 average <span data-k="cpi2002"></span>; <span data-k="cpiLabel"></span> <span data-k="cpiNow"></span>.</p>
+        <p><strong>Conversions.</strong> Every card divides the budget by a unit price, and each card says where its price comes from. Most are UK list or average prices from 2026. The ultracentrifuge, the ATCC cell lines and the OpenAI tokens only have US dollar list prices, converted at the ECB rate of 30 October 2026 ($1 = £0.746). Lab equipment uses suppliers’ list prices, mostly before VAT. A few cards then turn the count into something easier to picture, using fixed assumptions listed in <a href="https://github.com/sthsci/imperial-logo-whatif/blob/main/docs/CALCULATIONS.md">CALCULATIONS.md</a>.</p>
+        <p><strong>Code.</strong> A small Python model (<code>src/logowhatif</code>) reads the sourced inputs in <code>data/</code>. It writes this page’s data file, the step-by-step calculations and the results tables, and a test suite checks that the pieces add up. Data generated <span data-k="generated"></span>.</p>
+      </div>
+      <div class="card">
+        <h3>Every conversion, with its source</h3>
+        <p class="sub">The table view of all the cards and charts above, at the current budget and prices.</p>
+        <div class="table-wrap"><table id="convTable"></table></div>
+      </div>
+      <div class="prose" id="caveats">
+        <h3>Fair’s fair</h3>
+        <ul>
+          <li><strong>Money is not that interchangeable.</strong> The brand was paid for from central budgets, not research grants. A PhD studentship also needs a supervisor, a project and a desk, and a new lab needs people and running costs.</li>
+          <li><strong>Imperial is big.</strong> The bill is about 0.03% of one year’s income, and the College says the brand will help it attract students, staff, funding and partners. Whether it does is another question.</li>
+          <li><strong>Keeping the old logo was not free either.</strong> Signs wear out and fonts need licences. Imperial says the bespoke typeface cuts ongoing licensing fees.</li>
+          <li><strong>The split is a guess; the total is not.</strong> Only Imperial knows what the signs cost. If you have a better figure, open an issue on GitHub.</li>
+          <li><strong>Prices move.</strong> Each card says where and when its price was taken. Cows, beef and tokens in particular change quickly.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p id="footCite"></p>
+    <p>By Jiggle Marsian. Code: MIT licence. Text and figures: CC BY 4.0. Data © their original publishers (sources in each file). Not an official Imperial College London publication. Built with the help of an AI assistant (Claude, Anthropic). Every input is traceable to a cited source.</p>
+  </div>
+</footer>
+
+<div class="tooltip" id="tooltip" role="status" hidden></div>
+<script src="assets/app.js?v=20261103a"></script>
+</body>
+</html>

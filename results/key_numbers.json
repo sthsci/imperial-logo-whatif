@@ -1,0 +1,201 @@
+{
+  "budget": {
+    "official": 434801.47,
+    "real_today": 467923.0158849887,
+    "rebrand2002": 298300.0,
+    "rebrand2002_real_today": 573133.7333333333,
+    "both_real_today": 1041056.749218322,
+    "cpi_2024": 133.9,
+    "cpi_2002": 75.0,
+    "cpi_to": 144.1,
+    "cpi_to_label": "September 2026",
+    "twist_pct": 22.48462116131609
+  },
+  "split_central": {
+    "font": 50000.0,
+    "signage": 100000.0,
+    "promo": 35000.0,
+    "agencies": 249801.46999999997
+  },
+  "split_low": {
+    "font": 30000.0,
+    "signage": 50000.0,
+    "promo": 15000.0
+  },
+  "split_high": {
+    "font": 90000.0,
+    "signage": 170000.0,
+    "promo": 60000.0
+  },
+  "logo_itself_central": 299801.47,
+  "conversions_official": {
+    "beef": {
+      "group": "food",
+      "title": "Beef",
+      "key": "beef",
+      "option": "Beef mince (UK average)",
+      "price": 10.87,
+      "per": "per kg",
+      "n": 40000.13523459062,
+      "burgers": 352734.8786119102,
+      "imperial_beef_years": 4.210540551009539
+    },
+    "cows": {
+      "group": "food",
+      "title": "Cows",
+      "key": "cows",
+      "option": "Finished beef steer",
+      "price": 2391.8,
+      "per": "per head",
+      "n": 181.7883894974496,
+      "students_per_cow": 131.581560660317
+    },
+    "food": {
+      "group": "food",
+      "title": "Free food for students",
+      "key": "food",
+      "option": "Hot main, student price",
+      "price": 6.78,
+      "per": "per meal",
+      "n": 64130.01032448377,
+      "meals": 64130.01032448377,
+      "share_of_students": 2.6810204985152075
+    },
+    "rent": {
+      "group": "people",
+      "title": "Free accommodation",
+      "key": "rent",
+      "option": "Median hall room (£199 a week)",
+      "price": 7761.0,
+      "per": "per student-year",
+      "n": 56.02389769359618
+    },
+    "phd": {
+      "group": "people",
+      "title": "New PhD positions",
+      "key": "phd",
+      "option": "4-year studentship, London",
+      "price": 136172.0,
+      "per": "per studentship",
+      "n": 3.1930313867755484,
+      "phd_years": 12.772125547102194
+    },
+    "centrifuge": {
+      "group": "lab",
+      "title": "Centrifuges",
+      "key": "centrifuge",
+      "option": "Refrigerated benchtop (Eppendorf 5810 R)",
+      "price": 9498.0,
+      "per": "each",
+      "n": 45.778213308064856
+    },
+    "cells": {
+      "group": "lab",
+      "title": "Cell lines",
+      "key": "cells",
+      "option": "ATCC vial (HEK-293 or HeLa)",
+      "price": 430.63,
+      "per": "per vial",
+      "n": 1009.6869005875112,
+      "working_years": 4.0066940499504415
+    },
+    "medium": {
+      "group": "lab",
+      "title": "Cell culture medium",
+      "key": "medium",
+      "option": "DMEM, high glucose, 500 mL",
+      "price": 16.88,
+      "per": "per bottle",
+      "n": 25758.380924170615,
+      "litres": 12879.190462085307,
+      "stack_m": 5151.676184834123,
+      "queens_towers": 59.214668791196814
+    },
+    "lab": {
+      "group": "lab",
+      "title": "New bio labs",
+      "key": "lab",
+      "option": "Standard CL2 lab, 75 m² (10 people)",
+      "price": 337500.0,
+      "per": "per lab",
+      "n": 1.2883006518518518,
+      "pi_startups": 10.870036749999999
+    },
+    "tokens": {
+      "group": "ai",
+      "title": "ChatGPT tokens",
+      "key": "tokens",
+      "option": "GPT-6 Astra (flagship), output",
+      "price": 37.3165,
+      "per": "per million tokens",
+      "n": 11651721624.482468,
+      "theses": 109508.66188423372,
+      "theses_per_research_student": 24.078421698380325
+    },
+    "plus": {
+      "group": "ai",
+      "title": "ChatGPT Plus",
+      "key": "plus",
+      "option": "ChatGPT Plus, one month",
+      "price": 19.99,
+      "per": "per month",
+      "n": 21750.948974487244,
+      "days_all_students": 27.658501866248063,
+      "years_one_person": 1812.5790812072703
+    },
+    "pints": {
+      "group": "extra",
+      "title": "Pints at the Union",
+      "key": "pints",
+      "option": "Pint at the Union bar (value range)",
+      "price": 3.85,
+      "per": "each",
+      "n": 112935.44675324674
+    },
+    "pipettes": {
+      "group": "extra",
+      "title": "Pipettes",
+      "key": "pipettes",
+      "option": "Gilson Pipetman Classic",
+      "price": 250.0,
+      "per": "each",
+      "n": 1739.20588
+    },
+    "papers": {
+      "group": "extra",
+      "title": "Open-access papers",
+      "key": "papers",
+      "option": "Nature Communications APC",
+      "price": 5490.0,
+      "per": "each",
+      "n": 79.19881056466302
+    },
+    "postdocs": {
+      "group": "extra",
+      "title": "Postdoc years",
+      "key": "postdocs",
+      "option": "Imperial research associate, one year",
+      "price": 50733.0,
+      "per": "each",
+      "n": 8.570387518971872
+    }
+  },
+  "food_year_of_lunches": {
+    "group": "food",
+    "title": "Free food for students",
+    "key": "food",
+    "option": "Hot main, student price",
+    "price": 6.78,
+    "per": "per meal",
+    "n": 427.53340216322516,
+    "meals": 64130.01032448377,
+    "share_of_students": 0.017873469990101386
+  },
+  "per_student": 18.17731897993311,
+  "per_petition_signature": 54.35018375,
+  "income_clock": {
+    "per_hour": 170388.12785388128,
+    "hours": 2.551829610880343,
+    "share_pct": 0.029130475010049575
+  }
+}

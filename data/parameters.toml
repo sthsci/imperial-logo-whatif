@@ -1,0 +1,643 @@
+# Every scalar the model uses, with its source. Money in GBP. Prices read on 2 Nov 2026 unless dated.
+# USD prices are converted at the ECB reference rates of 30 Oct 2026 (see [constants].usd_gbp).
+
+[inflation]
+base_2024 = ["2024"]
+base_2002 = ["2002", "2003"]   # the 2002 rebrand was "spread over two years"
+today = "2026 SEP"
+today_label = "September 2026"
+
+# ---------------------------------------------------------------------------
+# Estimated split of the official £434,801.47 (Imperial refused a breakdown, FOI s.43).
+# The agencies' slice is the remainder.
+[split.agencies]
+label = "Brand agencies"
+receipt = "Strategy, identity, templates"
+color = "s1"
+residual = true
+basis = "Remainder of the official total: brand strategy (Simple Revolution), visual and verbal identity (Pentagram), launch assets, templating, training, accessibility and inclusivity research (Open Inclusion)."
+
+[split.font]
+label = "Bespoke typeface"
+receipt = "Typeface (3 families)"
+color = "s2"
+central = 50000
+low = 30000
+high = 90000
+max = 150000
+basis = "Assumption. A custom family in three styles (Imperial Sans, Sans Display, Slab), drawn by NaN for Pentagram. Commissioned corporate typefaces typically cost tens of thousands of pounds."
+
+[split.signage]
+label = "New signage, all campuses"
+receipt = "Signs across campuses"
+color = "s3"
+central = 100000
+low = 50000
+high = 170000
+max = 250000
+basis = "Assumption, bottom-up. Main identification signs and building lettering at Imperial's eight or nine campuses at roughly £5k–£15k each, plus banners and smaller signs. Felix reported new signs around campus in launch week and banners on Dalby Court."
+
+[split.promo]
+label = "Video, lanyards and promo"
+receipt = "Animation video, lanyards"
+color = "s4"
+central = 35000
+low = 15000
+high = 60000
+max = 100000
+basis = "Assumption. A short brand animation (about £10k–£30k) plus branded lanyards for staff and students (about £1–£2 each)."
+
+# ---------------------------------------------------------------------------
+[constants]
+usd_gbp = 0.74633
+burger_kg = 0.1134
+working_days = 252
+bottle_height_m = 0.2
+thesis_words = 80000
+tokens_per_word = 1.33
+chatgpt_plus_month_gbp = 19.99
+lab_cost_per_m2 = 4500
+lab_m2_per_workplace = 7.5
+pi_startup_gbp = 40000
+
+[constant_sources]
+usd_gbp = "ECB euro reference rates, 30 Oct 2026: €1 = $1.1172 = £0.83380, so $1 = £0.74633 (https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml)"
+burger_kg = "A quarter-pound patty, 113.4 g"
+working_days = "Approximate UK working days in a year"
+bottle_height_m = "Assumption: a 500 mL medium bottle stands about 20 cm tall with its cap"
+thesis_words = "Assumption: a typical PhD thesis (Imperial's limit is 100,000 words)"
+tokens_per_word = "OpenAI rule of thumb: one token is about 0.75 English words"
+chatgpt_plus_month_gbp = "ChatGPT Plus, UK App Store in-app price, read 2 Nov 2026 (https://apps.apple.com/gb/app/chatgpt/id6448311069)"
+lab_cost_per_m2 = "Savills (18 May 2026): wet-lab shell and core ≈ £420/sq ft ≈ £4,521/m², fit-out extra (https://www.savills.co.uk/research_articles/229130/390425-0); AECOM cost model for a mostly CL2 university lab, £4,442/m² at Q4 2015 prices, excl. equipment, fees and VAT (https://www.building.co.uk/cost-model-laboratories/5078736.article). A lower bound for a working lab."
+lab_m2_per_workplace = "Imperial space norms: 7.5 m² per laboratory workplace (https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/estates-projects/public/space/sm02spacenorms.pdf)"
+pi_startup_gbp = "Acton et al. 2019, 'A survey of new PIs in the UK', eLife 8:e46827: average start-up funds £45.6k (men), £31k (women), 2012–18 appointments (https://elifesciences.org/articles/46827)"
+
+# ---------------------------------------------------------------------------
+[[items]]
+key = "beef"
+group = "food"
+emoji = "🥩"
+title = "Beef"
+choose = "Cut"
+default = 0
+  [[items.options]]
+  label = "Beef mince (UK average)"
+  short = "UK beef mince"
+  price = 10.87
+  per = "per kg"
+  row = "kg of beef mince"
+  source = "ONS average price, 'Beef – minced or diced'"
+  url = "https://www.ons.gov.uk/economy/inflationandpriceindices/articles/shoppingpricescomparisontool/2023-05-03"
+  date = "Sep 2026"
+  note = "ONS shopping prices data (https://raw.githubusercontent.com/ONSdigital/cpi-items-actions/main/avgprice.csv); includes supermarket scanner data since March 2026."
+  [[items.options]]
+  label = "Beef steak (UK average)"
+  short = "UK beef steak"
+  price = 23.06
+  per = "per kg"
+  row = "kg of beef steak"
+  source = "ONS average price, beef steak or chops"
+  url = "https://www.ons.gov.uk/economy/inflationandpriceindices/articles/shoppingpricescomparisontool/2023-05-03"
+  date = "Sep 2026"
+  note = "Broad ONS category; the cut mix is not specified."
+
+[[items]]
+key = "cows"
+group = "food"
+emoji = "🐄"
+title = "Cows"
+choose = "Which cow?"
+default = 0
+  [[items.options]]
+  label = "Finished beef steer"
+  say = "Finished beef steers"
+  noun = "beef steer"
+  price = 2391.80
+  per = "per head"
+  source = "AHDB GB deadweight price (650.3p/kg, steers) × Defra average steer carcase (367.8 kg)"
+  url = "https://ahdb.org.uk/beef/beef-markets"
+  date = "Oct 2026"
+  note = "Derived: 367.8 kg × £6.503/kg. Carcase weight: Defra monthly slaughter statistics, Sep 2026 (https://www.gov.uk/government/statistics/cattle-sheep-and-pig-slaughter)."
+  [[items.options]]
+  label = "Freshly calved dairy heifer"
+  say = "Freshly calved dairy heifers"
+  noun = "dairy heifer"
+  price = 3032
+  per = "per head"
+  source = "Halls, Shrewsbury Auction Centre dairy sale report"
+  url = "https://www.hallsgb.com/blog/shrewsbury-auction-centre-reports-roaring-trade"
+  date = "Jul 2026"
+  note = "One auction; in-calf heifers averaged £2,562."
+
+[[items]]
+key = "food"
+group = "food"
+emoji = "🍛"
+title = "Free food for students"
+choose = "Which meal?"
+default = 0
+  [[items.options]]
+  label = "Hot main, student price"
+  short = "a Taste Imperial hot main"
+  price = 6.78
+  per = "per meal"
+  source = "Imperial College London, daily menus (Taste Imperial)"
+  url = "https://www.imperial.ac.uk/food-and-drink/daily-menus/"
+  date = "autumn 2026"
+  [[items.options]]
+  label = "Value hot meal"
+  short = "a Taste Imperial value hot meal"
+  price = 5.00
+  per = "per meal"
+  source = "Imperial College London, daily menus (Taste Imperial)"
+  url = "https://www.imperial.ac.uk/food-and-drink/daily-menus/"
+  date = "autumn 2026"
+  [[items.options]]
+  label = "Student meal deal"
+  short = "a Taste Imperial meal deal"
+  price = 4.00
+  per = "per meal"
+  source = "Imperial College London, best-value meals on campus"
+  url = "https://www.imperial.ac.uk/food-and-drink/best-value-meals-on-campus/"
+  date = "2026"
+
+[[items]]
+key = "rent"
+group = "people"
+emoji = "🛏️"
+title = "Free accommodation"
+choose = "Which room?"
+default = 1
+  [[items.options]]
+  label = "Cheapest hall room (£150 a week)"
+  short = "Imperial’s cheapest hall room"
+  weekly = 150.0
+  weeks = 39
+  price = 5850.0
+  per = "per student-year"
+  source = "Imperial College London, undergraduate accommodation fees 2026–27"
+  url = "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/"
+  date = "2026–27"
+  [[items.options]]
+  label = "Median hall room (£199 a week)"
+  short = "a median-priced Imperial hall room"
+  weekly = 199.0
+  weeks = 39
+  price = 7761.0
+  per = "per student-year"
+  source = "Imperial College London, undergraduate accommodation fees 2026–27 (median of 30 room rates)"
+  url = "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/"
+  date = "2026–27"
+  [[items.options]]
+  label = "Priciest hall room (£425 a week)"
+  short = "Imperial’s priciest hall room"
+  weekly = 425.0
+  weeks = 39
+  price = 16575.0
+  per = "per student-year"
+  source = "Imperial College London, undergraduate accommodation fees 2026–27"
+  url = "https://www.imperial.ac.uk/students/accommodation/prospective/ug/fees/"
+  date = "2026–27"
+
+[[items]]
+key = "phd"
+group = "people"
+emoji = "🎓"
+title = "New PhD positions"
+choose = "Length"
+default = 0
+  [[items.options]]
+  label = "4-year studentship, London"
+  short = "UKRI rates: stipend, London weighting, fees and research costs"
+  annual = 34043.0
+  years = 4
+  price = 136172.0
+  per = "per studentship"
+  annual_note = "UKRI 2026/27 minimum stipend £21,805 + London weighting £2,000 + indicative home fee £5,238 + research training support £5,000 (MRC minimum)"
+  source = "UKRI studentship rates 2026/27"
+  url = "https://www.ukri.org/what-we-do/developing-people-and-skills/find-studentships-and-doctoral-training/get-a-studentship-to-fund-your-doctorate/"
+  date = "from 1 Oct 2026"
+  note = "Held flat over the award; BBSRC awards run at least four years."
+  [[items.options]]
+  label = "3.5-year studentship, London"
+  short = "UKRI rates: stipend, London weighting, fees and research costs"
+  annual = 34043.0
+  years = 3.5
+  price = 119150.5
+  per = "per studentship"
+  annual_note = "UKRI 2026/27 minimum stipend £21,805 + London weighting £2,000 + indicative home fee £5,238 + research training support £5,000 (MRC minimum)"
+  source = "UKRI studentship rates 2026/27"
+  url = "https://www.ukri.org/what-we-do/developing-people-and-skills/find-studentships-and-doctoral-training/get-a-studentship-to-fund-your-doctorate/"
+  date = "from 1 Oct 2026"
+  note = "MRC and Imperial President's scholarships run 3.5 years."
+
+[[items]]
+key = "centrifuge"
+group = "lab"
+emoji = "🌀"
+title = "Centrifuges"
+choose = "Which centrifuge?"
+default = 1
+  [[items.options]]
+  label = "Microcentrifuge (Eppendorf 5425)"
+  say = "Eppendorf 5425 microcentrifuges"
+  noun = "microcentrifuges"
+  price = 2619
+  source = "Scientific Laboratory Supplies, Eppendorf 5425 with FA-24x2 rotor"
+  url = "https://scientificlabs.com/en/product/-nocategory-/E5405000568"
+  date = "Nov 2026"
+  [[items.options]]
+  label = "Refrigerated benchtop (Eppendorf 5810 R)"
+  say = "Eppendorf 5810 R refrigerated benchtop centrifuges"
+  noun = "benchtop centrifuges"
+  price = 9498
+  source = "Wolf Laboratories, Eppendorf 5810 R with A-4-62 rotor and adapters (excl. VAT)"
+  url = "https://www.wolflabs.co.uk/laboratory-equipment/centrifuges-benchtop/5810-r-with-rotor-and-adapters/10487738"
+  date = "Nov 2026"
+  [[items.options]]
+  label = "Ultracentrifuge (Beckman Optima XPN-100)"
+  say = "Beckman Optima XPN-100 ultracentrifuges (rotors extra)"
+  noun = "ultracentrifuges"
+  usd = 108700
+  price = 81126.07
+  source = "GovSci, Beckman Coulter Optima XPN-100 (US list price $108,700)"
+  url = "https://www.govsci.com/product-detail/Beckman--Coulter/A94469/EA/"
+  date = "Nov 2026"
+  note = "No public UK list price; converted from USD."
+
+[[items]]
+key = "cells"
+group = "lab"
+emoji = "🧫"
+title = "Cell lines"
+default = 0
+  [[items.options]]
+  label = "ATCC vial (HEK-293 or HeLa)"
+  short = "ATCC (HEK-293 or HeLa)"
+  usd = 577
+  price = 430.63
+  per = "per vial"
+  source = "ATCC list price, HEK-293 (CRL-1573) and HeLa (CCL-2), $577"
+  url = "https://www.atcc.org/products/crl-1573"
+  date = "Nov 2026"
+  note = "List price; ATCC's non-profit price needs a login and UK supply runs through LGC Standards. No public GBP price found for ECACC."
+
+[[items]]
+key = "medium"
+group = "lab"
+emoji = "🧴"
+title = "Cell culture medium"
+choose = "Which bottle?"
+default = 0
+  [[items.options]]
+  label = "DMEM, high glucose, 500 mL"
+  short = "Gibco DMEM"
+  noun = "DMEM"
+  price = 16.88
+  per = "per bottle"
+  source = "Thermo Fisher UK, Gibco DMEM high glucose, GlutaMAX, 41965039"
+  url = "https://www.thermofisher.com/order/catalog/product/gb/en/41965039"
+  date = "Nov 2026"
+  [[items.options]]
+  label = "Fetal bovine serum, 500 mL"
+  short = "Gibco fetal bovine serum"
+  noun = "FBS"
+  price = 367.00
+  per = "per bottle"
+  source = "Thermo Fisher UK, Gibco FBS Value, A5256701"
+  url = "https://www.thermofisher.com/order/catalog/product/gb/en/A5256701"
+  date = "Nov 2026"
+
+[[items]]
+key = "lab"
+group = "lab"
+emoji = "🔬"
+title = "New bio labs"
+choose = "Lab size"
+default = 1
+  [[items.options]]
+  label = "Small CL2 lab, 45 m² (6 people)"
+  say = "Small Containment Level 2 labs (45 m², room for 6)"
+  m2 = 45
+  people = 6
+  price = 202500
+  per = "per lab"
+  source = "Savills 2026 wet-lab build cost (≈ £4,500/m²) × Imperial space norm"
+  url = "https://www.savills.co.uk/research_articles/229130/390425-0"
+  date = "May 2026"
+  [[items.options]]
+  label = "Standard CL2 lab, 75 m² (10 people)"
+  say = "Standard Containment Level 2 labs (75 m², room for 10)"
+  m2 = 75
+  people = 10
+  price = 337500
+  per = "per lab"
+  source = "Savills 2026 wet-lab build cost (≈ £4,500/m²) × Imperial space norm"
+  url = "https://www.savills.co.uk/research_articles/229130/390425-0"
+  date = "May 2026"
+  [[items.options]]
+  label = "Large CL2 suite, 150 m² (20 people)"
+  say = "Large Containment Level 2 suites (150 m², room for 20)"
+  m2 = 150
+  people = 20
+  price = 675000
+  per = "per lab"
+  source = "Savills 2026 wet-lab build cost (≈ £4,500/m²) × Imperial space norm"
+  url = "https://www.savills.co.uk/research_articles/229130/390425-0"
+  date = "May 2026"
+
+[[items]]
+key = "tokens"
+group = "ai"
+emoji = "🤖"
+title = "ChatGPT tokens"
+choose = "Model"
+default = 0
+  [[items.options]]
+  label = "GPT-6 Astra (flagship), output"
+  say = "Output tokens from GPT-6 Astra, OpenAI’s flagship API model,"
+  row = "GPT-6 Astra output tokens"
+  usd = 50.0
+  price = 37.3165
+  per = "per million tokens"
+  source = "OpenAI API pricing, gpt-6-astra standard tier ($50 per 1M output tokens)"
+  url = "https://developers.openai.com/api/docs/pricing"
+  date = "Nov 2026"
+  [[items.options]]
+  label = "GPT-6 Astra (flagship), input"
+  say = "Input tokens to GPT-6 Astra, OpenAI’s flagship API model,"
+  row = "GPT-6 Astra input tokens"
+  usd = 10.0
+  price = 7.4633
+  per = "per million tokens"
+  source = "OpenAI API pricing, gpt-6-astra standard tier ($10 per 1M input tokens)"
+  url = "https://developers.openai.com/api/docs/pricing"
+  date = "Nov 2026"
+  [[items.options]]
+  label = "GPT-6 Luna (cheapest), output"
+  say = "Output tokens from GPT-6 Luna, OpenAI’s cheapest model,"
+  row = "GPT-6 Luna output tokens"
+  usd = 0.5
+  price = 0.373165
+  per = "per million tokens"
+  source = "OpenAI API pricing, gpt-6-luna standard tier ($0.50 per 1M output tokens)"
+  url = "https://developers.openai.com/api/docs/pricing"
+  date = "Nov 2026"
+
+[[items]]
+key = "plus"
+group = "ai"
+emoji = "💬"
+title = "ChatGPT Plus"
+default = 0
+  [[items.options]]
+  label = "ChatGPT Plus, one month"
+  say = "ChatGPT Plus"
+  price = 19.99
+  per = "per month"
+  source = "ChatGPT on the UK App Store, Plus in-app price"
+  url = "https://apps.apple.com/gb/app/chatgpt/id6448311069"
+  date = "Nov 2026"
+
+[[items]]
+key = "pints"
+group = "extra"
+emoji = "🍺"
+title = "Pints at the Union"
+default = 0
+  [[items.options]]
+  label = "Pint at the Union bar (value range)"
+  say = "Pints of the value lager at Imperial College Union bars"
+  noun = "pint"
+  fun = "per_student"
+  price = 3.85
+  source = "Imperial College Union, 'Price increases at ICU bars'"
+  url = "https://www.imperialcollegeunion.org/blog/price-increases-at-icu-bars"
+  date = "May 2026"
+
+[[items]]
+key = "pipettes"
+group = "extra"
+emoji = "💧"
+title = "Pipettes"
+default = 0
+  [[items.options]]
+  label = "Gilson Pipetman Classic"
+  say = "Gilson Pipetman Classic pipettes (a 3-pipette starter kit is £750)"
+  noun = "pipette"
+  fun = "per_lab"
+  price = 250
+  source = "Wolf Laboratories, Pipetman Classic starter kit, £750 excl. VAT for three"
+  url = "https://wolflabs.co.uk/laboratory-equipment/pipettes-manual/Pipetman%20Classic%20Starter%20Kit/10363100"
+  date = "Nov 2026"
+
+[[items]]
+key = "papers"
+group = "extra"
+emoji = "📄"
+title = "Open-access papers"
+default = 0
+  [[items.options]]
+  label = "Nature Communications APC"
+  say = "Open-access papers in Nature Communications"
+  noun = "paper"
+  price = 5490
+  source = "Nature Communications article processing charge (via DOAJ)"
+  url = "https://www.nature.com/ncomms/about/article-processing-charges"
+  date = "Sep 2026"
+
+[[items]]
+key = "postdocs"
+group = "extra"
+emoji = "🧑‍🔬"
+title = "Postdoc years"
+default = 0
+  [[items.options]]
+  label = "Imperial research associate, one year"
+  say = "Years of an Imperial research associate (starting salary, no on-costs)"
+  noun = "postdoc-year"
+  fun = "projects"
+  price = 50733
+  source = "Imperial research associate advert on jobs.ac.uk (salary from £50,733)"
+  url = "https://www.jobs.ac.uk/job/DTB051/research-associate-in-long-wavelength-oxygenic-photosynthesis"
+  date = "Sep 2026"
+
+# ---------------------------------------------------------------------------
+# The "spend it yourself" basket. `from` names the card option whose price it reuses.
+[[basket]]
+key = "cow"
+emoji = "🐄"
+name = "A finished beef steer"
+from = "Finished beef steer"
+price = 2391.80
+per = "each"
+unit = "cows"
+
+[[basket]]
+key = "beef"
+emoji = "🥩"
+name = "10 kg of beef mince"
+from = "Beef mince (UK average)"
+multiple = 10
+price = 108.70
+per = "per 10 kg"
+unit = "10 kg packs of mince"
+
+[[basket]]
+key = "lunch"
+emoji = "🍛"
+name = "A free hot lunch"
+from = "Hot main, student price"
+price = 6.78
+per = "each"
+unit = "free lunches"
+
+[[basket]]
+key = "room"
+emoji = "🛏️"
+name = "A year in a median hall room"
+from = "Median hall room (£199 a week)"
+price = 7761.0
+per = "per student"
+unit = "student-years of rent"
+
+[[basket]]
+key = "phd"
+emoji = "🎓"
+name = "A 4-year PhD studentship"
+from = "4-year studentship, London"
+price = 136172.0
+per = "each"
+unit = "PhD studentships"
+
+[[basket]]
+key = "micro"
+emoji = "🌀"
+name = "A microcentrifuge"
+from = "Microcentrifuge (Eppendorf 5425)"
+price = 2619
+per = "each"
+unit = "microcentrifuges"
+
+[[basket]]
+key = "bench"
+emoji = "🌀"
+name = "A refrigerated benchtop centrifuge"
+from = "Refrigerated benchtop (Eppendorf 5810 R)"
+price = 9498
+per = "each"
+unit = "benchtop centrifuges"
+
+[[basket]]
+key = "ultra"
+emoji = "🌀"
+name = "An ultracentrifuge"
+from = "Ultracentrifuge (Beckman Optima XPN-100)"
+price = 81126.07
+per = "each"
+unit = "ultracentrifuges"
+
+[[basket]]
+key = "cellline"
+emoji = "🧫"
+name = "A cell line (ATCC vial)"
+from = "ATCC vial (HEK-293 or HeLa)"
+price = 430.63
+per = "each"
+unit = "cell lines"
+
+[[basket]]
+key = "dmem"
+emoji = "🧴"
+name = "A bottle of DMEM (500 mL)"
+from = "DMEM, high glucose, 500 mL"
+price = 16.88
+per = "each"
+unit = "bottles of DMEM"
+
+[[basket]]
+key = "fbs"
+emoji = "🧴"
+name = "A bottle of FBS (500 mL)"
+from = "Fetal bovine serum, 500 mL"
+price = 367.00
+per = "each"
+unit = "bottles of FBS"
+
+[[basket]]
+key = "lab"
+emoji = "🔬"
+name = "A new 75 m² CL2 lab (shell)"
+from = "Standard CL2 lab, 75 m² (10 people)"
+price = 337500
+per = "each"
+unit = "new labs"
+
+[[basket]]
+key = "tokens"
+emoji = "🤖"
+name = "100 million GPT-6 Astra output tokens"
+from = "GPT-6 Astra (flagship), output"
+multiple = 100
+price = 3731.65
+per = "per 100M"
+unit = "lots of 100M tokens"
+
+[[basket]]
+key = "plus"
+emoji = "💬"
+name = "A year of ChatGPT Plus"
+from = "ChatGPT Plus, one month"
+multiple = 12
+price = 239.88
+per = "per year"
+unit = "years of ChatGPT Plus"
+
+[[basket]]
+key = "pint"
+emoji = "🍺"
+name = "A pint at the Union"
+from = "Pint at the Union bar (value range)"
+price = 3.85
+per = "each"
+unit = "pints"
+
+[[basket]]
+key = "pipette"
+emoji = "💧"
+name = "A pipette"
+from = "Gilson Pipetman Classic"
+price = 250
+per = "each"
+unit = "pipettes"
+
+[[basket]]
+key = "paper"
+emoji = "📄"
+name = "An open-access paper"
+from = "Nature Communications APC"
+price = 5490
+per = "each"
+unit = "open-access papers"
+
+[[basket]]
+key = "postdoc"
+emoji = "🧑‍🔬"
+name = "A postdoc for a year"
+from = "Imperial research associate, one year"
+price = 50733
+per = "each"
+unit = "postdoc-years"
+
+[basket_presets.phd]
+phd = 1
+bench = 1
+micro = 2
+cellline = 20
+dmem = 300
+fbs = 20
+pipette = 4
+tokens = 1
+plus = 4
+pint = 500
+paper = 2
